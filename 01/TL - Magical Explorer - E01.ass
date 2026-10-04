@@ -1,0 +1,419 @@
+[Script Info]
+Title: pn-SomeSubs - Magical Explorer
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 640
+PlayResY: 360
+YCbCr Matrix: TV.601
+LayoutResX: 640
+LayoutResY: 360
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,2,20,20,12,1
+Style: italics,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,1.3,0,2,20,20,12,0
+Style: main,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,2,20,20,12,0
+Style: top,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,8,20,20,0,0
+Style: main - top,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,8,20,20,0,0
+Style: main - italics,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,1.3,0,2,20,20,12,0
+Style: main - italics top,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,1.3,0,8,20,20,0,0
+Style: main - flashback,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,2,20,20,12,0
+Style: main - flashback - top,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,1.3,0,8,20,20,0,0
+Style: sign_504_2_Tsukuyomi_Magic_,Trebuchet MS,13,&H00FFFFFF,&H000000FF,&H00555555,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,116,350,68,0
+Style: sign_606_3_Tsukuyomi_Magic_,Trebuchet MS,13,&H00FFFFFF,&H000000FF,&H00555555,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,1,62,296,68,0
+Style: sign_720_9_Students_who_com,Trebuchet MS,13,&H00FFFFFF,&H000000FF,&H00555555,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,1,130,125,68,0
+Style: sign_889_17_Iori,Trebuchet MS,17,&H00BBAF14,&H000000FF,&H0CF9F9F9,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,168,450,83,0
+Style: sign_5527_71_Tsukuyomi_Magic_,Times New Roman,13,&H0094606E,&H000000FF,&H00555555,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,236,228,182,0
+Style: sign_7261_88_Ramen_Noodles_So,Trebuchet MS,13,&H00FFFFFF,&H000000FF,&H000202AF,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,309,161,96,0
+Style: sign_9752_122_76_Damage,Trebuchet MS,13,&H00FFFFFF,&H000000FF,&H000202AF,&H004C4C4D,-1,0,0,0,100,100,0,0,1,1,2,2,513,55,276,0
+Style: sign_11726_142_Chapter_1__What_,Trebuchet MS,16,&H003F4251,&H000000FF,&H000202AF,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,310,162,96,0
+Style: sign_11726_143_The_life_forms_l,Trebuchet MS,12,&H003F4251,&H000000FF,&H000202AF,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,136,0,96,0
+Style: sign_11845_147_Hijiri_Iori,Times New Roman,16,&H00A7E2F1,&H000000FF,&H00555555,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,95,467,307,0
+Style: sign_11893_149_Ludivine_Marie_A,Times New Roman,16,&H00A7E2F1,&H000000FF,&H00555555,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,4,376,307,0
+Style: sign_16408_198_Great_Sword__A_b,Times New Roman,13,&H00616575,&H000000FF,&H00555555,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,182,0
+Style: sign_16408_203_A_weapon_that_ha,Times New Roman,13,&H00616575,&H000000FF,&H00555555,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,1,480,0,200,0
+Style: sign_21991_256_Marino__Heroine_,Trebuchet MS,13,&H00FFFFFF,&H000000FF,&H00555555,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,1,62,147,68,0
+Style: sign_35245_386_Reborn_as_a_Side,Times New Roman,25,&H008400DA,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,0,14,290,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:09:56.30,0:09:59.30,main,,0,0,0,,{\fs50\an7\fe162\b\fad(400,400)\bord2\blur5\shad\4c&H000000&\4a&HFF&\fnSweetest Cat Ever}\N{\pos(20,-2)}{\c&HFFFF00&}{\4c&H8485E4&}SomeSub ekip arkadaşı arıyor!\N{\pos(60,63)}{\c&HFFFFFF&}Çevirmen:{\c&HFFFF00&} KaranlıkPasha\N{\pos(60,111)}{\c&HFFFFFF&}Encode:{\c&HFFFF00&} \N{\pos(60,111)}{\c&HFFFFFF&}Redaktör:{\c&HFFFF00&} Patri0n\N{\c&HFFFFFF&}Discord:{\c&HFFFF00&} discord.gg/somesub
+Dialogue: 0,0:00:05.98,0:00:10.25,sign_504_2_Tsukuyomi_Magic_,Text,0,0,0,,Tsukuyomi Büyü Akademisi...
+Dialogue: 0,0:00:08.93,0:00:10.59,main - italics top,Kousuke(M),0,0,0,,Yetişkin oyunları genelde
+Dialogue: 0,0:00:10.25,0:00:11.73,sign_606_3_Tsukuyomi_Magic_,Text,0,0,0,,{\pos(132,290)}Wakoku'ya bağlı bir büyü okuludur.
+Dialogue: 0,0:00:10.59,0:00:13.59,main - italics top,Kousuke(M),0,0,0,,zorlama ve fazlasıyla abartılı\Ndurumlarla doludur.
+Dialogue: 0,0:00:11.73,0:00:13.54,sign_606_3_Tsukuyomi_Magic_,Text,0,0,0,,{\pos(135,292)}Öğrencileri çok yeteneklidir.\NYurt dışından bile seçkinler gelir.
+Dialogue: 0,0:00:13.54,0:00:15.00,sign_606_3_Tsukuyomi_Magic_,Text,0,0,0,,{\pos(131,290)}Yabancı öğrenci çok, bu yüzden okulda yurt var.
+Dialogue: 0,0:00:14.13,0:00:15.79,main - italics top,Kousuke(M),0,0,0,,Bunun pek çok sebebi var.
+Dialogue: 0,0:00:14.98,0:00:17.49,sign_606_3_Tsukuyomi_Magic_,Book,0,0,0,,{\fs9\3c&H9F636D&\frz344.8\pos(412,185)}{\blur2}Öğrenci kimliği
+Dialogue: 0,0:00:15.00,0:00:16.55,sign_720_9_Students_who_com,Text,0,0,0,,Buraya herkes farklı bir amaçla gelir.
+Dialogue: 0,0:00:15.79,0:00:18.18,main - italics top,Kousuke(M),0,0,0,,Önce ana karakterin ailesine bakalım.
+Dialogue: 0,0:00:16.55,0:00:17.49,sign_606_3_Tsukuyomi_Magic_,Text,0,0,0,,{\pos(130,293)}Hedefi olanlar bugün\Nilk adımı atacak.
+Dialogue: 0,0:00:18.70,0:00:21.99,main - italics top,Kousuke(M),0,0,0,,Bu oyunlarda ana karakterlerin genelde ailesi olmaz.
+Dialogue: 0,0:00:21.99,0:00:23.23,main - italics top,Kousuke(M),0,0,0,,Neden acaba?
+Dialogue: 0,0:00:22.05,0:00:23.05,sign_889_17_Iori,Text,0,0,0,,{\pos(91,276)}Iori
+Dialogue: 0,0:00:22.05,0:00:23.05,sign_606_3_Tsukuyomi_Magic_,Text,0,0,0,,{\pos(139,296)}Hah... Hah...
+Dialogue: 0,0:00:23.05,0:00:26.06,sign_606_3_Tsukuyomi_Magic_,Text,0,0,0,,{\pos(132,293)}Tam bitiş çizgisine yaklaşmışken zil çalar.
+Dialogue: 0,0:00:23.81,0:00:25.57,main - italics top,Kousuke(M),0,0,0,,Sabah onları uyandıracak
+Dialogue: 0,0:00:25.57,0:00:28.05,main - italics top,Kousuke(M),0,0,0,,küçük bir kız kardeş\Nya da çocukluk arkadaşı olsun diye.
+Dialogue: 0,0:00:26.06,0:00:28.31,sign_889_17_Iori,Text,0,0,0,,{\pos(90,275)}Iori
+Dialogue: 0,0:00:26.06,0:00:28.31,sign_606_3_Tsukuyomi_Magic_,Text,0,0,0,,{\pos(133,294)}Daha ilk günden geç kaldığıma\Ninanamıyorum!
+Dialogue: 0,0:00:28.05,0:00:31.19,main - italics top,Kousuke(M),0,0,0,,Hayatları da buna göre kurulur.
+Dialogue: 0,0:00:28.31,0:00:29.56,sign_606_3_Tsukuyomi_Magic_,Text,0,0,0,,{\pos(133,293)}Tak tak tak
+Dialogue: 0,0:00:29.56,0:00:30.56,sign_889_17_Iori,Text,0,0,0,,{\pos(87,273)}Iori
+Dialogue: 0,0:00:29.56,0:00:30.56,sign_606_3_Tsukuyomi_Magic_,Text,0,0,0,,{\pos(139,294)}Aah!
+Dialogue: 0,0:00:30.56,0:00:32.00,sign_606_3_Tsukuyomi_Magic_,Text,0,0,0,,{\pos(136,294)}Ah, canım çok yandı.
+Dialogue: 0,0:00:32.00,0:00:34.85,main - italics top,Kousuke(M),0,0,0,,Saçmalık sadece ev hayatlarıyla sınırlı değil.
+Dialogue: 0,0:00:35.32,0:00:40.47,main - italics top,Kousuke(M),0,0,0,,Özel güçleri ve aldıkları yardımlar da saçma.
+Dialogue: 0,0:00:36.07,0:00:37.32,sign_889_17_Iori,Text,0,0,0,,{\pos(89,275)}Iori
+Dialogue: 0,0:00:37.32,0:00:39.82,sign_606_3_Tsukuyomi_Magic_,Text,0,0,0,,{\pos(137,294)}Hey! Neye bakıyorsun?!
+Dialogue: 0,0:00:39.82,0:00:41.57,sign_889_17_Iori,Text,0,0,0,,{\pos(89,274)}Iori
+Dialogue: 0,0:00:39.82,0:00:41.57,sign_606_3_Tsukuyomi_Magic_,Text,0,0,0,,{\pos(137,295)}Ö-özür dilerim!
+Dialogue: 0,0:00:40.96,0:00:44.03,main - italics top,Kousuke(M),0,0,0,,Mesela, erkek ana karakter kız okuluna\Nkılık değiştirip gidiyor...
+Dialogue: 0,0:00:41.57,0:00:42.82,sign_606_3_Tsukuyomi_Magic_,Text,0,0,0,,{\pos(139,296)}Sapık ucube!
+Dialogue: 0,0:00:42.82,0:00:44.03,sign_889_17_Iori,Text,0,0,0,,{\pos(89,276)}Iori
+Dialogue: 0,0:00:42.82,0:00:44.03,sign_606_3_Tsukuyomi_Magic_,Text,0,0,0,,{\pos(137,293)}Aaa!
+Dialogue: 0,0:00:44.03,0:00:46.58,sign_889_17_Iori,Text,0,0,0,,{\pos(88,275)}Iori
+Dialogue: 0,0:00:44.03,0:00:46.58,sign_606_3_Tsukuyomi_Magic_,Text,0,0,0,,{\pos(139,294)}Ah...
+Dialogue: 0,0:00:44.31,0:00:46.31,main - italics top,Kousuke(M),0,0,0,,Nasıl oluyor da yakalanmıyor?
+Dialogue: 0,0:00:46.58,0:00:48.08,sign_889_17_Iori,Text,0,0,0,,{\pos(88,274)}Iori
+Dialogue: 0,0:00:46.68,0:00:49.30,main - italics top,Kousuke(M),0,0,0,,Ama tam o anda nasıl oluyorsa\Nkimliği ortaya çıkıyor, öyle mi?
+Dialogue: 0,0:00:48.08,0:00:49.58,sign_606_3_Tsukuyomi_Magic_,Text,0,0,0,,{\pos(131,293)}Pembe, ha?
+Dialogue: 0,0:00:49.30,0:00:51.83,main - italics top,Kousuke(M),0,0,0,,Ve tam o sırada kimliği açığa çıkar.
+Dialogue: 0,0:00:49.58,0:00:50.52,sign_889_17_Iori,Text,0,0,0,,{\pos(87,273)}Iori
+Dialogue: 0,0:00:50.52,0:00:52.58,sign_606_3_Tsukuyomi_Magic_,Text,0,0,0,,{\pos(136,294)}Yerde pembe, güzel bir mendil var.
+Dialogue: 0,0:00:52.29,0:00:54.02,main - italics top,Kousuke(M),0,0,0,,Bir de herkesin ona âşık olması var.
+Dialogue: 0,0:00:52.58,0:00:54.84,sign_889_17_Iori,Text,0,0,0,,{\pos(88,272)}Iori
+Dialogue: 0,0:00:52.58,0:00:54.84,sign_606_3_Tsukuyomi_Magic_,Text,0,0,0,,{\pos(137,295)}Az önceki kız mı düşürdü acaba?
+Dialogue: 0,0:00:54.02,0:00:56.40,main - italics top,Kousuke(M),0,0,0,,Ana karaktere böyle kıyaklar yapılır.
+Dialogue: 0,0:00:54.84,0:00:56.09,sign_889_17_Iori,Text,0,0,0,,{\pos(89,273)}Iori
+Dialogue: 0,0:00:56.09,0:00:57.28,sign_606_3_Tsukuyomi_Magic_,Text,0,0,0,,{\pos(133,293)}Pembe, ha?
+Dialogue: 0,0:00:57.28,0:00:59.84,sign_889_17_Iori,Text,0,0,0,,{\pos(87,274)}Iori
+Dialogue: 0,0:00:57.28,0:00:59.84,sign_606_3_Tsukuyomi_Magic_,Text,0,0,0,,{\pos(143,294)}...Şimdi bunun sırası değil!
+Dialogue: 0,0:00:57.30,0:00:59.70,main - italics top,Kousuke(M),0,0,0,,Bütün bu güzel kızlar
+Dialogue: 0,0:00:59.70,0:01:02.38,main - italics top,Kousuke(M),0,0,0,,bu nazik gencin etrafına\Nhemen toplanıyor
+Dialogue: 0,0:00:59.84,0:01:02.09,sign_606_3_Tsukuyomi_Magic_,Text,0,0,0,,{\pos(136,293)}Yeni bir okula başlıyorum.
+Dialogue: 0,0:01:02.09,0:01:05.03,sign_606_3_Tsukuyomi_Magic_,Text,0,0,0,,{\pos(134,292)}Bir gün hayranı olduğum\NBüyü Şövalyeleri'ne katılabilirim...
+Dialogue: 0,0:01:02.38,0:01:05.03,main - italics top,Kousuke(M),0,0,0,,ve hikâye hemen harem moduna geçiyor.
+Dialogue: 0,0:01:05.47,0:01:09.37,main - italics top,Kousuke(M),0,0,0,,Kısacası, bu oyunlarda mantık arama.
+Dialogue: 0,0:01:09.37,0:01:11.55,main - italics top,Kousuke(M),0,0,0,,Hepsi büyülü bambaşka dünyalarda geçer.
+Dialogue: 0,0:01:11.55,0:01:13.85,sign_606_3_Tsukuyomi_Magic_,Text,0,0,0,,{\pos(142,294)}Tüh, kapalıymış.
+Dialogue: 0,0:01:13.17,0:01:17.33,main - italics top,Kousuke(M),0,0,0,,Ama dünyanın merkezinde sen yoksan,
+Dialogue: 0,0:01:13.85,0:01:16.36,sign_606_3_Tsukuyomi_Magic_,Text,0,0,0,,{\pos(131,292)}Arkasına döndüğünde karşısında\Ngülümseyen bir öğrenci vardır.
+Dialogue: 0,0:01:16.36,0:01:18.61,sign_606_3_Tsukuyomi_Magic_,Text,0,0,0,,{\pos(131,291)}O da geç kalmış galiba. Kırmızı atkısı\Nhemen göze çarpıyor.
+Dialogue: 0,0:01:17.87,0:01:22.49,main - italics top,Kousuke(M),0,0,0,,ufak bir hata hayatını\Ncehenneme çevirebilir.
+Dialogue: 0,0:01:18.61,0:01:20.01,sign_606_3_Tsukuyomi_Magic_,,0,0,0,,{\pos(139,295)}Sen de yeni öğrenci misin?
+Dialogue: 0,0:01:30.19,0:01:32.29,main,Kousuke,0,0,0,,Ben... neredeyim?
+Dialogue: 0,0:02:16.08,0:02:18.45,main,Kousuke,0,0,0,,Bu kötü. Çok kötü.
+Dialogue: 0,0:02:25.50,0:02:28.08,sign_5527_71_Tsukuyomi_Magic_,Envelope,0,0,0,,{\move(326,229,320,180,1,587)}Tsukuyomi Büyü Akademisi
+Dialogue: 0,0:02:26.13,0:02:28.80,main - top,Kousuke,0,0,0,,Bu mühür... {\i1}MagiEx{\i0} mi?
+Dialogue: 0,0:02:29.33,0:02:30.33,sign_5527_71_Tsukuyomi_Magic_,Envelope,0,0,0,,{\c&H30262F&\fs16\pos(313,215)\frz69.3}Takioto Kosuke
+Dialogue: 0,0:02:36.51,0:02:40.41,main,Kousuke,0,0,0,,Bu... şu yetişkin oyunundaki\Nbaşkahraman—
+Dialogue: 0,0:02:41.27,0:02:46.61,main,Kousuke,0,0,0,,Hayır! Ben kimsenin takmadığı\No sinir bozucu yan karakterim!
+Dialogue: 0,0:02:48.19,0:02:52.25,main,Kousuke,0,0,0,,Okulun başlamasına iki hafta vardı.
+Dialogue: 0,0:03:27.19,0:03:27.23,main,Kousuke,0,0,0,,\N
+Dialogue: 0,0:02:53.07,0:02:56.73,main,Kousuke,0,0,0,,Yani zaman çizgisi\Noyundakinden farklı mı?
+Dialogue: 0,0:03:00.31,0:03:02.91,main - italics,Kousuke(M),0,0,0,,Anne babam bir yıl önce öldü,
+Dialogue: 0,0:03:02.91,0:03:05.22,main - italics,Kousuke(M),0,0,0,,dedem de öldü.
+Dialogue: 0,0:03:06.10,0:03:08.66,main - italics,Kousuke(M),0,0,0,,Annemin ailesiyle de aram yok.
+Dialogue: 0,0:03:08.66,0:03:14.01,main - italics,Kousuke(M),0,0,0,,Bana yalnızca babaannem bakıyordu...\NO da hastalanana kadar.
+Dialogue: 0,0:03:15.51,0:03:17.71,main - italics,Kousuke(M),0,0,0,,Burada kimsenin olmamasının sebebi bu mu?
+Dialogue: 0,0:03:19.60,0:03:25.58,main - italics,Kousuke(M),0,0,0,,Ana karakter gibi zor bir hayat...
+Dialogue: 0,0:03:27.33,0:03:30.89,main - italics,Kousuke(M),0,0,0,,En azından büyü okuluna\Nkabul edilmişim.
+Dialogue: 0,0:03:31.58,0:03:33.75,main - italics,Kousuke(M),0,0,0,,Okul ücretini nasıl ödeyeceğim ki?
+Dialogue: 0,0:03:33.75,0:03:37.80,main - italics,Kousuke(M),0,0,0,,Böyle giderse yiyecek alamam,\Naçlıktan ölürüm.
+Dialogue: 0,0:03:37.80,0:03:39.80,sign_7261_88_Ramen_Noodles_So,cup,0,0,0,,{\frz12.99\pos(396,256)}Soya soslu ramen
+Dialogue: 0,0:03:41.61,0:03:43.30,main,Kousuke,0,0,0,,Hepsi bu mu?
+Dialogue: 0,0:03:51.00,0:03:54.77,main - italics,Kousuke(M),0,0,0,,Bu oyunların yan karakterlerinin\Nbaşı hep belaya girer.
+Dialogue: 0,0:03:55.70,0:03:57.55,main - italics,Kousuke(M),0,0,0,,Kızlar ondan hiç hoşlanmaz.
+Dialogue: 0,0:03:57.97,0:03:59.40,main - italics,Kousuke(M),0,0,0,,Sebebi basit:
+Dialogue: 0,0:03:59.65,0:04:02.51,main - italics,Kousuke(M),0,0,0,,Oyuncunun sevdiği kız\Nyan karakterle çıkarsa
+Dialogue: 0,0:04:02.51,0:04:04.03,main - italics,Kousuke(M),0,0,0,,ne olacağını bir düşün.
+Dialogue: 0,0:04:04.28,0:04:06.20,main - italics,Kousuke(M),0,0,0,,Herkes şikâyet eder,
+Dialogue: 0,0:04:06.20,0:04:10.05,main - italics,Kousuke(M),0,0,0,,oyuncular da oyunu bırakır.
+Dialogue: 0,0:04:10.83,0:04:13.30,main - italics,Kousuke(M),0,0,0,,Aynadaki ben, Takioto Kosuke...
+Dialogue: 0,0:04:13.30,0:04:17.11,main - italics,Kousuke(M),0,0,0,,her türlü aksilik beni bulur.
+Dialogue: 0,0:04:20.41,0:04:24.47,main - italics,Kousuke(M),0,0,0,,Bu karakterin yer aldığı oyunun adı\N{\i0}Magical Explorer{\i1},
+Dialogue: 0,0:04:24.47,0:04:26.22,main - italics,Kousuke(M),0,0,0,,kısaca {\i0}MagiEx{\i1}.
+Dialogue: 0,0:04:26.22,0:04:28.29,main - italics,Kousuke(M),0,0,0,,Okulda öğrenci olup
+Dialogue: 0,0:04:28.29,0:04:32.90,main - italics,Kousuke(M),0,0,0,,zindanlarda ekibini geliştirdiğin\Nbir savaş oyunu.
+Dialogue: 0,0:04:33.41,0:04:34.99,main - italics,Kousuke(M),0,0,0,,Elbette yetişkin oyunu olduğu için
+Dialogue: 0,0:04:34.99,0:04:37.02,main - italics,Kousuke(M),0,0,0,,bir sürü romantik seçenek de var.
+Dialogue: 0,0:04:37.51,0:04:39.18,main - italics,Kousuke(M),0,0,0,,Hatta asıl olayı bu.
+Dialogue: 0,0:04:39.50,0:04:40.77,main - italics,Kousuke(M),0,0,0,,Günlük hayatında
+Dialogue: 0,0:04:40.77,0:04:44.18,main - italics,Kousuke(M),0,0,0,,güzel kızlar peşinden ayrılmaz,
+Dialogue: 0,0:04:44.18,0:04:47.03,main - italics,Kousuke(M),0,0,0,,bir de durmadan erotik kazalar yaşanır.
+Dialogue: 0,0:04:47.91,0:04:49.18,main - italics,Kousuke(M),0,0,0,,Tabii, ana karakter sensen.
+Dialogue: 0,0:04:50.06,0:04:52.78,main - italics,Kousuke(M),0,0,0,,Takioto Kosuke ise sadece yan karakter.
+Dialogue: 0,0:04:53.12,0:04:55.12,main - italics,Kousuke(M),0,0,0,,Ana karakteri kenardan izleyip
+Dialogue: 0,0:04:55.12,0:04:57.41,main - italics,Kousuke(M),0,0,0,,kıskançlıktan mendilini ısırırsın.
+Dialogue: 0,0:04:57.41,0:04:59.12,main - italics,Kousuke(M),0,0,0,,Tam bir yancısın.
+Dialogue: 0,0:04:59.44,0:05:00.25,main - italics,Kousuke(M),0,0,0,,Aynen öyle.
+Dialogue: 0,0:05:00.83,0:05:02.44,main - italics,Kousuke(M),0,0,0,,Sen sadece yan karaktersin.
+Dialogue: 0,0:05:03.27,0:05:05.92,main - italics,Kousuke(M),0,0,0,,"Şu kız var ya, aslında..."
+Dialogue: 0,0:05:05.92,0:05:09.31,main - italics,Kousuke(M),0,0,0,,"Okulun en güzel kızı\Nolduğu söyleniyor!"
+Dialogue: 0,0:05:09.31,0:05:14.46,main - italics,Kousuke(M),0,0,0,,Böyle konuşursun, kızlar da\Nana karaktere tutulur.
+Dialogue: 0,0:05:14.88,0:05:17.79,main - italics,Kousuke(M),0,0,0,,Kosuke'nin tabii ki\Nromantik bir rotası yok.
+Dialogue: 0,0:05:18.11,0:05:20.44,main - italics,Kousuke(M),0,0,0,,Hatta belki hepsi ondan\Nnefret ediyordur.
+Dialogue: 0,0:05:20.94,0:05:23.63,main - italics,Kousuke(M),0,0,0,,Savaşta da pek iyi değildir.
+Dialogue: 0,0:05:21.71,0:05:22.05,sign_9752_122_76_Damage,txt,0,0,0,,{\fad(1,247)\c&H2F00B7&\3c&HFFFFFF&\fs16\move(542,153,538,121,9,301)}76 Hasar
+Dialogue: 0,0:05:24.03,0:05:25.35,main - italics,Kousuke(M),0,0,0,,Şaşırtıcı değil.
+Dialogue: 0,0:05:25.35,0:05:29.18,main - italics,Kousuke(M),0,0,0,,Bu oyunları oynayanlar ne ister?
+Dialogue: 0,0:05:29.18,0:05:31.55,main - italics,Kousuke(M),0,0,0,,Evlenmek isteyecekleri güzel kızları.
+Dialogue: 0,0:05:33.33,0:05:38.57,main - italics,Kousuke(M),0,0,0,,Aslında Kosuke'nin yetenekleri fena değil.
+Dialogue: 0,0:05:39.32,0:05:44.19,main - italics,Kousuke(M),0,0,0,,Ama tabii herkes onun yerine\Nkızları seçer.
+Dialogue: 0,0:05:52.54,0:05:56.35,main,Kousuke,0,0,0,,Burası {\i1}Magical Explorer{\i0}\Ndünyası, değil mi?
+Dialogue: 0,0:05:59.37,0:06:01.86,main,Kousuke,0,0,0,,Büyü yapabiliyorum, değil mi?
+Dialogue: 0,0:06:07.19,0:06:10.28,main,Kousuke,0,0,0,,Oyundayken tek tık yetiyordu.
+Dialogue: 0,0:06:11.18,0:06:14.04,main,Kousuke,0,0,0,,Keşke o hesap tablom yanımda olsaydı.
+Dialogue: 0,0:06:14.87,0:06:19.29,main - italics,Kousuke(M),0,0,0,,Topladığım tüm bilgileri\No tabloda tutuyordum.
+Dialogue: 0,0:06:19.29,0:06:23.02,main - italics,Kousuke(M),0,0,0,,Oyunu en hızlı bitirme taktiklerim de oradaydı.
+Dialogue: 0,0:06:23.70,0:06:26.67,main,Kousuke,0,0,0,,Gerçi burada işe yarar mı,\Nonu da bilmiyorum.
+Dialogue: 0,0:06:27.53,0:06:30.71,main,Kousuke,0,0,0,,Daha strateji geliştirecek durumda bile değilim.
+Dialogue: 0,0:06:31.18,0:06:32.58,main,Kousuke,0,0,0,,Yani...
+Dialogue: 0,0:06:32.66,0:06:33.99,sign_606_3_Tsukuyomi_Magic_,Book,0,0,0,,{\fs16\3c&H242424&\pos(268,19)\frz345.3}Maymun bile anlar!
+Dialogue: 0,0:06:33.99,0:06:36.56,main - italics top,Kousuke(M),0,0,0,,Kitaba göre,
+Dialogue: 0,0:06:36.56,0:06:40.94,main - italics top,Kousuke(M),0,0,0,,bu dünyadaki her canlıda mana var.
+Dialogue: 0,0:06:40.94,0:06:44.00,main - italics top,Kousuke(M),0,0,0,,Havada da mana var.
+Dialogue: 0,0:06:44.00,0:06:48.99,main - italics top,Kousuke(M),0,0,0,,Mana kullanınca ortaya çıkan güce\Nbüyü denir.
+Dialogue: 0,0:06:44.00,0:06:48.99,sign_11726_142_Chapter_1__What_,Book,0,0,0,,{\c&H363A4B&\frz345.4\frx14\fry0\move(251,206,142,237,21,4943)}1. Bölüm: Büyü Nedir?
+Dialogue: 0,0:06:44.00,0:06:48.99,sign_11726_143_The_life_forms_l,Book,0,0,0,,{\frz344.6\move(348,275,237,307,21,4943)}Bu dünyadaki her canlı doğuştan mana taşır.
+Dialogue: 0,0:06:44.00,0:06:48.99,sign_11726_143_The_life_forms_l,Book,0,0,0,,{\frz343.8\move(306,302,198,332,21,4943)}Mana bedenimizde, havada, rüzgârda\Nve suda da bulunur...
+Dialogue: 0,0:06:44.00,0:06:48.99,sign_11726_143_The_life_forms_l,Book,0,0,0,,{\frz342.5\move(258,325,163,359,21,4943)}Göremeyiz ama her yerdedir...
+Dialogue: 0,0:06:44.00,0:06:48.99,sign_11726_143_The_life_forms_l,Book,0,0,0,,{\frz342.3\move(150,329,54,363,21,4943)}Bu manayı isteğimizle...
+Dialogue: 0,0:06:48.99,0:06:50.99,sign_11845_147_Hijiri_Iori,Text,0,0,0,,Hijiri Iori
+Dialogue: 0,0:06:49.47,0:06:50.99,main - italics,Kousuke(M),0,0,0,,Oyunla aynıysa,
+Dialogue: 0,0:06:50.99,0:06:52.99,sign_11893_149_Ludivine_Marie_A,Text,0,0,0,,{\pos(260,27)}Ludivine Marie-Ange de la Tréfle
+Dialogue: 0,0:06:50.99,0:06:56.61,main - italics,Kousuke(M),0,0,0,,Takioto Kosuke'nin manası öğretmenleri\Nbile şaşırtacak kadar fazla.
+Dialogue: 0,0:06:52.99,0:06:54.97,sign_11893_149_Ludivine_Marie_A,Text,0,0,0,,{\pos(186,53)}Mizumori Yukine
+Dialogue: 0,0:06:54.97,0:06:56.97,sign_11893_149_Ludivine_Marie_A,Text,0,0,0,,{\pos(177,52)}Takioto Kosuke
+Dialogue: 0,0:06:57.42,0:06:58.28,main - italics,Kousuke(M),0,0,0,,Peki.
+Dialogue: 0,0:06:58.28,0:07:00.00,main - italics,Kousuke(M),0,0,0,,Tabii sadece mana bakımından.
+Dialogue: 0,0:07:02.75,0:07:04.99,main,Kousuke,0,0,0,,Şey... Işık?
+Dialogue: 0,0:07:05.71,0:07:06.45,main,Kousuke,0,0,0,,Işık!
+Dialogue: 0,0:07:08.80,0:07:09.47,main,Kousuke,0,0,0,,Işık!
+Dialogue: 0,0:07:09.47,0:07:10.47,main,Kousuke,0,0,0,,Işık!
+Dialogue: 0,0:07:10.47,0:07:12.00,main,Kousuke,0,0,0,,I-Işık!
+Dialogue: 0,0:07:16.32,0:07:18.72,main,Kousuke,0,0,0,,Işık!
+Dialogue: 0,0:07:21.99,0:07:22.83,main,Kousuke,0,0,0,,Muhteşem!
+Dialogue: 0,0:07:25.36,0:07:26.36,main,Kousuke,0,0,0,,Bir dakika...
+Dialogue: 0,0:07:26.70,0:07:29.36,main,Kousuke,0,0,0,,Bu dünyada zindanlar var.
+Dialogue: 0,0:07:29.89,0:07:31.34,main - italics,Kousuke(M),0,0,0,,Oyunla aynıysa,
+Dialogue: 0,0:07:31.34,0:07:34.12,main - italics,Kousuke(M),0,0,0,,burada da sayısız zindan olmalı.
+Dialogue: 0,0:07:34.59,0:07:35.76,main - italics,Kousuke(M),0,0,0,,Akademi kampüsünden
+Dialogue: 0,0:07:35.76,0:07:38.62,main - italics,Kousuke(M),0,0,0,,ışınlanma çemberiyle\Nzindanlara gidiliyordu.
+Dialogue: 0,0:07:41.60,0:07:46.74,main - italics,Kousuke(M),0,0,0,,Keşke ana karakterlerle birlikte\Nzindanlara gidebilsem...
+Dialogue: 0,0:07:51.18,0:07:53.58,main,Kousuke,0,0,0,,Ama önce güçlenmeliyim!
+Dialogue: 0,0:07:55.76,0:07:56.82,main - italics,Kousuke(M),0,0,0,,Öte yandan,
+Dialogue: 0,0:07:56.82,0:08:01.61,main - italics,Kousuke(M),0,0,0,,oyundaki Kosuke'nin dışa salım büyüsünde\Nneredeyse hiç yeteneği yok.
+Dialogue: 0,0:08:02.34,0:08:04.99,main - italics,Kousuke(M),0,0,0,,Güçlenebilir ama\Nen güçlüsü olamaz.
+Dialogue: 0,0:08:06.35,0:08:07.40,main - italics,Kousuke(M),0,0,0,,Hayır.
+Dialogue: 0,0:08:07.40,0:08:08.74,main - italics,Kousuke(M),0,0,0,,Bu gerçekten doğru mu?
+Dialogue: 0,0:08:09.34,0:08:11.38,main - italics,Kousuke(M),0,0,0,,Gerçekten de en güçlüsü olamaz mı?
+Dialogue: 0,0:08:12.07,0:08:14.84,main - italics,Kousuke(M),0,0,0,,Bu oyunlarda önce kızlar kayrılır,
+Dialogue: 0,0:08:14.84,0:08:17.41,main - italics,Kousuke(M),0,0,0,,sonra da oyuncuyu temsil eden\Nana karakter.
+Dialogue: 0,0:08:18.21,0:08:22.85,main - italics,Kousuke(M),0,0,0,,Peki ben bir yan karakter olarak\Nonları geçebilir miyim?
+Dialogue: 0,0:08:23.31,0:08:23.92,main - italics,Kousuke(M),0,0,0,,Yani...
+Dialogue: 0,0:08:25.07,0:08:26.92,main - italics,Kousuke(M),0,0,0,,Belki de gerçekten mümkündür!
+Dialogue: 0,0:08:27.79,0:08:29.71,main - italics,Kousuke(M),0,0,0,,Bu oyunu ezbere biliyorum.
+Dialogue: 0,0:08:30.29,0:08:32.51,main - italics,Kousuke(M),0,0,0,,Bundan büyük hile mi olur?
+Dialogue: 0,0:08:33.33,0:08:34.29,main - italics,Kousuke(M),0,0,0,,Yapacağım!
+Dialogue: 0,0:08:36.19,0:08:38.85,main - italics,Kousuke(M),0,0,0,,Buraya neden geldiğimi bilmiyorum.
+Dialogue: 0,0:08:39.81,0:08:42.54,main - italics,Kousuke(M),0,0,0,,Ama burada yaşayacaksam,
+Dialogue: 0,0:08:43.55,0:08:46.85,main - italics,Kousuke(M),0,0,0,,bu dünyada her şeyin tadını\Nçıkaracağım!
+Dialogue: 0,0:08:52.56,0:08:54.59,main - italics,Kousuke(M),0,0,0,,Güçlü yanlarını kullanmak için
+Dialogue: 0,0:08:54.59,0:08:57.45,main - italics,Kousuke(M),0,0,0,,uzun bir atkı takıyordu.
+Dialogue: 0,0:08:57.96,0:09:02.28,main - italics,Kousuke(M),0,0,0,,Takioto Kosuke atkısına bolca\Nmana yüklemişti
+Dialogue: 0,0:09:02.28,0:09:06.67,main - italics,Kousuke(M),0,0,0,,ve atkıyı kendi bedeni gibi\Nistediği şekilde hareket ettirebiliyordu.
+Dialogue: 0,0:09:09.26,0:09:13.65,main,Kousuke,0,0,0,,Bu güce bir an önce\Nalışmam gerek.
+Dialogue: 0,0:09:14.58,0:09:17.11,main,Kousuke,0,0,0,,Tsukuyomi Büyü Akademisi'ne\Nbaşlayana kadar!
+Dialogue: 0,0:09:19.39,0:09:23.56,main - italics,Kousuke(M),0,0,0,,Büyü parçacıkları topladıkça\Nmanan artar,
+Dialogue: 0,0:09:23.56,0:09:26.44,main - italics,Kousuke(M),0,0,0,,büyüyle sınırını zorlamak da\Nmananı artırır.
+Dialogue: 0,0:09:27.15,0:09:29.27,main - italics,Kousuke(M),0,0,0,,Sınırımı öğrenmeliyim.
+Dialogue: 0,0:09:29.94,0:09:33.36,main - italics,Kousuke(M),0,0,0,,Yoksa manamın ne zaman\Nartacağını bilemem.
+Dialogue: 0,0:09:41.12,0:09:47.53,main,Kousuke,0,0,0,,Önce güçlendirme ve\Nefsunlama büyülerini çalışmalıyım.
+Dialogue: 1,0:09:59.30,0:10:02.78,sign_16408_198_Great_Sword__A_b,Text,0,0,0,,{\pos(173,152)\frz357.5\frx4\fry2}İki elle tutulur.\NYavaş ama tek vuruşu çok güçlüdür.\NUzun menziliyle acemilere uygundur.\NDüşmanı gözle, yaklaş, vur ve geri çekil.
+Dialogue: 0,0:09:59.30,0:10:02.78,main,Text,0,0,0,,{\an7\bord0\p1\3c&HF7F8FC&\4c&HF7F8FC&\c&HF7F8FC&\1a&H00&\pos(40,35)}m 0 0 l 250 0 250 120 0 120
+Dialogue: 1,0:09:59.30,0:10:02.78,sign_16408_198_Great_Sword__A_b,Text,0,0,0,,{\pos(38,266)\frx2\fry2}Kısa kılıçlar hızlı ve çeviktir.\NDüşük hasar verir; sık sık vurmak gerekir.\NKaçması kolaydır ama dayanıklılığı çabuk tüketir.\NDüzenli bakım ister.
+Dialogue: 0,0:09:59.30,0:10:02.78,main,Text,0,0,0,,{\an7\bord0\p1\3c&HECEDF1&\4c&HECEDF1&\c&HECEDF1&\1a&H00&\pos(-21,167)}m 0 0 l 190 0 180 120 0 120
+Dialogue: 1,0:09:59.30,0:10:02.78,sign_16408_203_A_weapon_that_ha,Text,0,0,0,,{\pos(477,118)\frx6\fry358\frz359\q2}Uzun menzilli bir mızrak.\NHassas vuruşları yüksek hasar verir; büyüyle\Ngüçlendirilebilir. Dar alanlarda kullanışsızdır.
+Dialogue: 0,0:09:59.30,0:10:02.78,main,Text,0,0,0,,{\an7\bord0\p1\3c&HF7F8FC&\4c&HF7F8FC&\c&HF7F8FC&\1a&H00&\pos(468,30)}m 0 0 l 250 0 250 120 0 120
+Dialogue: 1,0:09:59.30,0:10:02.78,sign_16408_203_A_weapon_that_ha,Text,0,0,0,,{\frz2.863\q2\pos(343,310)}Yayla uzaktan saldırırsın.\NHassas nişan almak gerekir.\NYayı gererken savunmasızsın ama\Nnişan alırken hareket edebilirsin.
+Dialogue: 0,0:09:59.30,0:10:02.78,main,Text,0,0,0,,{\an7\bord0\p1\3c&HECEDF1&\4c&HECEDF1&\c&HECEDF1&\1a&H00&\frz3.945\pos(333,200)}m 0 0 l 260 0 260 115 0 115
+Dialogue: 2,0:10:01.77,0:10:03.40,main,Kousuke,0,0,0,,Silahlar demek.
+Dialogue: 0,0:10:02.78,0:10:06.67,sign_11845_147_Hijiri_Iori,Book,0,0,0,,{\c&H5AA5B8&\fs12\pos(397,187)}Resimli Silah Rehberi
+Dialogue: 0,0:10:04.01,0:10:05.57,main,Kousuke,0,0,0,,Silahlar, ha.
+Dialogue: 0,0:10:12.69,0:10:16.96,main - italics,Kousuke(M),0,0,0,,Dışa salım büyüsünde yeteneksizim.
+Dialogue: 0,0:10:19.20,0:10:21.78,main - italics,Kousuke(M),0,0,0,,Yeteneklerimi en iyi şekilde kullanacaksam,
+Dialogue: 0,0:10:21.78,0:10:24.06,main - italics,Kousuke(M),0,0,0,,kalkanla savunmaya odaklanmalıyım.
+Dialogue: 0,0:10:24.72,0:10:28.23,main - italics,Kousuke(M),0,0,0,,Eşyaları efsunlamada da iyiyim;
+Dialogue: 0,0:10:28.23,0:10:31.46,main - italics,Kousuke(M),0,0,0,,büyülü eşya laboratuvarında da çalışabilirim.
+Dialogue: 0,0:10:31.46,0:10:33.88,main,Kousuke,0,0,0,,Yeter ki patronum beni ezmesin.
+Dialogue: 0,0:10:39.63,0:10:40.47,main,Kousuke,0,0,0,,Geliyorum.
+Dialogue: 0,0:10:41.05,0:10:42.47,main,Kousuke,0,0,0,,Size nasıl yardımcı...
+Dialogue: 0,0:10:42.83,0:10:43.47,main,Kousuke,0,0,0,,olabilirim?
+Dialogue: 0,0:10:45.21,0:10:46.50,main,Marino,0,0,0,,Merhaba...
+Dialogue: 0,0:10:49.78,0:10:51.71,main,Marino,0,0,0,,Takioto Kosuke-kun.
+Dialogue: 0,0:11:02.47,0:11:03.64,main,Marino,0,0,0,,Bir sorun mu var?
+Dialogue: 0,0:11:03.64,0:11:08.41,main,Kousuke,0,0,0,,H-Hayır... Büyü dünyasında ünlü biriyle\Nkarşılaştığıma inanamıyorum.
+Dialogue: 0,0:11:11.08,0:11:14.71,main - italics,Kousuke(M),0,0,0,,Onun bir oyun karakteri olduğunu söyleyemem.
+Dialogue: 0,0:11:14.71,0:11:18.17,main - italics,Kousuke(M),0,0,0,,Üstelik akademide hocalık yapan bir kızı var,
+Dialogue: 0,0:11:18.17,0:11:19.78,main - italics,Kousuke(M),0,0,0,,ama kendisi öğrenci gibi duruyor.
+Dialogue: 0,0:11:20.75,0:11:23.30,main - italics,Kousuke(M),0,0,0,,Ama çok genç görünmüyor mu?
+Dialogue: 0,0:11:24.04,0:11:27.66,main - italics,Kousuke(M),0,0,0,,Üniformayla öğrenci sanılır.
+Dialogue: 0,0:11:27.92,0:11:30.75,main,Marino,0,0,0,,O kadar ciddi olma.
+Dialogue: 0,0:11:30.75,0:11:33.75,main,Marino,0,0,0,,Bundan sonra daha samimi\Nkonuşalım.
+Dialogue: 0,0:11:34.26,0:11:35.23,main,Kousuke,0,0,0,,Peki.
+Dialogue: 0,0:11:54.27,0:11:57.46,main,Marino,0,0,0,,Kusura bakma, şimdilik burayı\Nayarlayabildim.
+Dialogue: 0,0:11:57.46,0:11:58.07,main,Kousuke,0,0,0,,\N
+Dialogue: 0,0:11:58.07,0:12:01.57,main,Kousuke,0,0,0,,Estağfurullah! Beni böyle güzel bir yere getirdiğiniz\Niçin teşekkür ederim.
+Dialogue: 0,0:12:03.07,0:12:07.16,main - italics,Kousuke(M),0,0,0,,Hanamura Marino, akademinin müdürü.
+Dialogue: 0,0:12:07.16,0:12:10.61,main - italics,Kousuke(M),0,0,0,,Oyunda ana karakterlerle birkaç kez\Nkarşılaşır,
+Dialogue: 0,0:12:11.08,0:12:13.49,main - italics,Kousuke(M),0,0,0,,ama işlerine pek karışmaz.
+Dialogue: 0,0:12:14.90,0:12:17.09,main - italics,Kousuke(M),0,0,0,,Ama perde arkasında işleri yönetir.
+Dialogue: 0,0:12:17.09,0:12:18.88,main,Marino,0,0,0,,Takioto Kosuke-kun!
+Dialogue: 0,0:12:18.88,0:12:20.05,main,Kousuke,0,0,0,,Evet!
+Dialogue: 0,0:12:20.81,0:12:22.84,main,Marino,0,0,0,,Lafı uzatmadan söyleyeyim.
+Dialogue: 0,0:12:23.64,0:12:25.55,main,Marino,0,0,0,,Artık benim evladım olacaksın.
+Dialogue: 0,0:12:25.87,0:12:26.80,main,Kousuke,0,0,0,,Ha?
+Dialogue: 0,0:12:26.80,0:12:28.01,main - italics,Kousuke(M),0,0,0,,Az önce ne dedi?
+Dialogue: 0,0:12:28.28,0:12:30.44,main,Marino,0,0,0,,Büyücüleri Koruma Yasası'na göre,
+Dialogue: 0,0:12:30.44,0:12:32.54,main,Marino,0,0,0,,yasal vasin artık benim.
+Dialogue: 0,0:12:32.54,0:12:33.49,main,Kousuke,0,0,0,,Ne?
+Dialogue: 0,0:12:34.73,0:12:37.27,main,Marino,0,0,0,,Artık benim evladım olacaksın.
+Dialogue: 0,0:12:37.87,0:12:38.77,main,Kousuke,0,0,0,,Şey...
+Dialogue: 0,0:12:39.38,0:12:40.81,main - italics,Kousuke(M),0,0,0,,Bir dakika, dur bakalım.
+Dialogue: 0,0:12:40.81,0:12:42.46,main - italics,Kousuke(M),0,0,0,,Neler oluyor?
+Dialogue: 0,0:12:42.46,0:12:44.61,main - italics,Kousuke(M),0,0,0,,Hanamura Marino\Nbenim ebeveynim mi olacak?
+Dialogue: 0,0:12:45.28,0:12:46.91,main - italics,Kousuke(M),0,0,0,,Tsukuyomi Cadısı işte!
+Dialogue: 0,0:12:47.48,0:12:51.12,main - italics,Kousuke(M),0,0,0,,Tek başına S sınıfı bir canavarı\Nyendiği söyleniyor.
+Dialogue: 0,0:12:51.74,0:12:54.33,main - italics,Kousuke(M),0,0,0,,Oyunda onunla sevgili olamayınca\Nbiz oyuncular destek hattını
+Dialogue: 0,0:12:52.18,0:12:53.81,sign_21991_256_Marino__Heroine_,signs,0,0,0,,{\move(599,215,-21,217,7,1592)}Marino'ya da rota ekleyin! Şu vücuda bakın!
+Dialogue: 0,0:12:54.33,0:12:57.63,main - italics,Kousuke(M),0,0,0,,basmıştık. Ama yine de onunla\Noyunda sevgili olma seçeneği sunmadılar.
+Dialogue: 0,0:12:58.05,0:13:02.60,main - italics,Kousuke(M),0,0,0,,Yeni rota ya da sahne de eklemediler.
+Dialogue: 0,0:13:03.78,0:13:05.12,main,Marino,0,0,0,,Bunu istemiyor musun?
+Dialogue: 0,0:13:05.12,0:13:06.06,main,Kousuke,0,0,0,,Yok, yok, ne demek.
+Dialogue: 0,0:13:06.48,0:13:08.14,main,Kousuke,0,0,0,,Sabırsızlıkla bekliyorum.
+Dialogue: 0,0:13:08.14,0:13:11.16,main,Marino,0,0,0,,Ben de, Kou-chan.
+Dialogue: 0,0:13:14.99,0:13:18.76,main - italics,Kousuke(M),0,0,0,,Annemin uzak bir akrabasıymış.
+Dialogue: 0,0:13:18.76,0:13:22.11,main - italics,Kousuke(M),0,0,0,,Vasiyette beni ona emanet etmişler.
+Dialogue: 0,0:13:22.51,0:13:26.09,main - italics,Kousuke(M),0,0,0,,Okul ve ev masraflarımı da karşılayacak.
+Dialogue: 0,0:13:26.09,0:13:30.21,main,Marino,0,0,0,,Bundan sonra benim evimde\Nyaşayacaksın.
+Dialogue: 0,0:13:30.21,0:13:30.85,main,Kousuke,0,0,0,,Ne?
+Dialogue: 0,0:13:31.22,0:13:32.29,main,Kousuke,0,0,0,,Okul yurdunda kalmayacak mıyım?
+Dialogue: 0,0:13:32.79,0:13:34.16,main,Marino,0,0,0,,İstersen yurtta kalabilirsin
+Dialogue: 0,0:13:35.17,0:13:37.17,main,Marino,0,0,0,,ama evim akademiye yakın.
+Dialogue: 0,0:13:37.17,0:13:40.63,main,Marino,0,0,0,,Birlikte yaşar, birbirimizi tanırız\Ndiye düşündüm.
+Dialogue: 0,0:13:40.63,0:13:43.74,main - italics,Kousuke(M),0,0,0,,Yine mi yetişkin oyunu klişesi?
+Dialogue: 0,0:13:43.74,0:13:48.10,main - italics,Kousuke(M),0,0,0,,Daha neden Takioto Kosuke olduğumu\Nbile bilmiyorum!
+Dialogue: 0,0:13:48.10,0:13:49.68,main - italics,Kousuke(M),0,0,0,,Hem bir de onun evinde...
+Dialogue: 0,0:13:50.65,0:13:53.18,main,Kousuke,0,0,0,,Yanılmıyorsam bir kızınız var.
+Dialogue: 0,0:13:53.45,0:13:57.48,main - italics,Kousuke(M),0,0,0,,Annesi gibi o da çok güzelmiş,
+Dialogue: 0,0:13:57.48,0:14:00.19,main - italics,Kousuke(M),0,0,0,,ama nedense onunla çıkamıyordun.
+Dialogue: 0,0:14:00.19,0:14:02.29,main - italics,Kousuke(M),0,0,0,,Yapımcılar ne düşünüyordu acaba?
+Dialogue: 0,0:14:02.71,0:14:04.69,main,Marino,0,0,0,,O konuda endişelenme.
+Dialogue: 0,0:14:05.39,0:14:06.73,main,Marino,0,0,0,,Gelmen bizi çok mutlu etti!
+Dialogue: 0,0:14:06.73,0:14:08.07,main,Kousuke,0,0,0,,Kusura bakmayın.
+Dialogue: 0,0:14:08.07,0:14:08.82,main,Marino,0,0,0,,Hadi ama.
+Dialogue: 0,0:14:08.82,0:14:10.85,main,Marino,0,0,0,,Hadi ama, artık aileyiz.
+Dialogue: 0,0:14:10.85,0:14:12.12,main,Kousuke,0,0,0,,Kusura bakmayın.
+Dialogue: 0,0:14:14.49,0:14:16.46,main,Marino,0,0,0,,Şuna dokunabilir miyim?
+Dialogue: 0,0:14:16.46,0:14:17.80,main,Kousuke,0,0,0,,E-Evet.
+Dialogue: 0,0:14:22.30,0:14:24.53,main,Marino,0,0,0,,Bu çok kaliteli Arachne ipliği.
+Dialogue: 0,0:14:25.01,0:14:26.30,main,Marino,0,0,0,,İçine biraz mana aktar.
+Dialogue: 0,0:14:33.95,0:14:34.93,main,Marino,0,0,0,,Tahmin etmiştim.
+Dialogue: 0,0:14:35.35,0:14:38.28,main,Marino,0,0,0,,Efsunlama yeteneğinle manan\Ngerçekten olağanüstü.
+Dialogue: 0,0:14:38.28,0:14:40.94,main,Marino,0,0,0,,Biraz daha çalışırsan\Nbeni bile geçersin.
+Dialogue: 0,0:14:41.38,0:14:44.40,main,Kousuke,0,0,0,,Ama dışa salım büyüsünde\Ntam bir hiçim.
+Dialogue: 0,0:14:44.40,0:14:45.44,main,Marino,0,0,0,,Sorun olmaz.
+Dialogue: 0,0:14:45.91,0:14:48.53,main,Marino,0,0,0,,Akademide çok iyi\Narkadaşlar edineceksin.
+Dialogue: 0,0:14:48.53,0:14:51.16,main,Marino,0,0,0,,Atkına sürekli mana\Nyüklersen
+Dialogue: 0,0:14:51.16,0:14:54.00,main,Marino,0,0,0,,manan da artar.
+Dialogue: 0,0:14:57.79,0:14:58.66,main,Marino,0,0,0,,Aa.
+Dialogue: 0,0:14:58.66,0:15:00.41,main,Marino,0,0,0,,Okuldan arıyorlar.
+Dialogue: 0,0:15:00.84,0:15:01.79,main,Marino,0,0,0,,Kusura bakma.
+Dialogue: 0,0:15:01.79,0:15:04.29,main,Marino,0,0,0,,Bir iş çıktı, hemen\Ngeri dönmem gerekecek.
+Dialogue: 0,0:15:04.95,0:15:06.84,main,Marino,0,0,0,,İşte numaram.
+Dialogue: 0,0:15:06.84,0:15:10.34,main,Kousuke,0,0,0,,Bu arada... akıllı telefonum\Nve benzeri hiçbir şeyim yok.
+Dialogue: 0,0:15:10.68,0:15:13.54,main - italics,Kousuke(M),0,0,0,,Malikânenin her yerine baktım\Nama hiçbir şey bulamadım.
+Dialogue: 0,0:15:14.35,0:15:18.47,main,Marino,0,0,0,,Anne baban, iblisler onları öldürmeden\Nönce seni aramışlar.
+Dialogue: 0,0:15:18.94,0:15:20.85,main,Marino,0,0,0,,Biliyorum, beni de aradılar.
+Dialogue: 0,0:15:21.17,0:15:24.31,main,Marino,0,0,0,,Bunun seni çok etkilediğini de biliyorum.
+Dialogue: 0,0:15:25.25,0:15:26.73,main - italics,Kousuke(M),0,0,0,,Yok artık, hikâyesi bu kadar mı acıklı?!
+Dialogue: 0,0:15:27.00,0:15:30.70,sign_5527_71_Tsukuyomi_Magic_,Sign,0,0,0,,{\c&H212121&\pos(553,163)}Dün ne\Noldu?
+Dialogue: 0,0:15:27.57,0:15:30.70,main - italics,Kousuke(M),0,0,0,,Doğru ya, Takioto telefonu açmamıştı.
+Dialogue: 0,0:15:29.04,0:15:30.70,sign_5527_71_Tsukuyomi_Magic_,Sign,0,0,0,,{\fad(171,1)\c&H212121&\pos(78,77)}Ay,\Nunutmuşum!
+Dialogue: 0,0:15:31.48,0:15:33.29,main - italics,Kousuke(M),0,0,0,,Uyuyakaldığını söylemişti.
+Dialogue: 0,0:15:33.29,0:15:36.70,main - italics,Kousuke(M),0,0,0,,Meğer anne babasını iblisler öldürmüş.
+Dialogue: 0,0:15:37.09,0:15:38.36,main - italics,Kousuke(M),0,0,0,,Zavallı...
+Dialogue: 0,0:15:38.98,0:15:40.08,main,Marino,0,0,0,,Çok özür dilerim!
+Dialogue: 0,0:15:40.08,0:15:41.79,main,Kousuke,0,0,0,,Hayır, hiç sorun değil!
+Dialogue: 0,0:15:41.79,0:15:44.58,main,Kousuke,0,0,0,,Asıl ben size zahmet veriyorum!
+Dialogue: 0,0:15:46.58,0:15:49.34,main,Marino,0,0,0,,Al, lütfen.
+Dialogue: 0,0:15:49.84,0:15:52.18,main,Marino,0,0,0,,Bir şey olursa hemen gelirim.
+Dialogue: 0,0:15:54.14,0:15:55.43,main,Kousuke,0,0,0,,Çok teşekkürler...
+Dialogue: 0,0:16:02.70,0:16:04.59,main,Marino,0,0,0,,Yemeğini burada ye.
+Dialogue: 0,0:16:05.23,0:16:07.03,main,Marino,0,0,0,,Hâlâ büyüme çağındasın.
+Dialogue: 0,0:16:07.79,0:16:09.69,main,Marino,0,0,0,,Seni sonra ararım.
+Dialogue: 0,0:16:18.52,0:16:20.75,main,Kousuke,0,0,0,,Boyut çantası.
+Dialogue: 0,0:16:21.45,0:16:25.71,main,Kousuke,0,0,0,,Oyunda sıradandı ama\Ngerçekte çok işe yarıyor.
+Dialogue: 0,0:16:29.55,0:16:33.22,main,Kousuke,0,0,0,,Paranın değerini pek bilmiyor galiba.
+Dialogue: 0,0:16:34.43,0:16:35.22,main - italics,Kousuke(M),0,0,0,,Bir dakika.
+Dialogue: 0,0:16:35.58,0:16:38.72,main - italics,Kousuke(M),0,0,0,,Bende de iki koz var!
+Dialogue: 0,0:16:40.17,0:16:42.52,main - italics,Kousuke(M),0,0,0,,Para ve nüfuz!
+Dialogue: 0,0:16:42.98,0:16:46.07,main - italics,Kousuke(M),0,0,0,,Sonunda işler yoluna giriyor.
+Dialogue: 0,0:16:46.07,0:16:47.98,main - italics,Kousuke(M),0,0,0,,Artık zirveye oynayacağım.
+Dialogue: 0,0:16:49.71,0:16:51.48,main,Waitress,0,0,0,,Buyurun.
+Dialogue: 0,0:16:54.11,0:16:57.57,main,Kousuke,0,0,0,,Vay be!
+Dialogue: 0,0:16:58.27,0:16:59.47,main,Kousuke,0,0,0,,Afiyet ol—
+Dialogue: 0,0:17:01.22,0:17:02.33,main,Kousuke,0,0,0,,O da neydi öyle?
+Dialogue: 0,0:17:08.75,0:17:09.54,main,Kousuke,0,0,0,,Marino-san'a haber vermeliyim.
+Dialogue: 0,0:17:10.59,0:17:11.29,main,Kousuke,0,0,0,,Kahretsin.
+Dialogue: 0,0:17:14.43,0:17:14.92,main,Kousuke,0,0,0,,Hey!
+Dialogue: 0,0:17:16.06,0:17:16.93,main,Kousuke,0,0,0,,Dur!
+Dialogue: 0,0:17:20.94,0:17:22.50,main,Ludie,0,0,0,,Hain!
+Dialogue: 0,0:17:23.55,0:17:24.85,main - italics,Kousuke(M),0,0,0,,Bu ses...
+Dialogue: 0,0:17:34.34,0:17:35.46,main - italics,Kousuke(M),0,0,0,,Olamaz...
+Dialogue: 0,0:17:35.93,0:17:37.28,main - italics,Kousuke(M),0,0,0,,Bu kız...
+Dialogue: 0,0:17:38.30,0:17:42.21,main - italics,Kousuke(M),0,0,0,,Oyunun kapağındaki ana\Nkadın karakterlerden biri.
+Dialogue: 0,0:17:43.00,0:17:45.44,main - italics,Kousuke(M),0,0,0,,Hep en popülerler arasındadır.
+Dialogue: 0,0:17:45.44,0:17:48.60,main - italics,Kousuke(M),0,0,0,,Ludivine Marie-Ange de la Tréfle!
+Dialogue: 0,0:17:53.90,0:17:55.92,main - italics,Kousuke(M),0,0,0,,Şu kız da kim?
+Dialogue: 0,0:17:56.38,0:17:58.01,main - italics,Kousuke(M),0,0,0,,Yanındaki adam kim?
+Dialogue: 0,0:17:58.52,0:18:00.89,main - italics,Kousuke(M),0,0,0,,Ludi rotasında onları\Nhiç görmemiştim.
+Dialogue: 0,0:18:01.23,0:18:04.04,main,GuyA,0,0,0,,Sanırım yanlış anlamışsınız.
+Dialogue: 0,0:18:04.04,0:18:06.23,main,GuyA,0,0,0,,Kimseye ihanet etmedik.
+Dialogue: 0,0:18:06.68,0:18:09.40,main,GuyA,0,0,0,,Biz en başından beri bu taraftaydık.
+Dialogue: 0,0:18:10.00,0:18:11.26,main - italics,Kousuke(M),0,0,0,,Ne yapmalıyım?
+Dialogue: 0,0:18:11.26,0:18:15.40,main - italics,Kousuke(M),0,0,0,,Ona yardım edersem hikâyeyi\Nbaştan yazmış olur muyum?
+Dialogue: 0,0:18:15.77,0:18:17.55,main - italics,Kousuke(M),0,0,0,,Karşı karşıya oldukları örgüt
+Dialogue: 0,0:18:17.55,0:18:21.53,main - italics,Kousuke(M),0,0,0,,oyunun başlarında ve ortalarında\Nönemli bir düşman örgütü.
+Dialogue: 0,0:18:21.91,0:18:24.41,main - italics,Kousuke(M),0,0,0,,O olay gerçekleşmezse...
+Dialogue: 0,0:18:30.31,0:18:31.08,main,Claris,0,0,0,,Aurelien!
+Dialogue: 0,0:18:35.63,0:18:37.88,main - italics,Kousuke(M),0,0,0,,Onu burada bırakıp gideyim mi?
+Dialogue: 0,0:18:39.47,0:18:41.77,main - italics,Kousuke(M),0,0,0,,Ama oyunun akışına göre
+Dialogue: 0,0:18:41.77,0:18:45.04,main - italics,Kousuke(M),0,0,0,,Ludi'yi Marino-san\Nkurtarıyordu.
+Dialogue: 0,0:18:46.08,0:18:47.39,main - italics,Kousuke(M),0,0,0,,Ben değil.
+Dialogue: 0,0:18:51.15,0:18:52.90,main - italics,Kousuke(M),0,0,0,,Onu arayamam.
+Dialogue: 0,0:19:04.17,0:19:05.12,main,Ludivine,0,0,0,,Clarisse!
+Dialogue: 0,0:19:08.15,0:19:10.04,main,Ludivine,0,0,0,,Sen de mi, Aurelien?!
+Dialogue: 0,0:19:24.24,0:19:24.97,main,Ludivine,0,0,0,,Clarisse!
+Dialogue: 0,0:19:30.99,0:19:32.65,main,Aurelien,0,0,0,,Sıradaki sensin, küçük hanım.
+Dialogue: 0,0:20:05.38,0:20:07.80,main,Aurelien,0,0,0,,İşte görmek istediğim ifade!
+Dialogue: 0,0:20:09.86,0:20:13.94,main,Aurelien,0,0,0,,Bu velete yıllarca boşuna\Nkatlandığımı mı sanıyorsun?!
+Dialogue: 0,0:20:14.26,0:20:16.06,main,Aurelien,0,0,0,,Hepsi bu an içindi.
+Dialogue: 0,0:20:16.06,0:20:17.44,main,Aurelien,0,0,0,,Muhteşem!
+Dialogue: 0,0:20:17.84,0:20:19.44,main,Ludivine,0,0,0,,Bunu nasıl yaparsın?!
+Dialogue: 0,0:20:22.69,0:20:23.92,main,Aurelien,0,0,0,,Hey, hey.
+Dialogue: 0,0:20:23.92,0:20:25.97,main,Aurelien,0,0,0,,Daha ateş etme.
+Dialogue: 0,0:20:25.97,0:20:29.08,main,Aurelien,0,0,0,,Öldürmeden önce biraz eğlenelim.
+Dialogue: 0,0:20:33.58,0:20:35.96,main,Ludivine,0,0,0,,Y-Yapma!
+Dialogue: 0,0:21:02.08,0:21:03.15,main,Ludivine,0,0,0,,Clarisse!
+Dialogue: 0,0:21:19.68,0:21:20.48,main,GuyA,0,0,0,,Ateş et!
+Dialogue: 0,0:21:27.71,0:21:31.39,main,Kousuke,0,0,0,,Seni koruyamazsam\Nen güçlüsü olamam.
+Dialogue: 0,0:21:44.74,0:21:46.74,main - italics,Kousuke(M),0,0,0,,Bu çok tuhaf.
+Dialogue: 0,0:21:47.58,0:21:49.90,main - italics,Kousuke(M),0,0,0,,İçim öfkeden kaynıyor,
+Dialogue: 0,0:21:50.72,0:21:52.98,main - italics,Kousuke(M),0,0,0,,ama kafam hiç bu kadar açık olmamıştı.
+Dialogue: 0,0:22:02.99,0:22:04.92,main - italics,Kousuke(M),0,0,0,,İşte bu yüzden ben...
+Dialogue: 0,0:22:04.92,0:22:09.93,sign_35245_386_Reborn_as_a_Side,Title,0,0,0,,{\fs23\move(253,30,279,61,30,4993)}{\blur2}Bir {\c&H000000&}yetişkin oyununda {\c&H8400DA&}yan karakter{\c&H000000&} olarak yeniden doğdum
