@@ -11,39 +11,19 @@ LayoutResY: 360
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,2,20,20,12,1
 Style: italics,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,1.3,0,2,20,20,12,0
 Style: main,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,2,20,20,12,0
-Style: top,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,8,20,20,0,0
 Style: main - top,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,8,20,20,0,0
 Style: main - italics,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,1.3,0,2,20,20,12,0
 Style: main - italics top,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,1.3,0,8,20,20,0,0
-Style: main - flashback,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,2,20,20,12,0
-Style: main - flashback - top,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,1.3,0,8,20,20,0,0
-Style: sign_360_2_Second_Princess_,Times New Roman,16,&H00000000,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,106,106,18,0
-Style: sign_720_9_Students_who_com,Trebuchet MS,13,&H00FFFFFF,&H000000FF,&H00555555,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,1,130,125,68,0
-Style: sign_889_17_Iori,Trebuchet MS,17,&H00BBAF14,&H000000FF,&H0CF9F9F9,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,168,450,83,0
-Style: sign_523_7_Ludie,Trebuchet MS,17,&H0014D1F4,&H000000FF,&H0CF9F9F9,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,44,548,84,0
-Style: sign_1918_30_Seriously____wh_,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00434343,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,7,198,198,18,0
-Style: sign_1999_32_Straight_into_a_,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00434343,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,7,200,0,79,0
-Style: sign_37019_358_Tanukiya__Main__,Roboto Medium,16,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,2,20,20,23,0
-Style: sign_37019_360_Standing_Bar,Times New Roman,14,&H00B1F1FF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,53,495,161,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:10.00,sign_360_2_Second_Princess_,,0,0,0,,{\fs"20\an7\fe162\b\fad(400,400)\bord2\blur5\shad\4c&H000000&\4a&HFF&\fnSweetest Cat Ever}\N{\pos(20,-2)}{\c&HFFFF00&}{\4c&H8485E4&}\NSomeSub ekip arkadaşı arıyor!\N{\pos(60,63)}{\c&HFFFFFF&}Çevirmen:{\c&HFFFF00&} KaranlıkPasha\N{\pos(60,111)}{\c&HFFFFFF&}Encode:{\c&HFFFF00&} Velnoxy\N{\pos(60,111)}{\c&HFFFFFF&}Redaktör:{\c&HFFFF00&} Itsu\N{\c&HFFFFFF&}Discord:{\c&HFFFF00&} discord.gg/somesub \N
-Dialogue: 0,0:00:00.00,0:00:06.78,sign_360_2_Second_Princess_,Text,0,0,0,,{\fs12\pos(322,230)}Tréfle İmparatorluğu'nun İkinci Prensesi
-Dialogue: 0,0:00:00.00,0:00:06.78,sign_360_2_Second_Princess_,Text,0,0,0,,{\pos(322,298)}Ludivine Marie-Ange de la Tréfle
 Dialogue: 0,0:00:00.91,0:00:02.27,main - italics top,Kousuke(M),0,0,0,,Oyunun orijinalinde,
 Dialogue: 0,0:00:02.27,0:00:03.92,main - italics top,Kousuke(M),0,0,0,,Ludie erkeklerden korkan bir karakterdi.
 Dialogue: 0,0:00:03.92,0:00:06.78,main - italics top,Kousuke(M),0,0,0,,Daha doğrusu, insanlardan korkuyordu.
-Dialogue: 0,0:00:06.78,0:00:11.82,sign_523_7_Ludie,txt,0,0,0,,Ludie
-Dialogue: 0,0:00:06.84,0:00:08.55,sign_720_9_Students_who_com,txt Ludie,0,0,0,,{\pos(142,295)}Senin gibi bir sapığın akademiye girmesi çok tuhaf.
-Dialogue: 0,0:00:07.30,0:00:08.55,sign_720_9_Students_who_com,txt Ludie,0,0,0,,{\pos(142,322)}Hiç anlamıyorum.
-Dialogue: 0,0:00:08.55,0:00:10.30,sign_720_9_Students_who_com,txt Ludie,0,0,0,,{\pos(134,323)}Ünlü Tsukuyomi Büyü Akademisi'ne yakışır\Nşekilde davranmayı denesene?
 Dialogue: 0,0:00:07.60,0:00:09.63,main - italics top,Kousuke(M),0,0,0,,Aslında soğukkanlı biridir,
 Dialogue: 0,0:00:09.63,0:00:11.82,main - italics top,Kousuke(M),0,0,0,,ama insanlara karşı sık sık sert konuşur.
-Dialogue: 0,0:00:10.30,0:00:11.82,sign_720_9_Students_who_com,txt Ludie,0,0,0,,{\pos(140,295)}O utanmaz bakışlarını benden çeker misin?
 Dialogue: 0,0:00:11.82,0:00:14.81,main,Ludie,0,0,0,,Kimseye güvenmediğimi söyledim!
 Dialogue: 0,0:00:14.81,0:00:16.84,main,Ludie,0,0,0,,Benimle konuşmayı kes!
 Dialogue: 0,0:00:17.44,0:00:18.31,main,Ludie,0,0,0,,Aptal!
@@ -60,12 +40,6 @@ Dialogue: 0,0:00:51.62,0:00:55.16,main - italics,Kousuke(M),0,0,0,,Belki de buna
 Dialogue: 0,0:00:56.04,0:00:57.29,main - italics,Kousuke(M),0,0,0,,Şimdi hatırladım...
 Dialogue: 0,0:00:57.29,0:01:01.83,main,Developer,0,0,0,,Ludie'nin erkeklerden bu kadar nefret etmesinin bir nedeni vardı.
 Dialogue: 0,0:01:02.60,0:01:06.67,main,Developer,0,0,0,,Ama bu, bakireliğini kaybetmesi demekti.\NO yüzden o kısmı çıkardık.
-Dialogue: 0,0:01:04.98,0:01:09.86,sign_1918_30_Seriously____wh_,txt,0,0,0,,{\move(627,44,-25,31,6,3844)}Cidden... Ne oluyor...
-Dialogue: 1,0:01:06.82,0:01:12.97,sign_1918_30_Seriously____wh_,txt,0,0,0,,{\move(616,42,-26,39,1,6132)}Yok artık!\N\NBu hangi kahramanın rotası?\N\NYönetim ortalığın karışacağını biliyor mu?\N\N“Eskiden güvendiğim biri bana ihanet etti...”
-Dialogue: 3,0:01:08.36,0:01:12.97,sign_1999_32_Straight_into_a_,txt,0,0,0,,{\move(757,103,-25,98,4,4592)}Daha baştan çıkmaza girdik.\Nİnanamıyorum...\N\NBelki de özür dilememizi bekliyordur.
-Dialogue: 4,0:01:09.36,0:01:12.97,sign_1999_32_Straight_into_a_,txt,0,0,0,,{\move(553,25,61,24,5,3592)}Ludie'ye üzüldüm...\N\NAma bakire kalmasını da sen istemiştin.\NŞimdi neye kızıyorsun?\N\NBizi hafife alma sakın.
-Dialogue: 5,0:01:09.36,0:01:12.97,sign_1999_32_Straight_into_a_,txt,0,0,0,,{\move(618,162,-23,161,5,3592)}Ludie Sendromu hastaları\N\NCidden... Herkes sakin olsun.\N\NLudie, gerçekten...
-Dialogue: 6,0:01:09.36,0:01:12.97,sign_1999_32_Straight_into_a_,txt,0,0,0,,{\move(601,149,-23,142,5,3592)}Teşekkürler.\N\NGeliştirici gayet sıradan biri.\N\NBen... Hâlâ...\N\NLudivine Marie-Ange de la Tréfle
 Dialogue: 0,0:01:06.98,0:01:12.97,italics,Kousuke(M),0,0,0,,Yetişkin oyunu oyuncularını çıldırtacak\Nbir hikâye düşünmüşlerdi.
 Dialogue: 0,0:02:46.09,0:02:49.01,main,Ludie,0,0,0,,Keşke büyüde daha iyi olsaydım...
 Dialogue: 0,0:02:50.72,0:02:51.96,main,Ludie,0,0,0,,Claris!
@@ -250,7 +224,6 @@ Dialogue: 0,0:13:16.15,0:13:17.36,main,Kousuke,0,0,0,,Şey...
 Dialogue: 0,0:13:18.74,0:13:19.82,main,Hatsumi,0,0,0,,Onee-chan.
 Dialogue: 0,0:13:20.57,0:13:24.03,main,Kousuke,0,0,0,,O zaman H-Hatsumi-neesan diyeyim.
 Dialogue: 0,0:13:25.87,0:13:28.75,italics,Kousuke(M),0,0,0,,Onee-chan dememi bu kadar mı istiyordu?
-Dialogue: 0,0:13:31.25,0:13:36.46,sign_360_2_Second_Princess_,txt,0,0,0,,{\c&H5D4845&\fs11\frz348.8\frx12\fry22\move(396,76,341,121,26,5198)}Hanamura Hatsumi
 Dialogue: 0,0:13:31.67,0:13:33.08,main,Kousuke,0,0,0,,Ee, Nee-san,
 Dialogue: 0,0:13:33.08,0:13:36.46,main,Kousuke,0,0,0,,Tsukuyomi Büyü Akademisi'nde profesörsün,\Nbir de oradan mezunsun, değil mi?
 Dialogue: 0,0:13:36.80,0:13:39.13,main,Kousuke,0,0,0,,Öğrenciyken nasıldı?
@@ -268,7 +241,6 @@ Dialogue: 0,0:14:14.08,0:14:15.25,main,Hatsumi,0,0,0,,Hemen hazırlanayım.
 Dialogue: 0,0:14:15.63,0:14:17.25,main,Kousuke,0,0,0,,Çok teşekkür ederim.
 Dialogue: 0,0:14:18.34,0:14:20.88,main,Kousuke,0,0,0,,O zaman biraz koşup geleyim.
 Dialogue: 0,0:14:36.77,0:14:40.53,main - italics,Kousuke(M),0,0,0,,Demek Tréfle prensesi taşınınca böyle oluyormuş.
-Dialogue: 0,0:14:42.99,0:14:44.95,sign_360_2_Second_Princess_,Box,0,0,0,,{\c&H282026&\frz24.32\fs12\move(166,89,214,103,25,943)}Claris'in kıyafetleri
 Dialogue: 0,0:14:45.32,0:14:48.07,main - italics,Kousuke(M),0,0,0,,Bunlar Claris-san'ın kıyafetleri mi?!
 Dialogue: 0,0:14:49.66,0:14:53.83,main - italics,Kousuke(M),0,0,0,,Hizmetçi üniforması dışında ne giyiyor acaba?
 Dialogue: 0,0:14:55.25,0:14:56.63,main,Claris,0,0,0,,Bir sorun mu var?
@@ -283,7 +255,6 @@ Dialogue: 0,0:15:14.73,0:15:16.73,main,Kousuke,0,0,0,,Tam da bu yüzden taşıma
 Dialogue: 0,0:15:17.10,0:15:20.15,main,Kousuke,0,0,0,,Yeteneklerle ilgili birkaç şey soracaktım,
 Dialogue: 0,0:15:20.15,0:15:22.23,main,Kousuke,0,0,0,,bari yardım edip bir iyiliğini kazanayım.
 Dialogue: 0,0:15:23.15,0:15:25.86,main,Claris,0,0,0,,O zaman bunları ikinci kata çıkarır mısın?
-Dialogue: 0,0:15:27.82,0:15:29.24,sign_360_2_Second_Princess_,box,0,0,0,,{\c&H282026&\fs12\frz2.004\pos(280,126)}Claris'in kitapları
 Dialogue: 0,0:15:26.20,0:15:27.82,main,Kousuke,0,0,0,,Bana bırak.
 Dialogue: 0,0:15:29.74,0:15:30.49,main,Kousuke,0,0,0,,Hı?
 Dialogue: 0,0:15:30.49,0:15:31.20,main,Kousuke,0,0,0,,Bu çok hafifmiş.
@@ -368,12 +339,10 @@ Dialogue: 0,0:19:53.63,0:19:57.43,main,Marino,0,0,0,,Aman, Ludie-chan nereye git
 Dialogue: 0,0:19:57.43,0:19:59.01,main,Marino,0,0,0,,Yoksa hamile mi?
 Dialogue: 0,0:20:02.51,0:20:03.64,main,Kousuke,0,0,0,,Ben yerim.
 Dialogue: 0,0:20:11.77,0:20:16.28,main - italics,Kousuke(M),0,0,0,,Hatsumi-neesan üzülmesin diye yedim sadece.
-Dialogue: 0,0:20:35.46,0:20:38.09,sign_360_2_Second_Princess_,Text,0,0,0,,{\i1\c&H201712&\frz326\move(158,227,66,228,22,2608)}Uçuruma uzun süre bakarsan,\Nuçurum da sana bakar. Nietzsche
 Dialogue: 0,0:20:38.34,0:20:42.22,main - italics,Kousuke(M),0,0,0,,Ben ne hâle geldim?
 Dialogue: 0,0:20:47.98,0:20:51.10,main,Ludie,0,0,0,,Peki, “yaşamak” ne demek?
 Dialogue: 0,0:20:51.52,0:20:54.86,main,Kousuke,0,0,0,,Mutluluk aramak tabii ki.
 Dialogue: 0,0:20:54.86,0:20:57.94,main,Ludie,0,0,0,,Peki... mutluluk nedir?
-Dialogue: 0,0:21:08.96,0:21:10.92,sign_1918_30_Seriously____wh_,txt,0,0,0,,{\fnTimes New Roman\i0\c&H1600CB&\3c&HFBFAFE&\fs18\move(265,4,264,254,24,742)}Yoğun Domuz Suyu
 Dialogue: 0,0:21:12.83,0:21:14.46,main,Ludie,0,0,0,,Bu ne?
 Dialogue: 0,0:21:14.46,0:21:15.38,main,Kousuke,0,0,0,,Ye hadi.
 Dialogue: 0,0:21:15.67,0:21:17.05,main,Kousuke,0,0,0,,Çabucak kendine gelirsin.
@@ -382,12 +351,6 @@ Dialogue: 0,0:21:36.32,0:21:39.07,main - italics,Kousuke(M),0,0,0,,Kötücül Lo
 Dialogue: 0,0:21:39.74,0:21:42.41,main - italics,Kousuke(M),0,0,0,,Hazır erişteyle de ağlayacağını\Nhiç düşünmezdim...
 Dialogue: 0,0:21:40.24,0:21:41.45,main - top,Ludie,0,0,0,,Çok güzel!
 Dialogue: 0,0:21:41.74,0:21:44.03,main - top,Ludie,0,0,0,,Çok güzel!
-Dialogue: 0,0:21:44.03,0:21:49.04,sign_360_2_Second_Princess_,Title,0,0,0,,{\fs20\pos(431,308)}Elfler {\c&H7D00D4&}Diyarından{\c&H000000&} Selamlar
-Dialogue: 0,0:23:19.00,0:23:20.34,sign_37019_358_Tanukiya__Main__,orangeLetters,0,0,0,,{\3c&H5AC8FB&\b1\move(201,133,201,26,20,1272)}Tanukiya\N Ana Şubesi
-Dialogue: 0,0:23:19.00,0:23:21.71,sign_37019_358_Tanukiya__Main__,GreenLeers,0,0,0,,{\c&H2A8325&\3c&H78CF74&\move(258,124,252,-67,20,2690)}Bar
-Dialogue: 0,0:23:19.00,0:23:22.17,sign_37019_360_Standing_Bar,whiteSign,0,0,0,,{\3c&H404754&\c&H4B6183&\frx2\fry8\frz312.8\move(102,215,101,-56,20,3148)}Ayakta İçki Barı
-Dialogue: 0,0:23:20.96,0:23:23.01,sign_37019_360_Standing_Bar,litWhiteSign,0,0,0,,{\3c&HFFFFFF&\c&H966A79&\move(504,349,503,165,9,2053)}Japon Mutfağı
-Dialogue: 0,0:23:21.84,0:23:23.01,sign_37019_360_Standing_Bar,leftWhiteSign,0,0,0,,{\c&HF0CE93&\3c&HFFFFFF&\move(46,360,46,254,5,1173)}İlk
 Dialogue: 0,0:23:25.80,0:23:26.47,main,KnightA,0,0,0,,Onu bulabildiniz mi?
 Dialogue: 0,0:23:26.97,0:23:29.51,main,KnightB,0,0,0,,Hayır. İzine rastladık ama...
 Dialogue: 0,0:23:29.51,0:23:32.22,main,KnightA,0,0,0,,Yakında olmalı. Hadi bulalım!
