@@ -1,0 +1,48 @@
+[Script Info]
+Title: pn-SomeSubs - Magical Explorer
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 640
+PlayResY: 360
+YCbCr Matrix: TV.601
+LayoutResX: 640
+LayoutResY: 360
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: sign_360_2_Second_Princess_,Times New Roman,16,&H00000000,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,106,106,18,0
+Style: sign_720_9_Students_who_com,Trebuchet MS,13,&H00FFFFFF,&H000000FF,&H00555555,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,1,130,125,68,0
+Style: sign_523_7_Ludie,Trebuchet MS,17,&H0014D1F4,&H000000FF,&H0CF9F9F9,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,44,548,84,0
+Style: sign_1918_30_Seriously____wh_,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00434343,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,7,198,198,18,0
+Style: sign_1999_32_Straight_into_a_,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00434343,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,7,200,0,79,0
+Style: sign_37019_358_Tanukiya__Main__,Roboto Medium,16,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,2,20,20,23,0
+Style: sign_37019_360_Standing_Bar,Times New Roman,14,&H00B1F1FF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,53,495,161,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,sign_360_2_Second_Princess_,,0,0,0,,{\fs0\an7\fe162\fad(400,400)\bord2\blur5\4a&HFF&\fnSweetest Cat Ever}\N{\pos(20,-2)\c&HFFFF00&\4c&H8485E4&}\NSomeSub ekip arkadaşı arıyor!\N{\c&HFFFFFF&}Çevirmen:{\c&HFFFF00&} KaranlıkPasha\N{\c&HFFFFFF&}Encode:{\c&HFFFF00&} Velnoxy\N{\c&HFFFFFF&}Redaktör:{\c&HFFFF00&} Itsu\N{\c&HFFFFFF&}Discord:{\c&HFFFF00&} discord.gg/somesub \N
+Dialogue: 0,0:00:00.00,0:00:06.78,sign_360_2_Second_Princess_,Text,0,0,0,,{\fs12\pos(322,230)}Tréfle İmparatorluğu'nun İkinci Prensesi
+Dialogue: 0,0:00:00.00,0:00:06.78,sign_360_2_Second_Princess_,Text,0,0,0,,{\pos(322,298)}Ludivine Marie-Ange de la Tréfle
+Dialogue: 0,0:00:06.78,0:00:11.82,sign_523_7_Ludie,txt,0,0,0,,Ludie
+Dialogue: 0,0:00:06.84,0:00:08.55,sign_720_9_Students_who_com,txt Ludie,0,0,0,,{\pos(142,295)}Senin gibi bir sapığın akademiye girmesi çok tuhaf.
+Dialogue: 0,0:00:07.30,0:00:08.55,sign_720_9_Students_who_com,txt Ludie,0,0,0,,{\pos(142,322)}Hiç anlamıyorum.
+Dialogue: 0,0:00:08.55,0:00:10.30,sign_720_9_Students_who_com,txt Ludie,0,0,0,,{\pos(134,323)}Ünlü Tsukuyomi Büyü Akademisi'ne yakışır\Nşekilde davranmayı denesene?
+Dialogue: 0,0:00:10.30,0:00:11.82,sign_720_9_Students_who_com,txt Ludie,0,0,0,,{\pos(140,295)}O utanmaz bakışlarını benden çeker misin?
+Dialogue: 0,0:01:04.98,0:01:09.86,sign_1918_30_Seriously____wh_,txt,0,0,0,,{\move(627,44,-25,31,6,3844)}Cidden... Ne oluyor...
+Dialogue: 1,0:01:06.82,0:01:12.97,sign_1918_30_Seriously____wh_,txt,0,0,0,,{\move(616,42,-26,39,1,6132)}Yok artık!\N\NBu hangi kahramanın rotası?\N\NYönetim ortalığın karışacağını biliyor mu?\N\N“Eskiden güvendiğim biri bana ihanet etti...”
+Dialogue: 3,0:01:08.36,0:01:12.97,sign_1999_32_Straight_into_a_,txt,0,0,0,,{\move(757,103,-25,98,4,4592)}Daha baştan çıkmaza girdik.\Nİnanamıyorum...\N\NBelki de özür dilememizi bekliyordur.
+Dialogue: 4,0:01:09.36,0:01:12.97,sign_1999_32_Straight_into_a_,txt,0,0,0,,{\move(553,25,61,24,5,3592)}Ludie'ye üzüldüm...\N\NAma bakire kalmasını da sen istemiştin.\NŞimdi neye kızıyorsun?\N\NBizi hafife alma sakın.
+Dialogue: 5,0:01:09.36,0:01:12.97,sign_1999_32_Straight_into_a_,txt,0,0,0,,{\move(618,162,-23,161,5,3592)}Ludie Sendromu hastaları\N\NCidden... Herkes sakin olsun.\N\NLudie, gerçekten...
+Dialogue: 6,0:01:09.36,0:01:12.97,sign_1999_32_Straight_into_a_,txt,0,0,0,,{\move(601,149,-23,142,5,3592)}Teşekkürler.\N\NGeliştirici gayet sıradan biri.\N\NBen... Hâlâ...\N\NLudivine Marie-Ange de la Tréfle
+Dialogue: 0,0:13:31.25,0:13:36.46,sign_360_2_Second_Princess_,txt,0,0,0,,{\c&H5D4845&\fs11\frz348.8\frx12\fry22\move(396,76,341,121,26,5198)}Hanamura Hatsumi
+Dialogue: 0,0:14:42.99,0:14:44.95,sign_360_2_Second_Princess_,Box,0,0,0,,{\c&H282026&\frz24.32\fs12\move(166,89,214,103,25,943)}Claris'in kıyafetleri
+Dialogue: 0,0:15:27.82,0:15:29.24,sign_360_2_Second_Princess_,box,0,0,0,,{\c&H282026&\fs12\frz2.004\pos(280,126)}Claris'in kitapları
+Dialogue: 0,0:20:35.46,0:20:38.09,sign_360_2_Second_Princess_,Text,0,0,0,,{\i1\c&H201712&\frz326\move(158,227,66,228,22,2608)}Uçuruma uzun süre bakarsan,\Nuçurum da sana bakar. Nietzsche
+Dialogue: 0,0:21:08.96,0:21:10.92,sign_1918_30_Seriously____wh_,txt,0,0,0,,{\fnTimes New Roman\c&H1600CB&\3c&HFBFAFE&\fs18\move(265,4,264,254,24,742)}Yoğun Domuz Suyu
+Dialogue: 0,0:21:44.03,0:21:49.04,sign_360_2_Second_Princess_,Title,0,0,0,,{\fs20\pos(431,308)}Elfler {\c&H7D00D4&}Diyarından{\c&H000000&} Selamlar
+Dialogue: 0,0:23:19.00,0:23:20.34,sign_37019_358_Tanukiya__Main__,orangeLetters,0,0,0,,{\3c&H5AC8FB&\b1\move(201,133,201,26,20,1272)}Tanukiya\N Ana Şubesi
+Dialogue: 0,0:23:19.00,0:23:21.71,sign_37019_358_Tanukiya__Main__,GreenLeers,0,0,0,,{\c&H2A8325&\3c&H78CF74&\move(258,124,252,-67,20,2690)}Bar
+Dialogue: 0,0:23:19.00,0:23:22.17,sign_37019_360_Standing_Bar,whiteSign,0,0,0,,{\3c&H404754&\c&H4B6183&\frx2\fry8\frz312.8\move(102,215,101,-56,20,3148)}Ayakta İçki Barı
+Dialogue: 0,0:23:20.96,0:23:23.01,sign_37019_360_Standing_Bar,litWhiteSign,0,0,0,,{\3c&HFFFFFF&\c&H966A79&\move(504,349,503,165,9,2053)}Japon Mutfağı
+Dialogue: 0,0:23:21.84,0:23:23.01,sign_37019_360_Standing_Bar,leftWhiteSign,0,0,0,,{\c&HF0CE93&\3c&HFFFFFF&\move(46,360,46,254,5,1173)}İlk
