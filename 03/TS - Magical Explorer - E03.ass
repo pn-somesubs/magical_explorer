@@ -1,0 +1,41 @@
+[Script Info]
+Title: pn-SomeSubs - Magical Explorer
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 640
+PlayResY: 360
+YCbCr Matrix: TV.709
+LayoutResX: 1920
+LayoutResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: sign_504_2_Tsukuyomi_Magic_,Trebuchet MS,13,&H00FFFFFF,&H000000FF,&H00555555,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,116,350,68,0
+Style: sign_Verdana,Verdana,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,30,30,20,1
+Style: sign_TimesNewRoman,Times New Roman,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,30,30,20,1
+Style: sign_Georgia,Georgia,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:44.72,0:00:48.63,sign_504_2_Tsukuyomi_Magic_,seal,0,0,0,,{\pos(316,111)\fad(1883,1)\c&H93C1D7&\bord0}Tsukuyomi
+Dialogue: 0,0:08:39.28,0:08:42.83,sign_Verdana,Sign,0,0,0,,{\an8\c&HFFF8E6&\3c&HBC9830&\shad0\bord4\fs15}Tadilatta
+Dialogue: 0,0:08:54.72,0:09:01.68,sign_TimesNewRoman,Sign,0,0,0,,{\an8\c&HA0F1FB&\3c&H5F89B5&\shad0}Matcha ve Tatlılar
+Dialogue: 0,0:19:10.46,0:19:14.79,sign_TimesNewRoman,txt,0,0,0,,{\an8\pos(504,89)\shad0\c&H30333B&\bord0}Üşümeye karşı direnç
+Dialogue: 0,0:19:12.33,0:19:14.79,sign_TimesNewRoman,txt,0,0,0,,{\an8\shad0\c&H30333B&\bord0\pos(500,205)}Omuzları rahatlatır
+Dialogue: 0,0:19:13.08,0:19:14.79,sign_TimesNewRoman,txt,0,0,0,,{\an8\shad0\c&H30333B&\bord0\pos(500,312)}Kan dolaşımını hızlandırır
+Dialogue: 0,0:20:39.71,0:20:43.17,sign_Verdana,txt,0,0,0,,{\an7\fs13\pos(335,78)\c&HFFFFFA&\3c&H62ACA5&\shad0\c&HE29FFD&}Gaz salınımına kalan
+Dialogue: 0,0:20:39.71,0:20:43.17,sign_Verdana,txt,0,0,0,,{\an7\c&HFFFFFA&\3c&H62ACA5&\fs13\shad0\fsp3\pos(514,74)}Saniye
+Dialogue: 0,0:20:48.16,0:20:48.60,sign_Verdana,txt,0,0,0,,{\an7\fs13\pos(335,78)\c&HFFFFFA&\3c&H62ACA5&\shad0\c&HE29FFD&}Gaz salınımına kalan
+Dialogue: 0,0:20:48.16,0:20:48.60,sign_Verdana,txt,0,0,0,,{\an7\c&HFFFFFA&\3c&H62ACA5&\fs13\shad0\fsp3\pos(514,74)}Saniye
+Dialogue: 0,0:20:53.64,0:20:54.10,sign_Verdana,txt,0,0,0,,{\an7\fs13\pos(335,78)\c&HFFFFFA&\3c&H62ACA5&\shad0\c&HE29FFD&}Gaz salınımına kalan
+Dialogue: 0,0:20:53.64,0:20:54.10,sign_Verdana,txt,0,0,0,,{\an7\c&HFFFFFA&\3c&H62ACA5&\fs13\shad0\fsp3\pos(514,74)}Saniye
+Dialogue: 0,0:20:58.19,0:20:59.65,sign_Verdana,txt,0,0,0,,{\an7\fs13\pos(335,78)\c&HFFFFFA&\3c&H62ACA5&\shad0\c&HE29FFD&}Gaz salınımına kalan
+Dialogue: 0,0:20:58.19,0:20:59.65,sign_Verdana,txt,0,0,0,,{\an7\c&HFFFFFA&\3c&H62ACA5&\fs13\shad0\fsp3\pos(514,74)}Saniye
+Dialogue: 0,0:21:04.61,0:21:05.07,sign_Verdana,txt,0,0,0,,{\an7\fs13\pos(335,78)\c&HFFFFFA&\3c&H62ACA5&\shad0\c&HE29FFD&}Gaz salınımına kalan
+Dialogue: 0,0:21:04.61,0:21:05.07,sign_Verdana,txt,0,0,0,,{\an7\c&HFFFFFA&\3c&H62ACA5&\fs13\shad0\fsp3\pos(514,74)}Saniye
+Dialogue: 0,0:21:16.04,0:21:16.50,sign_Verdana,txt,0,0,0,,{\an7\fs13\pos(335,78)\c&HFFFFFA&\3c&H62ACA5&\shad0\c&HE29FFD&}Gaz salınımına kalan
+Dialogue: 0,0:21:16.04,0:21:16.50,sign_Verdana,txt,0,0,0,,{\an7\c&HFFFFFA&\3c&H62ACA5&\fs13\shad0\fsp3\pos(514,74)}Saniye
+Dialogue: 0,0:21:43.82,0:21:46.20,sign_Verdana,txt,0,0,0,,{\an7\fs13\c&H5A59FB&\3c&HEDF5F6&\shad0\fad(260,1)\pos(350,59)\c&HE29FFD&}Gaz salınımına kalan
+Dialogue: 0,0:21:43.82,0:21:46.20,sign_Verdana,txt,0,0,0,,{\an7\c&H4D4BFF&\3c&HD4E7EC&\fs13\shad0\fsp3\pos(552,61)\fad(260,1)}saniye
+Dialogue: 0,0:21:52.16,0:21:57.17,sign_Georgia,Title,0,0,0,,{\an8\c&H8702ED&\3c&HFFF7FF&\shad0\fs40}Her Eroge'nin {\c&H111012&}Olmazsa {\c&H8702ED&}Olmazı
