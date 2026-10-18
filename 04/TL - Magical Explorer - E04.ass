@@ -12,33 +12,13 @@ LayoutResY: 360
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Default,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,2,20,20,23,1
-Style: italics,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,1.3,0,2,20,20,23,0
 Style: main,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,2,20,20,23,0
-Style: top,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,8,20,20,23,0
-Style: main - top,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,8,20,20,23,0
 Style: main - italics,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,1.3,0,2,20,20,23,0
-Style: main - italics top,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,1.3,0,8,20,20,23,0
 Style: main - flashback,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,2,20,20,23,0
-Style: main - flashback - top,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,1.3,0,8,20,20,23,0
-Style: sign_360_2_Second_Princess_,Times New Roman,16,&H00000000,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,106,106,18,0
-Style: sign_720_9_Students_who_com,Trebuchet MS,13,&H00FFFFFF,&H000000FF,&H00555555,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,1,130,125,68,0
-Style: sign_889_17_Iori,Trebuchet MS,17,&H00BBAF14,&H000000FF,&H0CF9F9F9,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,168,450,83,0
-Style: sign_523_7_Ludie,Trebuchet MS,17,&H0014D1F4,&H000000FF,&H0CF9F9F9,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,44,548,84,0
-Style: sign_1918_30_Seriously____wh_,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00434343,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,7,198,198,18,0
-Style: sign_1999_32_Straight_into_a_,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00434343,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,7,200,0,79,0
-Style: sign_37019_358_Tanukiya__Main__,Roboto Medium,16,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,2,20,20,23,0
-Style: sign_37019_360_Standing_Bar,Times New Roman,14,&H00B1F1FF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,53,495,161,0
-Style: sign_504_2_Tsukuyomi_Magic_,Trebuchet MS,13,&H00FFFFFF,&H000000FF,&H00555555,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,116,350,68,0
-Style: sign_Verdana,Verdana,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,30,30,20,1
-Style: sign_TimesNewRoman,Times New Roman,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,30,30,20,1
-Style: sign_Georgia,Georgia,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,30,30,20,1
-Style: sign_Arial,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,30,30,20,1
-Style: sign_ComicSansMS,Comic Sans MS,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,30,30,20,1
-Style: sign_35245_386_Reborn_as_a_Side,Times New Roman,25,&H008400DA,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,0,14,290,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:10.00,Default,,0,0,0,,{\fs17\an7\fe162\b\fad(400,400)\bord2\blur5\shad\4c&H000000&\4a&HFF&\fnSweetest Cat Ever}\N{\pos(20,-2)}{\c&HFFFF00&}{\4c&H8485E4&}\NSomeSub ekip arkadaşı arıyor!\N{\pos(60,63)}{\c&HFFFFFF&}Çevirmen:{\c&HFFFF00&} KaranlıkPasa\N{\pos(60,111)}{\c&HFFFFFF&}Encode:{\c&HFFFF00&} Velnoxy\N{\pos(60,111)}{\c&HFFFFFF&}Redaktör:{\c&HFFFF00&} Itsu\N{\c&HFFFFFF&}Discord:{\c&HFFFF00&} discord.gg/somesub \N
+Dialogue: 0,0:00:00.00,0:00:10.00,Default,,0,0,0,,{\fs17\an7\fe162\b1\fad(400,400)\bord2\blur5\4a&HFF&\fnSweetest Cat Ever}\N{\pos(20,-2)\c&HFFFF00&\4c&H8485E4&}\NSomeSub ekip arkadaşı arıyor!\N{\c&HFFFFFF&}Çevirmen:{\c&HFFFF00&} KaranlıkPasa\N{\c&HFFFFFF&}Encode:{\c&HFFFF00&} Velnoxy\N{\c&HFFFFFF&}Redaktör:{\c&HFFFF00&} Itsu\N{\c&HFFFFFF&}Discord:{\c&HFFFF00&} discord.gg/somesub \N
 Dialogue: 0,0:00:06.33,0:00:08.82,main - italics,Kousuke(M),0,0,0,,Bir erogenin figüran karakteri olarak\Nreenkarne olduğuma
 Dialogue: 0,0:00:08.82,0:00:12.04,main - italics,Kousuke(M),0,0,0,,ve herkesi mutlu sona ulaştırmaya\Nkarar verdiğime göre,
 Dialogue: 0,0:00:12.04,0:00:13.88,main - italics,Kousuke(M),0,0,0,,yapmam gereken bir şey var.
@@ -103,24 +83,11 @@ Dialogue: 0,0:06:20.94,0:06:22.52,main - italics,Kousuke(M),0,0,0,,Bu kötü! Ya
 Dialogue: 0,0:06:30.95,0:06:33.70,main - italics,System,0,0,0,,Mana kaydedildi.
 Dialogue: 0,0:06:36.75,0:06:37.96,main,Kousuke,0,0,0,,Hiçbir şey okuyamıyorum...
 Dialogue: 0,0:06:38.87,0:06:41.04,main - italics,System,0,0,0,,Lütfen bir form seçiniz.
-Dialogue: 0,0:06:37.96,0:06:42.42,sign_Arial,TEXT,0,0,0,,{\an8\c&HF8FFF0&\bord0\shad0\pos(318.67,228)\fs28}Lütfen bir form seçiniz
-Dialogue: 0,0:06:40.87,0:06:42.42,sign_Arial,TEXT,0,0,0,,{\pos(318,25.33)\bord4\shad0\3c&HEEFFCF&}Cennet
-Dialogue: 0,0:06:40.87,0:06:42.42,sign_Arial,TEXT,0,0,0,,{\bord4\shad0\3c&HEEFFCF&\pos(482.67,126.66)}İlkbahar
-Dialogue: 0,0:06:40.87,0:06:42.42,sign_Arial,TEXT,0,0,0,,{\bord4\shad0\3c&HEEFFCF&\pos(417.33,287.33)}Yaz
-Dialogue: 0,0:06:40.87,0:06:42.42,sign_Arial,TEXT,0,0,0,,{\bord4\shad0\3c&HEEFFCF&\pos(218.67,288)}Sonbahar
-Dialogue: 0,0:06:40.87,0:06:42.42,sign_Arial,TEXT,0,0,0,,{\bord4\shad0\3c&HEEFFCF&\pos(154.67,128)}Kış
 Dialogue: 0,0:06:42.42,0:06:46.38,main,Kousuke,0,0,0,,Buradaki seçeneklerin ilkbahar, yaz,\Nsonbahar ve kış olması gerekiyordu.
 Dialogue: 0,0:06:46.38,0:06:48.26,main,Kousuke,0,0,0,,Cennet Formu da neyin nesi?
 Dialogue: 0,0:06:48.63,0:06:50.09,main,Kousuke,0,0,0,,Ama nedense,
 Dialogue: 0,0:06:50.09,0:06:53.47,main,Kousuke,0,0,0,,içimden bir ses cenneti seçmemi söylüyor.
 Dialogue: 0,0:06:53.47,0:06:55.60,main,System,0,0,0,,Gerçekten emin misiniz?
-Dialogue: 0,0:06:51.09,0:06:52.51,sign_Arial,TEXT,0,0,0,,{\pos(318,25.33)\bord4\shad0\3c&HEEFFCF&}Cennet
-Dialogue: 0,0:06:51.09,0:06:52.51,sign_Arial,TEXT,0,0,0,,{\bord4\shad0\3c&HEEFFCF&\pos(482.67,126.66)}İlkbahar
-Dialogue: 0,0:06:51.09,0:06:52.51,sign_Arial,TEXT,0,0,0,,{\bord4\shad0\3c&HEEFFCF&\pos(218.67,288)}Sonbahar
-Dialogue: 0,0:06:51.09,0:06:52.51,sign_Arial,TEXT,0,0,0,,{\bord4\shad0\3c&HEEFFCF&\pos(154.67,128)}Kış
-Dialogue: 0,0:06:52.59,0:06:55.60,sign_Arial,TEXT,0,0,0,,{\an8\c&HF8FFF0&\bord0\shad0\fs28\pos(318.67,162.67)}Gerçekten emin misiniz?
-Dialogue: 0,0:06:52.59,0:06:55.60,sign_Arial,TEXT,0,0,0,,{\c&HF9FAF9&\3c&H669027&\an6\fs30\shad0\bord4\pos(151.33,260.66)}Evet
-Dialogue: 0,0:06:52.59,0:06:55.60,sign_Arial,TEXT,0,0,0,,{\c&HF9FAF9&\3c&H669027&\an4\fs30\shad0\bord4\pos(506,260.66)}Hayır
 Dialogue: 0,0:07:37.39,0:07:40.73,main,Nanami,0,0,0,,A&A Şirketi'ne bağlantı kurulamadı.
 Dialogue: 0,0:07:40.73,0:07:43.85,main,Nanami,0,0,0,,Yerel ağ üzerinden veri alımı başarısız oldu.
 Dialogue: 0,0:07:43.85,0:07:46.40,main,Nanami,0,0,0,,Zindan Ağı tamamen koptu.
@@ -142,7 +109,6 @@ Dialogue: 0,0:08:32.78,0:08:34.57,main - italics,Kousuke(M),0,0,0,,Yeterince dol
 Dialogue: 0,0:08:34.57,0:08:37.45,main,Nanami,0,0,0,,Adınızı öğrenebilir miyim?
 Dialogue: 0,0:08:37.45,0:08:39.79,main,Kousuke,0,0,0,,Takioto Kousuke.
 Dialogue: 0,0:08:47.54,0:08:49.00,main,Nanami,0,0,0,,Kaydedildi.
-Dialogue: 0,0:08:47.54,0:08:49.00,sign_Arial,TEXT,0,0,0,,{\an8\c&HFCFEFF&\bord0\shad0\fs36\pos(308,236.66)}Sözleşme tamamlandı
 Dialogue: 0,0:08:50.80,0:08:54.01,main,Nanami,0,0,0,,Bir Hizmetçi-Şövalye Hizmetkârı ile\Nsözleşme yaptığınız için teşekkürler.
 Dialogue: 0,0:08:54.80,0:08:56.39,main,Nanami,0,0,0,,Lütfen kusuruma bakmayın,
 Dialogue: 0,0:08:56.39,0:08:59.64,main,Nanami,0,0,0,,ancak Zindan Ağı ile bağlantım\Nkesildiği için,
@@ -237,14 +203,12 @@ Dialogue: 0,0:13:06.72,0:13:11.14,main,Nanami,0,0,0,,Kimlik numaramı olduğu gi
 Dialogue: 0,0:13:11.14,0:13:13.85,main,Kousuke,0,0,0,,Affedersin, başka bir şey düşüneyim.
 Dialogue: 0,0:13:13.85,0:13:17.52,main,Nanami,0,0,0,,Kaydedildi, Takioto Kousuke-sama\Nuslanmazın teki.
 Dialogue: 0,0:13:21.44,0:13:23.61,main,Nanami,0,0,0,,Neyse, Nanami yeterince iyi.
-Dialogue: 0,0:13:25.72,0:13:31.66,sign_ComicSansMS,TEXT,0,0,0,,{\an8\c&H6D6B70&\3c&HF6F0F4&\shad0\bord4\fs30}Nanami
 Dialogue: 0,0:13:23.61,0:13:25.61,main,Kousuke,0,0,0,,Aslında hoşuna gitti, değil mi?
 Dialogue: 0,0:13:25.95,0:13:29.07,main,Nanami,0,0,0,,Sizin için Nanami.
 Dialogue: 0,0:13:29.07,0:13:30.95,main,Nanami,0,0,0,,Veya bana Nanamin de diyebilirsiniz.
 Dialogue: 0,0:13:30.95,0:13:31.66,main,Kousuke,0,0,0,,Şey...
 Dialogue: 0,0:13:32.16,0:13:36.37,main,Nanami,0,0,0,,Sıradaki adım, size yönelik\Nhitap unvanını belirlemek.
 Dialogue: 0,0:13:36.37,0:13:37.58,main,Kousuke,0,0,0,,Hitap unvanı mı?
-Dialogue: 0,0:13:38.08,0:13:51.30,sign_TimesNewRoman,TEXT,0,0,0,,{\an7\c&H000000&\3c&HFFFFFF&\shad0\bord4\fs15}Lütfen tercih ettiğiniz hitap unvanını seçiniz\N{\fs20} -sama Lordum\NEfendim Usta\NOyakata Şirket Müdürü\NBölüm Başkanı İblis Tanrısı\Nİmparator Danışmanı Yüce Birleştirici Şogun\NÜnlü Şahsiyet Uzman
 Dialogue: 0,0:13:37.58,0:13:39.71,main,Nanami,0,0,0,,Seçenekleriniz oldukça çeşitli;
 Dialogue: 0,0:13:39.71,0:13:41.29,main,Nanami,0,0,0,,Takioto Kousuke-sama,
 Dialogue: 0,0:13:41.29,0:13:45.88,main,Nanami,0,0,0,,Lordum, Efendim, Usta, Oyakata, Şirket Müdürü,
@@ -256,7 +220,6 @@ Dialogue: 0,0:13:55.06,0:13:57.27,main,Kousuke,0,0,0,,Mantıklı olanı da bu za
 Dialogue: 0,0:13:57.27,0:13:59.27,main,Nanami,0,0,0,,O halde size Efendim diyeceğim.
 Dialogue: 0,0:13:59.77,0:14:03.11,main,Nanami,0,0,0,,Peki, Efendim dışında size\Nbaşka ne demeliyim?
 Dialogue: 0,0:14:03.57,0:14:06.32,main,Nanami,0,0,0,,Varsayılanı \"aşağılık solucan.\"
-Dialogue: 0,0:14:03.11,0:14:06.32,sign_TimesNewRoman,TEXT,0,0,0,,{\an8\c&H000000&\3c&HFFFFFF&\bord4\shad0\fs40}Aşağılık solucan
 Dialogue: 0,0:14:06.32,0:14:07.78,main,Kousuke,0,0,0,,Berbat bir varsayılan bu!
 Dialogue: 0,0:14:07.78,0:14:09.36,main,Kousuke,0,0,0,,Hemen değiştiriyoruz bunu!
 Dialogue: 0,0:14:09.36,0:14:12.20,main,Kousuke,0,0,0,,Ama bu hitabı nerede kullanırsın ki?
@@ -428,5 +391,3 @@ Dialogue: 0,0:21:53.49,0:21:54.83,main - italics,Kousuke(M),0,0,0,,O yüzden gö
 Dialogue: 0,0:21:55.54,0:21:57.29,main,Kousuke,0,0,0,,Kendimi henüz tanıtmadım.
 Dialogue: 0,0:21:57.75,0:21:59.67,main,Kousuke,0,0,0,,Benim adım Takioto Kousuke.
 Dialogue: 0,0:22:00.42,0:22:04.42,main,Kousuke,0,0,0,,Tsukuyomi Büyü Akademisi'nin en güçlüsü\Nolacak adamım!
-Dialogue: 0,0:22:05.09,0:22:09.97,sign_35245_386_Reborn_as_a_Side,TEXT,0,0,0,,{\c&H030200&\3c&HFFFFFF&\blur2}Kararlılık
-Dialogue: 0,0:22:09.97,0:22:12.97,sign_35245_386_Reborn_as_a_Side,,0,0,0,,
