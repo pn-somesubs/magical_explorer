@@ -1,0 +1,39 @@
+[Script Info]
+Title: pn-SomeSubs - Magical Explorer
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 640
+PlayResY: 360
+YCbCr Matrix: TV.709
+LayoutResX: 640
+LayoutResY: 360
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: sign_TimesNewRoman,Times New Roman,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,30,30,20,1
+Style: sign_Arial,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,30,30,20,1
+Style: sign_ComicSansMS,Comic Sans MS,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,30,30,20,1
+Style: sign_35245_386_Reborn_as_a_Side,Times New Roman,25,&H008400DA,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,0,14,290,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:06:37.96,0:06:42.42,sign_Arial,TEXT,0,0,0,,{\an8\c&HF8FFF0&\bord0\shad0\pos(318.67,228)\fs28}Lütfen bir form seçiniz
+Dialogue: 0,0:06:40.87,0:06:42.42,sign_Arial,TEXT,0,0,0,,{\pos(318,25.33)\bord4\shad0\3c&HEEFFCF&}Cennet
+Dialogue: 0,0:06:40.87,0:06:42.42,sign_Arial,TEXT,0,0,0,,{\bord4\shad0\3c&HEEFFCF&\pos(482.67,126.66)}İlkbahar
+Dialogue: 0,0:06:40.87,0:06:42.42,sign_Arial,TEXT,0,0,0,,{\bord4\shad0\3c&HEEFFCF&\pos(417.33,287.33)}Yaz
+Dialogue: 0,0:06:40.87,0:06:42.42,sign_Arial,TEXT,0,0,0,,{\bord4\shad0\3c&HEEFFCF&\pos(218.67,288)}Sonbahar
+Dialogue: 0,0:06:40.87,0:06:42.42,sign_Arial,TEXT,0,0,0,,{\bord4\shad0\3c&HEEFFCF&\pos(154.67,128)}Kış
+Dialogue: 0,0:06:51.09,0:06:52.51,sign_Arial,TEXT,0,0,0,,{\pos(318,25.33)\bord4\shad0\3c&HEEFFCF&}Cennet
+Dialogue: 0,0:06:51.09,0:06:52.51,sign_Arial,TEXT,0,0,0,,{\bord4\shad0\3c&HEEFFCF&\pos(482.67,126.66)}İlkbahar
+Dialogue: 0,0:06:51.09,0:06:52.51,sign_Arial,TEXT,0,0,0,,{\bord4\shad0\3c&HEEFFCF&\pos(218.67,288)}Sonbahar
+Dialogue: 0,0:06:51.09,0:06:52.51,sign_Arial,TEXT,0,0,0,,{\bord4\shad0\3c&HEEFFCF&\pos(154.67,128)}Kış
+Dialogue: 0,0:06:52.59,0:06:55.60,sign_Arial,TEXT,0,0,0,,{\an8\c&HF8FFF0&\bord0\shad0\fs28\pos(318.67,162.67)}Gerçekten emin misiniz?
+Dialogue: 0,0:06:52.59,0:06:55.60,sign_Arial,TEXT,0,0,0,,{\c&HF9FAF9&\3c&H669027&\an6\fs30\shad0\bord4\pos(151.33,260.66)}Evet
+Dialogue: 0,0:06:52.59,0:06:55.60,sign_Arial,TEXT,0,0,0,,{\c&HF9FAF9&\3c&H669027&\an4\fs30\shad0\bord4\pos(506,260.66)}Hayır
+Dialogue: 0,0:08:47.54,0:08:49.00,sign_Arial,TEXT,0,0,0,,{\an8\c&HFCFEFF&\bord0\shad0\fs36\pos(308,236.66)}Sözleşme tamamlandı
+Dialogue: 0,0:13:25.72,0:13:31.66,sign_ComicSansMS,TEXT,0,0,0,,{\an8\c&H6D6B70&\3c&HF6F0F4&\shad0\bord4\fs30}Nanami
+Dialogue: 0,0:13:38.08,0:13:51.30,sign_TimesNewRoman,TEXT,0,0,0,,{\an7\c&H000000&\3c&HFFFFFF&\shad0\bord4\fs15}Lütfen tercih ettiğiniz hitap unvanını seçiniz\N{\fs20} -sama Lordum\NEfendim Usta\NOyakata Şirket Müdürü\NBölüm Başkanı İblis Tanrısı\Nİmparator Danışmanı Yüce Birleştirici Şogun\NÜnlü Şahsiyet Uzman
+Dialogue: 0,0:14:03.11,0:14:06.32,sign_TimesNewRoman,TEXT,0,0,0,,{\an8\c&H000000&\3c&HFFFFFF&\bord4\shad0\fs40}Aşağılık solucan
+Dialogue: 0,0:22:05.09,0:22:09.97,sign_35245_386_Reborn_as_a_Side,TEXT,0,0,0,,{\c&H030200&\blur2}Kararlılık
+Dialogue: 0,0:22:09.97,0:22:12.97,sign_35245_386_Reborn_as_a_Side,,0,0,0,,
