@@ -1,0 +1,29 @@
+[Script Info]
+Title: pn-SomeSubs - Magical Explorer
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 640
+PlayResY: 360
+YCbCr Matrix: TV.709
+LayoutResX: 640
+LayoutResY: 360
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: sign_4125_47_Stormy_Skies__Ca,Times New Roman,24,&H00000000,&H000000FF,&H00C9E1E9,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,151,151,18,0
+Style: sign_7608_63_Nanami,Trebuchet MS,16,&H00000000,&H000000FF,&H00FEF8F6,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,409,172,141,0
+Style: sign_8613_79_1st_Stage,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00090909,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,8,290,276,289,0
+Style: sign_11677_115_2nd_Stage,Trebuchet MS,20,&H00FFFFFF,&H000000FF,&H00090909,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,8,271,269,295,0
+Style: sign_15002_148_3rd_Stage,Trebuchet MS,20,&H00FFFFFF,&H000000FF,&H00090909,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,8,279,265,289,0
+Style: sign_20764_198__Super_sale___Sp,Trebuchet MS,16,&H00000000,&H000000FF,&H00FEF8F6,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,330,93,141,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:02:52.03,0:02:57.04,sign_4125_47_Stormy_Skies__Ca,SIGN,0,0,0,,{\pos(302.222,9.111)}Fırtınalı Semalar! Carplin Kalesi!
+Dialogue: 0,0:05:17.29,0:05:22.69,sign_7608_63_Nanami,SIGN,0,0,0,,{\frz10.3\fs12\pos(420.222,172.11)}Nanami.
+Dialogue: 0,0:05:59.21,0:06:01.00,sign_8613_79_1st_Stage,SIGN,0,0,0,,{\fs20\3c&H000000&\pos(319,293.444)}1. Aşama.
+Dialogue: 0,0:08:07.00,0:08:10.23,sign_11677_115_2nd_Stage,SIGN,0,0,0,,2. Aşama.
+Dialogue: 0,0:10:25.68,0:10:29.52,sign_15002_148_3rd_Stage,SIGN,0,0,0,,{\pos(323.444,292.556)}3. Aşama.
+Dialogue: 0,0:14:26.01,0:14:28.22,sign_20764_198__Super_sale___Sp,SIGN,0,0,0,,{\fs12\move(505.556,285,478,255.667,21,2190)}<Süper İndirim> Özel İksir.
+Dialogue: 0,0:20:58.94,0:21:02.13,sign_4125_47_Stormy_Skies__Ca,SIGN,0,0,0,,{\fad(318,1)\3c&HC61B80&\c&HFFE0FA&\pos(325.333,28.667)\blur3}Şeytan.
