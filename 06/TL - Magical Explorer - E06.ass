@@ -11,19 +11,9 @@ LayoutResY: 360
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,2,20,20,23,1
 Style: main,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,2,20,20,23,0
 Style: main - top,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,8,20,20,23,0
 Style: main - italics,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,1.3,0,2,20,20,23,0
-Style: main - italics top,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,1.3,0,8,20,20,23,0
-Style: main - flashback,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,2,20,20,23,0
-Style: main - flashback - top,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,1.3,0,8,20,20,23,0
-Style: sign_4125_47_Stormy_Skies__Ca,Times New Roman,24,&H00000000,&H000000FF,&H00C9E1E9,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,151,151,18,0
-Style: sign_7608_63_Nanami,Trebuchet MS,16,&H00000000,&H000000FF,&H00FEF8F6,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,409,172,141,0
-Style: sign_8613_79_1st_Stage,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00090909,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,8,290,276,289,0
-Style: sign_11677_115_2nd_Stage,Trebuchet MS,20,&H00FFFFFF,&H000000FF,&H00090909,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,8,271,269,295,0
-Style: sign_15002_148_3rd_Stage,Trebuchet MS,20,&H00FFFFFF,&H000000FF,&H00090909,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,8,279,265,289,0
-Style: sign_20764_198__Super_sale___Sp,Trebuchet MS,16,&H00000000,&H000000FF,&H00FEF8F6,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,330,93,141,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -74,7 +64,6 @@ Dialogue: 0,0:02:42.06,0:02:44.01,main,Ludie,0,0,0,,Yine mi?! Neden ya?!
 Dialogue: 0,0:02:44.01,0:02:47.12,main,Yukine,0,0,0,,Tam da aklımdan çıkarmaya\Nbaşlamıştım halbuki.
 Dialogue: 0,0:02:47.12,0:02:49.52,main,Ludie,0,0,0,,Neden hep bizim başımıza geliyor böyle şeyler?!
 Dialogue: 0,0:02:51.11,0:02:52.03,main,Nanami,0,0,0,,Anladım.
-Dialogue: 0,0:02:52.03,0:02:57.04,sign_4125_47_Stormy_Skies__Ca,SIGN,0,0,0,,{\pos(302.222,9.111)}Fırtınalı Semalar! Carplin Kalesi!
 Dialogue: 0,0:02:53.89,0:02:56.14,main,Nanami,0,0,0,,Görünüşe göre buraya\NCarplin Kalesi deniyormuş.
 Dialogue: 0,0:04:28.12,0:04:29.38,main,Nanami,0,0,0,,Hemen açıklıyorum!
 Dialogue: 0,0:04:29.77,0:04:32.15,main,Nanami,0,0,0,,"Kayganlaştırıcıya dikkat ederek\Nhedefe doğru ilerleyin!
@@ -89,7 +78,6 @@ Dialogue: 0,0:04:55.24,0:04:58.40,main - italics,Kousuke(M),0,0,0,,Burası tam d
 Dialogue: 0,0:04:58.97,0:05:00.48,main - italics,Kousuke(M),0,0,0,,Buradan kaçışın hiçbir yolu yok.
 Dialogue: 0,0:05:01.28,0:05:02.95,main,Ludie,0,0,0,,Demek ilerlemekten başka çaremiz yok.
 Dialogue: 0,0:05:15.04,0:05:17.29,main,Yukine,0,0,0,,Cidden bu kılıkta mı gitmek zorundayız?
-Dialogue: 0,0:05:17.29,0:05:22.69,sign_7608_63_Nanami,SIGN,0,0,0,,{\frz10.3\fs12\pos(420.222,172.11)}Nanami.
 Dialogue: 0,0:05:17.81,0:05:19.62,main,Nanami,0,0,0,,İsteğe göre esneyip küçülebiliyorlar.
 Dialogue: 0,0:05:20.00,0:05:23.37,main,Nanami,0,0,0,,Savaş kıyafeti olarak müthiş bir\Npotansiyele sahip olduklarını düşünüyorum.
 Dialogue: 0,0:05:24.70,0:05:27.66,main,Kousuke,0,0,0,,Normalde taktığım etolden daha\Nkaliteli görünüyor gerçi,
@@ -104,7 +92,6 @@ Dialogue: 0,0:05:43.44,0:05:46.10,main,Kousuke,0,0,0,,Tam olarak ne demek istedi
 Dialogue: 0,0:05:46.10,0:05:49.62,main,Yukine,0,0,0,,Valla ben bu erkeksi görünüşü beğendim, maşallahın var.
 Dialogue: 0,0:05:50.03,0:05:52.06,main,Ludie,0,0,0,,Gerçekten inanılmazsınız.
 Dialogue: 0,0:05:52.06,0:05:55.62,main,Ludie,0,0,0,,Benim moralim o kadar bozuk ki\Nşaka yapacak halim bile kalmadı.
-Dialogue: 0,0:05:59.21,0:06:01.00,sign_8613_79_1st_Stage,SIGN,0,0,0,,{\fs20\3c&H000000&\pos(319,293.444)}1. Aşama.
 Dialogue: 0,0:05:59.47,0:06:00.70,main - top,Yukine,0,0,0,,Bu resim de neyin nesi?
 Dialogue: 0,0:06:01.00,0:06:01.97,main,Nanami,0,0,0,,Şöyle yazıyor:
 Dialogue: 0,0:06:01.97,0:06:03.85,main,Nanami,0,0,0,,"Takım üyelerinden biri diğerinin\Nüzerine uzanmalı,
@@ -141,7 +128,6 @@ Dialogue: 0,0:07:38.33,0:07:39.93,main,Ludie,0,0,0,,Ama bu vıcık vıcık kayı
 Dialogue: 0,0:07:40.28,0:07:42.02,main,Yukine,0,0,0,,Güçlendirme büyüsü kullanıp asılalım!
 Dialogue: 0,0:07:54.41,0:07:56.48,main,Kousuke,0,0,0,,Nanami!
 Dialogue: 0,0:07:57.28,0:08:01.11,main,Kousuke,0,0,0,,Oyunun ana karakteri burayı nasıl geçmişti ki?!
-Dialogue: 0,0:08:07.00,0:08:10.23,sign_11677_115_2nd_Stage,SIGN,0,0,0,,2. Aşama.
 Dialogue: 0,0:08:08.66,0:08:10.23,main - top,Kousuke,0,0,0,,Bu da nesi?
 Dialogue: 0,0:08:12.70,0:08:14.49,main,Kousuke,0,0,0,,Demek şuraya tırmanmamız gerekiyor.
 Dialogue: 0,0:08:14.92,0:08:17.93,main,Kousuke,0,0,0,,Hah, peştemalimi uzatıp—
@@ -174,7 +160,6 @@ Dialogue: 0,0:09:55.17,0:09:57.07,main,Yukine,0,0,0,,Pes etme, Ludie!
 Dialogue: 0,0:09:58.90,0:09:59.86,main,Kousuke,0,0,0,,Ludie?!
 Dialogue: 0,0:10:04.74,0:10:07.29,main,Ludie,0,0,0,,Gerisi size emanet.
 Dialogue: 0,0:10:18.92,0:10:21.34,main,Yukine,0,0,0,,Yemin ederim ki başaracağız.
-Dialogue: 0,0:10:25.68,0:10:29.52,sign_15002_148_3rd_Stage,SIGN,0,0,0,,{\pos(323.444,292.556)}3. Aşama.
 Dialogue: 0,0:10:30.56,0:10:32.85,main,Yukine,0,0,0,,Demek sadece köprüyü geçmemiz gerekiyor?
 Dialogue: 0,0:10:33.11,0:10:34.53,main,Kousuke,0,0,0,,Okuduğum kaynaklar doğruysa,
 Dialogue: 0,0:10:34.53,0:10:36.09,main,Kousuke,0,0,0,,Burada bir avcının ortaya çıkması gerekiyor.
@@ -224,7 +209,6 @@ Dialogue: 0,0:14:09.99,0:14:13.78,main,CarpLord,0,0,0,,Her yeri muhteşem bir ş
 Dialogue: 0,0:14:13.78,0:14:19.29,main,CarpLord,0,0,0,,Ödülü hak ettiniz!
 Dialogue: 0,0:14:19.96,0:14:21.74,main,Kousuke,0,0,0,,Bu şey yoksa.
 Dialogue: 0,0:14:23.44,0:14:25.48,main,Nanami,0,0,0,,Evet, kayganlaştırıcı.
-Dialogue: 0,0:14:26.01,0:14:28.22,sign_20764_198__Super_sale___Sp,SIGN,0,0,0,,{\fs12\move(505.556,285,478,255.667,21,2190)}<Süper İndirim> Özel İksir.
 Dialogue: 0,0:14:34.14,0:14:35.39,main,Kousuke,0,0,0,,Selam, Iori.
 Dialogue: 0,0:14:35.89,0:14:37.10,main,Iori,0,0,0,,Kousuke-kun.
 Dialogue: 0,0:14:37.52,0:14:40.10,main,Kousuke,0,0,0,,Her zaman bu kadar çok mu yersin sen?
@@ -347,7 +331,6 @@ Dialogue: 0,0:20:50.10,0:20:53.18,main - italics,Kousuke(M),0,0,0,,Kafam, hayat�
 Dialogue: 0,0:20:53.18,0:20:56.10,main - italics,Kousuke(M),0,0,0,,Hem de şu koca dağ zirvelerine sıkıştırılmış bir halde!
 Dialogue: 0,0:20:56.10,0:20:57.11,main - italics,Kousuke(M),0,0,0,,Ne yapacağım ben şimdi?
 Dialogue: 0,0:20:57.11,0:20:58.94,main - italics,Kousuke(M),0,0,0,,Ne yapmam gerekiyor benim ya?!
-Dialogue: 0,0:20:58.94,0:21:02.13,sign_4125_47_Stormy_Skies__Ca,SIGN,0,0,0,,{\fad(318,1)\3c&HC61B80&\c&HFFE0FA&\pos(325.333,28.667)}{\blur3}Şeytan.
 Dialogue: 0,0:20:59.73,0:21:01.03,main,DevilA,0,0,0,,Kimin umurunda eroge?!
 Dialogue: 0,0:21:01.03,0:21:02.53,main,DevilB,0,0,0,,Burası cennetin ta kendisi!
 Dialogue: 0,0:21:02.53,0:21:04.45,main,DevilC,0,0,0,,Aynen öyle, cennet cennet!
