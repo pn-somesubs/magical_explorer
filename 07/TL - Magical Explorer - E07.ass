@@ -1,0 +1,447 @@
+[Script Info]
+Title: pn-SomeSubs - Magical Explorer
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 640
+PlayResY: 360
+YCbCr Matrix: TV.709
+LayoutResX: 640
+LayoutResY: 360
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,2,20,20,23,1
+Style: main,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,2,20,20,23,0
+Style: main - top,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,8,20,20,23,0
+Style: main - italics,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,1.3,0,2,20,20,23,0
+Style: main - italics top,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,1.3,0,8,20,20,23,0
+Style: main - flashback,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,2,20,20,23,0
+Style: main - flashback - top,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,1.3,0,8,20,20,23,0
+Style: sign_8204_57_Night_Sky_Cave,Trebuchet MS,23,&H00FFFFFF,&H000000FF,&H00131319,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,234,234,52,0
+Style: sign_33231_357_Tsukuyomi_Magic_,Trebuchet MS,10,&H4E7D4B4D,&H000000FF,&H00131319,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,182,322,279,0
+Style: sign_33231_358_Registration_of_,Times New Roman,16,&H00000000,&H000000FF,&H00131319,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,218,218,52,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,main,,0,0,0,,{\fnSweetest Cat Ever\fs17\an7\b0\fad(400,400)\bord2\blur5\shad0\4c&H000000&\4a&HFF&\pos(6,-5.67)}\N{\pos(20,1)}{\c&HFFFF00&}{\4c&H8485E4&}SomeSub ekip arkadaşı arıyor!\N{\pos(60,63)}{\c&HFFFFFF&}Çevirmen:{\c&HFFFF00&} Velnoxy\N{\pos(60,111)}{\c&HFFFFFF&}Encode:{\c&HFFFF00&} Velnoxy\N{\pos(60,111)}{\c&HFFFFFF&}Redaktör:{\c&HFFFF00&} Velnoxy\N{\c&HFFFFFF&}Discord:{\c&HFFFF00&} discord.gg/somesub \N
+Dialogue: 0,0:00:00.84,0:00:03.58,main,Kousuke,0,0,0,,Büyü taşlarını aldım,
+Dialogue: 0,0:00:03.58,0:00:05.35,main,Kousuke,0,0,0,,iksirlerim de tamam.
+Dialogue: 0,0:00:05.35,0:00:07.39,main,Kousuke,0,0,0,,Unuttuğum bir şey kaldı mı acaba?
+Dialogue: 0,0:00:07.39,0:00:11.25,main,Nanami,0,0,0,,Efendim, sıkı çalışmanın karşılığı olan\Ntatlı ödülünüzü unuttunuz.
+Dialogue: 0,0:00:11.25,0:00:13.19,main,Kousuke,0,0,0,,O zaman bir maça kek alayım, bir de,
+Dialogue: 0,0:00:13.19,0:00:15.63,main,Kousuke,0,0,0,,dur ya, öğle molasındaki \Nofis kızları değiliz ki biz.
+Dialogue: 0,0:00:16.21,0:00:19.22,main,Kousuke,0,0,0,,Ha doğru ya, sana daha\Nmaaşını vermemiştim.
+Dialogue: 0,0:00:19.22,0:00:20.18,main,Nanani,0,0,0,,Ne?
+Dialogue: 0,0:00:20.43,0:00:22.28,main,Kousuke,0,0,0,,Niye bu kadar şaşırdın ki?
+Dialogue: 0,0:00:22.28,0:00:25.18,main,Nanami,0,0,0,,Şey, maaş alacağımı hiç düşünmemiştim de.
+Dialogue: 0,0:00:25.89,0:00:28.64,main - italics,Kousuke(M),0,0,0,,Gerçi doğru söylüyor, MagiEx'te daha önce,
+Dialogue: 0,0:00:28.64,0:00:31.27,main - italics,Kousuke(M),0,0,0,,Nanami'ye maaş verilen tek bir sahne bile yoktu.
+Dialogue: 0,0:00:32.29,0:00:36.04,main,Kousuke,0,0,0,,Ama sana ben maaş verirsem,\Nburada çalışmana gerek kalmaz, değil mi?
+Dialogue: 0,0:00:36.04,0:00:40.74,main,Nanami,0,0,0,,Doğru, ama bu dükkanda çalışarak\Nyasal olarak yanınızda kalabiliyorum.
+Dialogue: 0,0:00:40.74,0:00:43.60,main,Nanami,0,0,0,,Üstelik meleklerin paraya ihtiyacı da yoktur.
+Dialogue: 0,0:00:43.60,0:00:46.70,main,Kousuke,0,0,0,,Yok yok, olmaz öyle şey, izin günlerinde\Nharcarsın işte.
+Dialogue: 0,0:00:46.96,0:00:48.43,main,Nanami,0,0,0,,İzin günüm mü var?
+Dialogue: 0,0:00:48.43,0:00:50.83,main,Kousuke,0,0,0,,Olmayacağını mı sanıyordun?
+Dialogue: 0,0:00:51.37,0:00:55.29,main - italics,Kousuke(M),0,0,0,,Ben sırf izin günlerimde eroge\Noynayabileyim diye çalışıyordum resmen!
+Dialogue: 0,0:00:55.67,0:00:58.63,main,Kousuke,0,0,0,,Peki sen tam olarak ne için yaşıyorsun o zaman?
+Dialogue: 0,0:00:58.63,0:01:01.25,main,Nanami,0,0,0,,Enerji alabildiğim sürece izne ihtiyacım yok,
+Dialogue: 0,0:01:01.25,0:01:04.18,main,Nanami,0,0,0,,ister sizin mananızdan olsun ister yemeklerden.
+Dialogue: 0,0:01:04.59,0:01:08.08,main,Kousuke,0,0,0,,Neyse, çalışma şartlarını sonra\Noturup adamakıllı düşüneyim.
+Dialogue: 0,0:01:08.08,0:01:09.02,main,Benito,0,0,0,,Of, şuna bak.
+Dialogue: 0,0:01:09.02,0:01:10.89,main,Benito,0,0,0,,Göz zevkimizi bozan biri daha türemiş.
+Dialogue: 0,0:01:11.14,0:01:13.57,main,Benito,0,0,0,,Artık okulu bıraksan olmuyor mu?
+Dialogue: 0,0:01:16.24,0:01:17.68,main,Kousuke,0,0,0,,Bir şey mi yaptık?
+Dialogue: 0,0:01:17.68,0:01:20.44,main,Benito,0,0,0,,Bir şey mi? Tabii ki yaptın.
+Dialogue: 0,0:01:20.44,0:01:22.32,main,Benito,0,0,0,,Gelen raporları doğrulamaya gelmiştim,
+Dialogue: 0,0:01:22.32,0:01:25.16,main,Benito,0,0,0,,Ama söylesene, sen buraya hizmetçinle\Ncilveleşmeye mi geldin?
+Dialogue: 0,0:01:25.16,0:01:28.20,main,Benito,0,0,0,,Bütün derdin buysa,\Nbunu evinde yapsana?
+Dialogue: 0,0:01:28.63,0:01:32.86,main,Benito,0,0,0,,Hizmetçi tutabildiğine göre,\Nbiraz paran vardır herhalde, değil mi?
+Dialogue: 0,0:01:40.59,0:01:41.62,main,Nanami,0,0,0,,Efendim.
+Dialogue: 0,0:01:41.62,0:01:44.13,main,Kousuke,0,0,0,,Sorun yok. Arkamda dur.
+Dialogue: 0,0:01:45.90,0:01:49.35,main,Benito,0,0,0,,Belli ki sen burayı\Noyun parkı falan sanmışsın.
+Dialogue: 0,0:01:49.35,0:01:51.98,main,Benito,0,0,0,,Burada böyle boş boş aylaklık edeceğine,
+Dialogue: 0,0:01:52.28,0:01:54.52,main,Benito,0,0,0,,Gidip biraz antrenman yapsan senin hayrına olur.
+Dialogue: 0,0:01:54.88,0:01:57.11,main,Benito,0,0,0,,Yeteneksizliğine bakılırsa buna kesinlikle ihtiyacın var!
+Dialogue: 0,0:02:01.97,0:02:04.31,main,Kousuke,0,0,0,,Vay be, ben de üç kurul'dan birinin liderinin,
+Dialogue: 0,0:02:04.31,0:02:06.32,main,Kousuke,0,0,0,,gözü keskindir diye düşünürdüm.
+Dialogue: 0,0:02:07.10,0:02:09.49,main,Kousuke,0,0,0,,Hey, Benito Evangelista.
+Dialogue: 0,0:02:09.49,0:02:12.00,main,Kousuke,0,0,0,,Senin o gözlerin süs diye mi duruyor?
+Dialogue: 0,0:02:12.00,0:02:12.79,main,Benito,0,0,0,,Öyle mi?
+Dialogue: 0,0:02:13.11,0:02:15.30,main,Kousuke,0,0,0,,Çok uzun süre böyle gülemeyeceksin.
+Dialogue: 0,0:02:15.30,0:02:18.29,main,Kousuke,0,0,0,,Hem Nanami hem de ben\Nçok geçmeden seni geride bırakacağız.
+Dialogue: 0,0:02:18.29,0:02:21.21,main,Benito,0,0,0,,Bak sen, kulağa ne kadar da ilginç geliyor.
+Dialogue: 0,0:02:21.21,0:02:24.30,main,Benito,0,0,0,,Umarım bütün bunlar kuru laftan\Nibaret değildir.
+Dialogue: 0,0:02:28.20,0:02:29.90,main,Nanami,0,0,0,,Böyle bırakmamız doğru oldu mu?
+Dialogue: 0,0:02:29.90,0:02:30.56,main,Kousuke,0,0,0,,Evet.
+Dialogue: 0,0:02:31.16,0:02:33.30,main,Kousuke,0,0,0,,Şu anki halimizle Benito'yu,
+Dialogue: 0,0:02:33.30,0:02:36.81,main,Kousuke,0,0,0,,Yani Tören Kurulu Bakanı'nı\Nyenmemiz zor olur.
+Dialogue: 0,0:02:37.76,0:02:40.52,main,Kousuke,0,0,0,,Ama en güçlü olacağım kesin olduğuna göre,
+Dialogue: 0,0:02:40.83,0:02:43.24,main,Kousuke,0,0,0,,Birlikte güçlenelim, Nanami!
+Dialogue: 0,0:02:44.17,0:02:46.55,main,Nanami,0,0,0,,Birlikte... güçlenelim!
+Dialogue: 0,0:04:17.17,0:04:19.99,sign_8204_57_Night_Sky_Cave,sign,0,0,0,,{\fad(881,1)\pos(321,311)}Gece Göğü Mağarası.
+Dialogue: 0,0:04:19.99,0:04:25.24,main - italics,Kousuke(M),0,0,0,,Nanami'yle birlikte Gece Göğü Mağarası'nı\Nkeşfediyoruz,
+Dialogue: 0,0:04:25.24,0:04:27.25,main - italics,Kousuke(M),0,0,0,,belirli mağazadan sipariş verenlere özel bonus zindan burası.
+Dialogue: 0,0:04:31.49,0:04:34.83,main - italics,Kousuke(M),0,0,0,,Burası akademi dışında yer alan\Nseviyesiz bir zindan sayılıyor,
+Dialogue: 0,0:04:34.83,0:04:38.79,main - italics,Kousuke(M),0,0,0,,ve menzilli saldırıları yeni öğrenen\N Nanami için biçilmiş kaftan.
+Dialogue: 0,0:04:39.13,0:04:40.91,main,Kousuke,0,0,0,,Nanami, yay nasıl hissettiriyor?
+Dialogue: 0,0:04:41.73,0:04:43.76,main,Nanami,0,0,0,,Şimdiden vücudumun bir uzantısı\Ngibi oldu bile.
+Dialogue: 0,0:04:44.19,0:04:45.84,main,Nanami,0,0,0,,Tabii benim seviyeme gelince,
+Dialogue: 0,0:04:45.84,0:04:49.01,main,Nanami,0,0,0,,her silahın ustası olmak çocuk oyuncağı.
+Dialogue: 0,0:04:49.39,0:04:51.02,main,Kousuke,0,0,0,,Kulağa umut verici geliyor.
+Dialogue: 0,0:04:51.85,0:04:53.89,main - italics,Kousuke(M),0,0,0,,Buradaki asıl hedefim ise,
+Dialogue: 0,0:04:53.89,0:04:57.48,main - italics,Kousuke(M),0,0,0,,bölüm sonu canavarını yenerek\Nhırsız yeteneklerini elde etmek.
+Dialogue: 0,0:04:57.75,0:05:01.32,main - italics,Kousuke(M),0,0,0,,Normal tuzaklardan kolayca kaçınmayı\Nsağladıkları için bayağı işe yarıyorlar.
+Dialogue: 0,0:05:01.68,0:05:05.86,main - italics,Kousuke(M),0,0,0,,Gerçi yeteneği son seviyeye çıkarsan bile\Nseksi tuzaklardan kaçış yok ama.
+Dialogue: 0,0:05:09.97,0:05:11.92,main,Nanami,0,0,0,,Böyle yapmamız sorun olmaz mı?
+Dialogue: 0,0:05:11.92,0:05:14.33,main,Nanami,0,0,0,,Bundan Ludie ve diğerlerine de\Nbahsetmeniz gerekmez miydi?
+Dialogue: 0,0:05:14.33,0:05:16.20,main,Kousuke,0,0,0,,Burası kampüs dışında kalıyor.
+Dialogue: 0,0:05:16.20,0:05:18.96,main,Kousuke,0,0,0,,Dersler olmasaydı onları da\Nçağırırdım zaten.
+Dialogue: 0,0:05:19.73,0:05:21.66,main,Nanami,0,0,0,,Uzun ve çetin bir mücadele oldu.
+Dialogue: 0,0:05:21.66,0:05:22.97,main,Kousuke,0,0,0,,Hadi oradan.
+Dialogue: 0,0:05:23.24,0:05:26.55,main,Kousuke,0,0,0,,Ama şaka bir yana, buraya kadar\Nher şey tıkırında gitti.
+Dialogue: 0,0:05:31.31,0:05:32.36,main - italics,Kousuke(M),0,0,0,,Bu işte bir tuhaflık var.
+Dialogue: 0,0:05:32.36,0:05:35.10,main - italics,Kousuke(M),0,0,0,,Benim bildiğim MagiEx'te\Nböyle bir kapı yoktu!
+Dialogue: 0,0:05:35.10,0:05:36.73,main,Nanami,0,0,0,,Burası bölüm sonu canavarının odası mı?
+Dialogue: 0,0:05:36.73,0:05:39.06,main,Kousuke,0,0,0,,Hayır, burası,
+Dialogue: 0,0:05:39.47,0:05:41.16,main,Kousuke,0,0,0,,Ekstra bir kat!
+Dialogue: 0,0:05:43.19,0:05:46.17,main - italics,Kousuke(M),0,0,0,,İşte klasik Magical Explorer.
+Dialogue: 0,0:05:46.17,0:05:49.91,main - italics,Kousuke(M),0,0,0,,Başka hiçbir erogenin cesaret edemeyeceği\Nabsürt senaryoların içine atıveriyor insanı.
+Dialogue: 0,0:05:52.39,0:05:54.83,main,Nanami,0,0,0,,Efendim, burada bir hazine sandığı var.
+Dialogue: 0,0:05:56.31,0:05:57.08,main,Nanami,0,0,0,,Bu da ne?
+Dialogue: 0,0:05:57.78,0:05:59.79,main,Kousuke,0,0,0,,Sandıktan niye kırbaç çıktı ki?
+Dialogue: 0,0:06:01.64,0:06:06.31,main,Nanami,0,0,0,,Efendim, sizin ırkınız insan,\NLudie-sama ise bir elf.
+Dialogue: 0,0:06:06.31,0:06:08.43,main,Nanami,0,0,0,,Peki benim ırkımın ne olduğunu biliyor musunuz?
+Dialogue: 0,0:06:08.71,0:06:10.53,main,Kousuke,0,0,0,,M-Melek olabilir mi?
+Dialogue: 0,0:06:10.53,0:06:12.41,main,Nanami,0,0,0,,Kesinlikle doğru, efendim.
+Dialogue: 0,0:06:13.03,0:06:14.63,main,Nanami,0,0,0,,Peki o halde bu nedir?
+Dialogue: 0,0:06:15.27,0:06:20.05,main,Kousuke,0,0,0,,K-Kışkırtıcı bir şeytan\Nkostümüne benziyor sanki?
+Dialogue: 0,0:06:20.44,0:06:22.44,main,Nanami,0,0,0,,Yine kesinlikle doğru.
+Dialogue: 0,0:06:22.44,0:06:23.98,main,Nanami,0,0,0,,Tebrik ederim, efendim.
+Dialogue: 0,0:06:23.98,0:06:27.52,main,Nanami,0,0,0,,Üstelik burada yazanlar doğruysa,
+Dialogue: 0,0:06:27.52,0:06:29.75,main,Nanami,0,0,0,,bu kostümü benim giymem gerekiyormuş.
+Dialogue: 0,0:06:29.75,0:06:32.41,main,Kousuke,0,0,0,,Melek olduğun için sıkıntı mı oluyor?
+Dialogue: 0,0:06:32.41,0:06:36.16,main,Nanami,0,0,0,,Hayır, alt tarafı bir kıyafet giymekte\Nhiçbir sorun yok.
+Dialogue: 0,0:06:36.56,0:06:39.85,main,Nanami,0,0,0,,Ancak bunu giyersem düşmüş bir\Nmelek gibi görüneceğim.
+Dialogue: 0,0:06:39.85,0:06:41.15,main,Nanami,0,0,0,,Anlıyor musun?
+Dialogue: 0,0:06:41.58,0:06:43.00,main,Nanami,0,0,0,,Bu ne biçim iş böyle?
+Dialogue: 0,0:06:43.00,0:06:44.92,main,Nanami,0,0,0,,Lütfen bana yalan olduğunu söyleyin!
+Dialogue: 0,0:06:45.33,0:06:48.26,main,Kousuke,0,0,0,,Maalesef doğru gibi görünüyor.
+Dialogue: 0,0:06:48.26,0:06:50.93,main,Kousuke,0,0,0,,Başka ne yazıyor peki?
+Dialogue: 0,0:06:51.48,0:06:54.93,main,Nanami,0,0,0,,"Seksi şeytan kostümlerini giyin ve\Nkırbaçlarla hedeflere vurun!
+Dialogue: 0,0:06:55.45,0:06:56.54,main,Nanami,0,0,0,,Gösterge dolunca,
+Dialogue: 0,0:06:56.54,0:06:58.89,main,Nanami,0,0,0,,Işınlanma büyü çemberine\Nmana aktarılacaktır!"
+Dialogue: 0,0:06:59.65,0:07:00.87,main,Nanami,0,0,0,,Yazıyor.
+Dialogue: 0,0:07:00.87,0:07:01.88,main,Kousuke,0,0,0,,Anladım.
+Dialogue: 0,0:07:02.59,0:07:05.69,main - italics,Kousuke(M),0,0,0,,Dönüş mührü taşı da \Nişe yaramayacak tabii ki.
+Dialogue: 0,0:07:05.69,0:07:09.44,main - italics,Kousuke(M),0,0,0,,MagiEx'te hâlâ bilmediğim zindanlar\Nolduğuna inanamıyorum.
+Dialogue: 0,0:07:10.23,0:07:11.60,main,Nanami,0,0,0,,Aman Tanrım!
+Dialogue: 0,0:07:11.60,0:07:14.20,main,Nanami,0,0,0,,Sandığın dibinde bir de\Nerkek kostümü varmış!
+Dialogue: 0,0:07:14.20,0:07:17.75,main - italics,Kousuke(M),0,0,0,,Dur bir dakika, bunlar kafayı iyice sıyırmış!
+Dialogue: 0,0:07:18.03,0:07:19.81,main - italics,Kousuke(M),0,0,0,,Yani mantıklı düşünsenize ya!
+Dialogue: 0,0:07:19.81,0:07:23.15,main - italics,Kousuke(M),0,0,0,,Eroge oyuncularının büyük çoğunluğu\Ngüzel kızlar görmek ister!
+Dialogue: 0,0:07:23.15,0:07:26.34,main - italics,Kousuke(M),0,0,0,,Geliştiricilerin de tüm enerjisini\Nbuna harcaması gerekir!
+Dialogue: 0,0:07:26.59,0:07:28.68,main - italics,Kousuke(M),0,0,0,,Ama neresinden bakarsan bak,
+Dialogue: 0,0:07:28.68,0:07:32.93,main - italics,Kousuke(M),0,0,0,,hiç kimse kostüm giymiş bir\N erkek görmek istemez ki!
+Dialogue: 0,0:07:33.17,0:07:36.77,main,Nanami,0,0,0,,Ah olamaz, bu uğurda tek başıma\Nkendimi feda edebileceğimi sanmıştım.
+Dialogue: 0,0:07:36.77,0:07:38.28,main,Nanami,0,0,0,,Gerçekten talihsiz bir durum.
+Dialogue: 0,0:07:38.28,0:07:40.88,main,Nanami,0,0,0,,Görünüşe göre sizin de\Nbunu giymeniz gerekecek.
+Dialogue: 0,0:07:40.88,0:07:43.69,main,Kousuke,0,0,0,,Ağır ol bakalım, bunu giydikten sonra\Nne yapmam gerekiyor ki benim?!
+Dialogue: 0,0:07:45.44,0:07:48.11,main - italics,Kousuke(M),0,0,0,,Kahretsin, buldum!
+Dialogue: 0,0:07:49.26,0:07:51.49,main - italics,Kousuke(M),0,0,0,,Şimdi hatırladım, geliştirici bir keresinde,
+Dialogue: 0,0:07:51.49,0:07:53.74,main - italics,Kousuke(M),0,0,0,,oyuncuların hiç istemediği\N bir zindandan bahsetmişti.
+Dialogue: 0,0:07:54.11,0:07:56.20,main - italics,Kousuke(M),0,0,0,,Yoksa o zindan burası mıydı?!
+Dialogue: 0,0:07:56.84,0:07:58.25,main - italics,Kousuke(M),0,0,0,,İptal edilmesi şaşırtıcı değil.
+Dialogue: 0,0:07:58.51,0:08:01.33,main - italics,Kousuke(M),0,0,0,,Yönetmen ben olsaydım bunu anında\Noyundan söküp atardım!
+Dialogue: 0,0:08:01.33,0:08:04.00,main - italics,Kousuke(M),0,0,0,,Dünyada kim böyle bir şeyi\Ngörmek ister ki zaten?!
+Dialogue: 0,0:08:04.00,0:08:07.22,main - italics,Kousuke(M),0,0,0,,Acaba bunu sadece Nanami'ye mi yaptırsam?
+Dialogue: 0,0:08:07.22,0:08:09.13,main - italics,Kousuke(M),0,0,0,,Hayır, bunu yapamam.
+Dialogue: 0,0:08:09.13,0:08:11.01,main - italics,Kousuke(M),0,0,0,,Benim de elimden geliyorken,
+Dialogue: 0,0:08:11.01,0:08:12.88,main - italics,Kousuke(M),0,0,0,,sıkıntıyı tek başına onun \Nçekmesine göz yumamam.
+Dialogue: 0,0:08:12.88,0:08:15.85,main,Kousuke,0,0,0,,Lanet olsun!
+Dialogue: 0,0:08:21.68,0:08:22.73,main,Nanami,0,0,0,,Nanami,
+Dialogue: 0,0:08:23.25,0:08:25.98,main,Nanami,0,0,0,,karanlığa düştü.
+Dialogue: 0,0:08:26.61,0:08:28.33,main,Nanami,0,0,0,,Düşmüş Melek Nanami,
+Dialogue: 0,0:08:29.66,0:08:31.27,main,Nanami,0,0,0,,karşınızda!
+Dialogue: 0,0:08:32.43,0:08:34.02,main,Kousuke,0,0,0,,Bayağı bir havaya girdin bakıyorum.
+Dialogue: 0,0:08:34.02,0:08:36.55,main,Kousuke,0,0,0,,O havalı poz da neyin nesi öyle?
+Dialogue: 0,0:08:37.91,0:08:42.00,main,Nanami,0,0,0,,Bana yakışması gayet doğal tabii,\Nama size de çok yakışmış efendim.
+Dialogue: 0,0:08:42.40,0:08:43.58,main,Kousuke,0,0,0,,Teşekkür ederim.
+Dialogue: 0,0:08:43.58,0:08:46.31,main,Kousuke,0,0,0,,Hadi bir an önce defolup gidelim şuradan.
+Dialogue: 0,0:08:46.31,0:08:47.29,main,Nanami,0,0,0,,Katılıyorum.
+Dialogue: 0,0:08:47.29,0:08:48.68,main,Nanami,0,0,0,,Başlayalım o halde.
+Dialogue: 0,0:08:49.63,0:08:52.22,main - italics top,Voice,0,0,0,,Zamanlamayı iyi ayarlayın ve dairenin\Niçine girdiğinde şaplağı indirin.
+Dialogue: 0,0:08:51.59,0:08:53.41,main,Kousuke,0,0,0,,Tıpkı ritim oyunu gibiymiş.
+Dialogue: 0,0:08:52.22,0:08:54.69,main - italics top,Voice,0,0,0,,Şarkı bitene kadar göstergeyi\Ndoldurmayı başarırsanız,
+Dialogue: 0,0:08:53.41,0:08:58.22,main,Nanami,0,0,0,,görünüşe göre kırbaç ile simge üst üste\Ngeldiğinde vurursak daha çok mana kazanıyoruz.
+Dialogue: 0,0:08:54.69,0:08:56.65,main - italics top,Voice,0,0,0,,Aşamayı geçmiş olacaksınız.
+Dialogue: 0,0:08:56.65,0:08:58.76,main - italics top,Voice,0,0,0,,Hata yaparsanız cezalandırılacaksınız.
+Dialogue: 0,0:08:58.76,0:09:02.10,main,Nanami,0,0,0,,Zamanlamayı çok kaçırırsak da\Naksine mana kaybediyormuşuz.
+Dialogue: 0,0:09:03.10,0:09:06.07,main,Nanami,0,0,0,,Şey, tek bir hata bile yaparsak,
+Dialogue: 0,0:09:06.60,0:09:09.73,main,Nanami,0,0,0,,bizi azdıracak pembe bir\Nkayganlaştırıcı püskürtülecekmiş.
+Dialogue: 0,0:09:10.55,0:09:11.86,main,Kousuke,0,0,0,,Ciddi misin?!
+Dialogue: 0,0:09:11.86,0:09:13.17,main,Kousuke,0,0,0,,Yine mi ya?
+Dialogue: 0,0:09:13.17,0:09:16.00,main,Kousuke,0,0,0,,Rengini pembe yapınca bir şey\Ndeğişti mi sanıyor bunlar?!
+Dialogue: 0,0:09:16.35,0:09:19.56,main,Nanami,0,0,0,,Ama bu seferkinin cilt bakımına\Nyararlı etkileri varmış,
+Dialogue: 0,0:09:19.56,0:09:22.29,main,Nanami,0,0,0,,Cilde parlaklık vermesi, nemlendirmesi\Nve hatta beyazlatması gibi.
+Dialogue: 0,0:09:22.29,0:09:25.58,main,Kousuke,0,0,0,,Sırf insanı azdırıyor olması bile\Nona olan tüm güvenimi sıfırlıyor!
+Dialogue: 0,0:09:25.85,0:09:28.67,main,Nanami,0,0,0,,Efendim, süre sınırı olabilir.
+Dialogue: 0,0:09:28.67,0:09:30.08,main,Nanami,0,0,0,,Bence artık başlamalıyız.
+Dialogue: 0,0:09:30.08,0:09:31.41,main,Kousuke,0,0,0,,Haklısın.
+Dialogue: 0,0:09:31.41,0:09:32.05,main,Kousuke,0,0,0,,Hadi başlayalım!
+Dialogue: 0,0:09:37.18,0:09:40.01,main,Kousuke,0,0,0,,İyi de niye benim elimde kırbaç\Nyerine halı döveceği var ya?!
+Dialogue: 0,0:09:40.01,0:09:42.45,main,Nanami,0,0,0,,Bence uzun bir kırbaçtan\Ndaha kullanışlı ama.
+Dialogue: 0,0:09:43.02,0:09:44.01,main,Kousuke,0,0,0,,Şimdi de kırıldı!
+Dialogue: 0,0:09:44.01,0:09:45.27,main,Nanami,0,0,0,,Yeni simgeler yaklaşıyor!
+Dialogue: 0,0:09:50.98,0:09:53.40,main,Nanami,0,0,0,,Mükemmel şaplaklıyorsunuz, efendim.
+Dialogue: 0,0:09:53.40,0:09:55.48,main,Nanami,0,0,0,,Yoksa bu işlere alışkın olduğunuzun işareti mi bu?
+Dialogue: 0,0:09:55.48,0:09:57.03,main,Kousuke,0,0,0,,Kimseyi şaplaklamadığımı biliyorsun, değil mi?!
+Dialogue: 0,0:09:57.03,0:09:58.21,main,Nanami,0,0,0,,Demek şaplaklanan sizsiniz.
+Dialogue: 0,0:09:58.21,0:09:59.80,main,Kousuke,0,0,0,,Hayır, o da değilim!
+Dialogue: 0,0:09:59.80,0:10:02.04,main,Kousuke,0,0,0,,Kafanda benim için nasıl bir\N imaj kurdun Allah aşkına?!
+Dialogue: 0,0:10:12.28,0:10:14.55,main,Voice,0,0,0,,Gösterge neredeyse doldu.
+Dialogue: 0,0:10:14.94,0:10:15.76,main,Kousuke,0,0,0,,Süper!
+Dialogue: 0,0:10:15.76,0:10:17.17,main,Kousuke,0,0,0,,Hey, ne oluyor?
+Dialogue: 0,0:10:17.17,0:10:20.01,main,Nanami,0,0,0,,Efendim, görünüşe göre sevinmek için\Nhenüz erken.
+Dialogue: 0,0:10:20.01,0:10:24.31,main,Kousuke,0,0,0,,Dur bir dakika, göstergeyi doldurduysak\Nmüzik niye hâlâ devam ediyor?
+Dialogue: 0,0:10:24.31,0:10:25.60,main,Nanami,0,0,0,,Lütfen kendinizi toparlayın.
+Dialogue: 0,0:10:25.60,0:10:27.81,main,Nanami,0,0,0,,Şurada bir hata yaparsak\Nsırılsıklam oluruz!
+Dialogue: 0,0:10:28.03,0:10:31.06,main,Kousuke,0,0,0,,Kahretsin, demek şarkı bitene kadar\Noyun bitmiyor.
+Dialogue: 0,0:10:31.52,0:10:34.03,main,Kousuke,0,0,0,,Bunu icat eden herif hâlâ hayattaysa eğer,
+Dialogue: 0,0:10:34.03,0:10:36.19,main,Kousuke,0,0,0,,suratına bir yumruk patlatmak istiyorum!
+Dialogue: 0,0:10:43.68,0:10:44.89,main,Kousuke,0,0,0,,Başardık!
+Dialogue: 0,0:10:44.89,0:10:46.61,main,Nanami,0,0,0,,Başardık, efendim!
+Dialogue: 0,0:10:46.61,0:10:50.46,main,Kousuke,0,0,0,,Gördünüz mü? İşte Nanami'yle\Nbenim gücüm bu!
+Dialogue: 0,0:10:53.41,0:10:53.96,main,Both,0,0,0,,Ah.
+Dialogue: 0,0:10:56.67,0:10:58.83,main - italics top,Voice,0,0,0,,Yandınız.
+Dialogue: 0,0:10:58.83,0:10:59.65,main,Nanami,0,0,0,,Olamaz!
+Dialogue: 0,0:11:01.42,0:11:06.10,main - italics,Kousuke(M),0,0,0,,Böyle bir şey olursa ne yapacağımı\Nönceden düşünmüştüm zaten.
+Dialogue: 0,0:11:06.10,0:11:08.04,main - italics,Kousuke(M),0,0,0,,Gerçi üzerinde düşünmeme bile\Ngerek yoktu.
+Dialogue: 0,0:11:08.04,0:11:10.05,main - italics,Kousuke(M),0,0,0,,Yani kendi ilkelerime dayanarak,
+Dialogue: 0,0:11:10.05,0:11:13.52,main - italics,Kousuke(M),0,0,0,,içgüdüsel olarak böyle hareket\Nedeceğimi biliyordum.
+Dialogue: 0,0:11:13.88,0:11:15.69,main,Kousuke,0,0,0,,Teşekkürler, Nanami.
+Dialogue: 0,0:11:16.14,0:11:17.28,main,Kousuke,0,0,0,,Sen geride dur.
+Dialogue: 0,0:11:18.21,0:11:19.45,main,Nanami,0,0,0,,Efendim?!
+Dialogue: 0,0:11:20.13,0:11:23.16,main,Kousuke,0,0,0,,Sadece ben ıslansam yeter.
+Dialogue: 0,0:11:25.77,0:11:26.95,main,Nanami,0,0,0,,Efendim, tepenizde!
+Dialogue: 0,0:11:26.95,0:11:27.75,main,Kousuke,0,0,0,,Ne?!
+Dialogue: 0,0:11:29.49,0:11:32.31,main,Kousuke,0,0,0,,İki tane birden koymaları\Nresmen haksızlık ama.
+Dialogue: 0,0:11:32.31,0:11:34.09,main,Kousuke,0,0,0,,İlla ikimizi de ıslatmaya\Nant içmiş bunlar.
+Dialogue: 0,0:11:44.60,0:11:45.86,main,Kousuke,0,0,0,,Seni aptal!
+Dialogue: 0,0:11:45.86,0:11:48.45,main,Kousuke,0,0,0,,O zaman seni korumamın\Nne anlamı kaldı ki?!
+Dialogue: 0,0:11:49.51,0:11:54.63,main,Nanami,0,0,0,,Sizin acınız... benim de... acımdır.
+Dialogue: 0,0:11:56.31,0:11:57.98,main,Kousuke,0,0,0,,Nanami.
+Dialogue: 0,0:12:11.16,0:12:12.66,main,Kousuke,0,0,0,,İyi misin, Nanami?
+Dialogue: 0,0:12:12.66,0:12:14.29,main,Nanami,0,0,0,,Evet, iyiyim.
+Dialogue: 0,0:12:14.29,0:12:16.42,main,Nanami,0,0,0,,Kayganlaştırıcının etkisi de\Ngeçmiş görünüyor.
+Dialogue: 0,0:12:24.97,0:12:26.34,main,Kousuke,0,0,0,,Bölüm sonu canavarı ha?
+Dialogue: 0,0:12:26.34,0:12:27.85,main,Nanami,0,0,0,,Evet, bölüm sonu canavarı.
+Dialogue: 0,0:12:28.10,0:12:30.68,main,Nanami,0,0,0,,Ah, görünüşe göre o an\Nnihayet geldi,
+Dialogue: 0,0:12:30.68,0:12:33.39,main,Nanami,0,0,0,,gerçek gücümü sergilemem gereken o an.
+Dialogue: 0,0:12:33.39,0:12:34.56,main,Kousuke,0,0,0,,Ne zaman böyle laflar duysam,
+Dialogue: 0,0:12:34.56,0:12:37.61,main,Kousuke,0,0,0,,Madem öyle niye en başından\Nkullanmıyorsun diye düşünmeden edemiyorum.
+Dialogue: 0,0:12:39.07,0:12:40.53,main,Nanami,0,0,0,,Nanami, harekete geçiyor!
+Dialogue: 0,0:12:40.78,0:12:43.11,main,Nanami,0,0,0,,Darbe oku!
+Dialogue: 0,0:12:44.70,0:12:48.37,main,Kousuke,0,0,0,,Vay canına, burada bana gerek bile\Nkalmayacak galiba.
+Dialogue: 0,0:12:48.37,0:12:49.66,main,Nanami,0,0,0,,Neler söylüyorsunuz öyle?
+Dialogue: 0,0:12:49.66,0:12:50.74,main,Nanami,0,0,0,,Elbette size gerek var.
+Dialogue: 0,0:12:50.74,0:12:52.33,main,Nanami,0,0,0,,"Hah, bütün gücün bu kadar mı?
+Dialogue: 0,0:12:52.33,0:12:54.46,main,Nanami,0,0,0,,Elimi kirletmeme bile değmezsin."
+Dialogue: 0,0:12:54.96,0:12:56.42,main,Nanami,0,0,0,,Diye kahkaha atmanız gerekiyor.
+Dialogue: 0,0:12:56.42,0:12:59.21,main,Kousuke,0,0,0,,Bu tam da sonradan yenilecek\Nkötü adam repliği oldu ama.
+Dialogue: 0,0:13:08.35,0:13:09.76,main,Kousuke,0,0,0,,Etkileyiciymiş.
+Dialogue: 0,0:13:09.76,0:13:11.81,main,Nanami,0,0,0,,Alt tarafı korkuluğun boyu büyüdü o kadar.
+Dialogue: 0,0:13:11.81,0:13:15.02,main,Nanami,0,0,0,,Sırf cüssesinin büyümesinin,
+Dialogue: 0,0:13:15.02,0:13:16.44,main,Nanami,0,0,0,,bir işe yaramayacağını anlayacak kapasitesi var mı?
+Dialogue: 0,0:13:17.69,0:13:18.48,main,Kousuke,0,0,0,,Geliyor!
+Dialogue: 0,0:13:21.61,0:13:24.03,main,Kousuke,0,0,0,,Bayağı iyiymiş.
+Dialogue: 0,0:13:25.86,0:13:27.91,main,Kousuke,0,0,0,,Tehlikeyi sezme yeteneği de\Nbirinci sınıf üstelik.
+Dialogue: 0,0:13:28.74,0:13:31.03,main - italics,Kousuke(M),0,0,0,,Sanırım zayıf noktası şurası.
+Dialogue: 0,0:13:33.50,0:13:34.79,main,Kousuke,0,0,0,,Buna ne diyeceksin bakalım?!
+Dialogue: 0,0:13:48.51,0:13:50.68,main,Kousuke,0,0,0,,Umarım bu işini bitirmiştir.
+Dialogue: 0,0:14:01.52,0:14:02.40,main,Nanami,0,0,0,,Efendim!
+Dialogue: 0,0:14:05.90,0:14:07.65,main,Nanami,0,0,0,,Bana bırakın, efendim!
+Dialogue: 0,0:14:07.65,0:14:09.78,main,Kousuke,0,0,0,,Nanami! Düşüncesizce atılma!
+Dialogue: 0,0:14:13.70,0:14:15.33,main,Nanami,0,0,0,,Patlayıcı ok!
+Dialogue: 0,0:14:31.26,0:14:35.18,main,Kousuke,0,0,0,,Yapma be dostum, ardı ardına\Nsaldırmak haksızlık ama.
+Dialogue: 0,0:14:35.18,0:14:37.02,main,Nanami,0,0,0,,Efendim, kolunuz!
+Dialogue: 0,0:14:37.81,0:14:41.77,main,Kousuke,0,0,0,,Kendini bizden güçlü sanma\Nfaslın buraya kadarmış!
+Dialogue: 0,0:14:48.95,0:14:50.03,main,Kousuke,0,0,0,,Şimdi, Nanami!
+Dialogue: 0,0:14:50.45,0:14:52.03,main,Nanami,0,0,0,,Patlayıcı ok!
+Dialogue: 0,0:14:58.12,0:14:59.16,main,Kousuke,0,0,0,,Kılıç çekme sanatı,
+Dialogue: 0,0:15:03.71,0:15:04.67,main,Kousuke,0,0,0,,Parıltı.
+Dialogue: 0,0:15:09.76,0:15:13.55,main,Kousuke,0,0,0,,Eh, Nanami'yle beni karşınıza alırsanız\Nsonunuz böyle olur işte.
+Dialogue: 0,0:15:13.55,0:15:15.01,main,Kousuke,0,0,0,,Değil mi, Nanami?
+Dialogue: 0,0:15:16.31,0:15:17.68,main,Kousuke,0,0,0,,Ne oldu, Nanami?
+Dialogue: 0,0:15:20.19,0:15:22.98,main,Kousuke,0,0,0,,Tedbirli olunca sırtın yere\Ngelmiyor işte, değil mi?
+Dialogue: 0,0:15:23.86,0:15:25.98,main,Kousuke,0,0,0,,Bir şeyim yok. Alt tarafı ufak bir sıyrıktı.
+Dialogue: 0,0:15:31.28,0:15:35.53,main,Kousuke,0,0,0,,Kendini iyice suçlamadan\Niçin rahat etmiyor mu senin?
+Dialogue: 0,0:15:35.83,0:15:38.29,main,Nanami,0,0,0,,Tam olarak öyle değil.
+Dialogue: 0,0:15:38.29,0:15:41.12,main,Kousuke,0,0,0,,O zaman neden kendine\Nbu kadar yükleniyorsun?
+Dialogue: 0,0:15:41.87,0:15:44.75,main,Nanami,0,0,0,,Bu soruya gerçekten cevap\Nvermem gerekiyor mu?
+Dialogue: 0,0:15:44.75,0:15:47.88,main,Kousuke,0,0,0,,Hayır, cevap vermek istemiyorsan\Nvermek zorunda değilsin.
+Dialogue: 0,0:15:47.88,0:15:51.34,main,Nanami,0,0,0,,İşte tam da bu yüzden! Bu tavrınız yüzünden!
+Dialogue: 0,0:15:52.13,0:15:53.13,main,Kousuke,0,0,0,,Nanami?
+Dialogue: 0,0:15:53.59,0:15:57.81,main,Nanami,0,0,0,,Zindan Hizmetçisi olan Hizmetçi Şövalyelere\Ntemel bilgiler doğuştan aktarılır.
+Dialogue: 0,0:15:57.81,0:16:00.31,main,Nanami,0,0,0,,O yüzden biliyorum.
+Dialogue: 0,0:16:01.48,0:16:04.27,main,Nanami,0,0,0,,Benim yerimi alabilecek sayısız\Nkullanışlı birim mevcut.
+Dialogue: 0,0:16:04.52,0:16:08.02,main - italics,Kousuke(M),0,0,0,,Sanırım MagiEx'te de buna benzer\Nbir şeyler duyduğumu hatırlıyorum.
+Dialogue: 0,0:16:08.32,0:16:10.24,main,Nanami,0,0,0,,Normal şartlarda size söylemem\Ngereken şeyler vardı,
+Dialogue: 0,0:16:10.24,0:16:12.95,main,Nanami,0,0,0,,ama kendi kişisel sebeplerim yüzünden\Nbunları sizden sakladım.
+Dialogue: 0,0:16:12.95,0:16:14.82,main,Nanami,0,0,0,,Muhtemelen benden soğumuşsunuzdur.
+Dialogue: 0,0:16:15.28,0:16:17.62,main,Nanami,0,0,0,,Yaptığım sayısız hata yüzünden de,
+Dialogue: 0,0:16:17.62,0:16:19.54,main,Nanami,0,0,0,,beni işe yaramaz bir\N hizmetçi sanıyor olabilirsiniz.
+Dialogue: 0,0:16:19.54,0:16:22.58,main,Nanami,0,0,0,,Bu yüzden size faydalı olmak istedim,
+Dialogue: 0,0:16:22.58,0:16:24.42,main,Nanami,0,0,0,,Ama hep arkamı toplamak\N zorunda kalan siz oldunuz.
+Dialogue: 0,0:16:24.42,0:16:26.25,main,Kousuke,0,0,0,,Sen neler söylüyorsun öyle?
+Dialogue: 0,0:16:26.25,0:16:28.46,main,Kousuke,0,0,0,,Senden soğumak mı?
+Dialogue: 0,0:16:28.84,0:16:31.05,main,Kousuke,0,0,0,,Sana karşı bir an bile öyle bir şey\Nhissetmedim ben.
+Dialogue: 0,0:16:31.67,0:16:34.30,main,Kousuke,0,0,0,,Üstelik ben de sürekli hata yapıp duruyorum.
+Dialogue: 0,0:16:35.64,0:16:36.80,main,Nanami,0,0,0,,Efendim.
+Dialogue: 0,0:16:37.05,0:16:39.76,main,Kousuke,0,0,0,,Nanami, beni dinlemeni istiyorum.
+Dialogue: 0,0:16:40.22,0:16:42.52,main,Kousuke,0,0,0,,Bu seninle tanışmamızdan önce yaşandı,
+Dialogue: 0,0:16:42.52,0:16:45.81,main,Kousuke,0,0,0,,ama Ludie'nin ölebileceği kadar\Nkötü bir durumun içine düşmüştük.
+Dialogue: 0,0:16:45.81,0:16:47.15,main,Nanami,0,0,0,,Gerçekten mi?
+Dialogue: 0,0:16:47.15,0:16:48.57,main,Kousuke,0,0,0,,Evet, gerçekten.
+Dialogue: 0,0:16:48.90,0:16:50.90,main,Kousuke,0,0,0,,Yukine-senpai'yi de zorla peşimden sürükledim,
+Dialogue: 0,0:16:50.90,0:16:52.74,main,Kousuke,0,0,0,,ve hiç düşünmeden onu\N kurtarmak içinileri atıldım.
+Dialogue: 0,0:16:53.19,0:16:55.82,main - italics,Kousuke(M),0,0,0,,Oradan sağ çıkabilmemiz\Ntam bir mucizeydi.
+Dialogue: 0,0:16:56.28,0:16:57.74,main - italics,Kousuke(M),0,0,0,,Hem Ludie'nin hem de benim.
+Dialogue: 0,0:16:58.07,0:17:00.12,main,Kousuke,0,0,0,,İşte o zaman fark ettim.
+Dialogue: 0,0:17:00.12,0:17:03.08,main,Kousuke,0,0,0,,Herkesi koruyabilecek kadar\Ngüçlü olmak istiyorum.
+Dialogue: 0,0:17:03.08,0:17:05.62,main,Kousuke,0,0,0,,En güçlü olma isteğimin\Nsebebi de tam olarak bu.
+Dialogue: 0,0:17:06.04,0:17:09.13,main - italics,Kousuke(M),0,0,0,,Evet, Magical Explorer'daki tüm kadın\Nkahramanları koruyup,
+Dialogue: 0,0:17:09.13,0:17:11.21,main - italics,Kousuke(M),0,0,0,,mutlu sona ulaştırabilecek kadar güçlü.
+Dialogue: 0,0:17:11.59,0:17:16.18,main,Kousuke,0,0,0,,Ve korumak istediğim insanların\Narasında sen de varsın.
+Dialogue: 0,0:17:16.93,0:17:21.60,main,Kousuke,0,0,0,,İlk başta tavırlarına nasıl tepki\Nvereceğimi pek bilememiştim.
+Dialogue: 0,0:17:21.60,0:17:24.31,main,Kousuke,0,0,0,,Yani yanında kendi okul mayonu\Nbile getirmiştin sonuçta.
+Dialogue: 0,0:17:24.81,0:17:29.06,main,Kousuke,0,0,0,,Ama evde ve zindanlarda yaptığımız\No saçma sapan muhabbetlerde,
+Dialogue: 0,0:17:29.06,0:17:30.27,main,Kousuke,0,0,0,,her zaman çok eğleniyordum.
+Dialogue: 0,0:17:31.02,0:17:33.94,main,Kousuke,0,0,0,,Sen bu konuda ne hissediyorsun bilmiyorum,
+Dialogue: 0,0:17:33.94,0:17:37.53,main,Kousuke,0,0,0,,Ama aramızdaki bu şapşal atışmalara\Ngerçekten çok değer veriyorum.
+Dialogue: 0,0:17:38.57,0:17:40.53,main,Kousuke,0,0,0,,Sen bundan nefret mi ediyorsun?
+Dialogue: 0,0:17:40.53,0:17:42.29,main,Kousuke,0,0,0,,Yoksa sırf sözleşme yüzünden mi,
+Dialogue: 0,0:17:42.29,0:17:44.29,main,Kousuke,0,0,0,,Mecburiyetten peşimden geliyorsun?
+Dialogue: 0,0:17:44.29,0:17:46.87,main,Nanami,0,0,0,,Ben... nefret etmiyordum.
+Dialogue: 0,0:17:47.29,0:17:50.42,main,Nanami,0,0,0,,Zindanlarda çalışır,\Nzindanlarda ölürüz.
+Dialogue: 0,0:17:50.96,0:17:53.59,main,Nanami,0,0,0,,Bir Zindan Hizmetçisi olmanın\Nbundan ibaret olduğunu sanıyordum.
+Dialogue: 0,0:17:53.59,0:17:54.59,main,Nanami,0,0,0,,Bu yüzden ben,
+Dialogue: 0,0:17:54.92,0:17:57.59,main,Kousuke,0,0,0,,benim hep inandığım bir şey vardır.
+Dialogue: 0,0:17:58.64,0:18:03.60,main,Kousuke,0,0,0,,Evet, hayatta kurallar var ama insan\Nistediği hemen her şeyi yapabilir.
+Dialogue: 0,0:18:04.02,0:18:05.64,main,Kousuke,0,0,0,,İstediğin yere gidebilir,
+Dialogue: 0,0:18:05.64,0:18:07.19,main,Kousuke,0,0,0,,istediğin gibi eğlenebilir,
+Dialogue: 0,0:18:07.19,0:18:08.85,main,Kousuke,0,0,0,,istediğin her şeyi yiyebilirsin.
+Dialogue: 0,0:18:09.27,0:18:12.07,main,Kousuke,0,0,0,,Hatta bana kalırsa hayatın asıl anlamı,
+Dialogue: 0,0:18:12.07,0:18:13.61,main,Kousuke,0,0,0,,bunun farkına varıp gönlünce yaşamaktır.
+Dialogue: 0,0:18:13.94,0:18:15.74,main,Kousuke,0,0,0,,Hayatta sandığından çok daha\Naz sınır var.
+Dialogue: 0,0:18:16.11,0:18:20.03,main,Kousuke,0,0,0,,O yüzden dolu dolu ve keyifli bir hayat\Nsürmenin kendi yolunu bulmalısın.
+Dialogue: 0,0:18:20.91,0:18:22.99,main,Kousuke,0,0,0,,Bu dünya özgür bir yer.
+Dialogue: 0,0:18:23.54,0:18:28.71,main,Kousuke,0,0,0,,Eğer benimle olmak sana acı veriyorsa\Nya da elini kolunu bağlıyorsa,
+Dialogue: 0,0:18:28.71,0:18:30.17,main,Kousuke,0,0,0,,lütfen sözleşmeyi feshet.
+Dialogue: 0,0:18:30.67,0:18:33.92,main,Kousuke,0,0,0,,Ve özgür ol!
+Dialogue: 0,0:18:36.34,0:18:38.47,main,Kousuke,0,0,0,,Şu melek sözleşmesi denen\Nbir şey var, değil mi?
+Dialogue: 0,0:18:38.47,0:18:41.51,main,Kousuke,0,0,0,,Eğer seni kısıtlayan ve mutsuz\Neden şey buysa,
+Dialogue: 0,0:18:41.51,0:18:43.39,main,Kousuke,0,0,0,,lütfen hemen şimdi iptal et.
+Dialogue: 0,0:18:43.76,0:18:47.60,main,Kousuke,0,0,0,,Burada olmak senin için zorsa,\No sözleşmeye ihtiyacım yok benim.
+Dialogue: 0,0:18:48.02,0:18:50.10,main,Kousuke,0,0,0,,Tek istediğim, kendi gönlünden\Ngeçeni yapman.
+Dialogue: 0,0:18:51.69,0:18:54.36,main,Kousuke,0,0,0,,Başka bir yerde, bir başkasıyla\Nyaşayabilirsin.
+Dialogue: 0,0:18:54.90,0:18:56.94,main,Kousuke,0,0,0,,Tek başına da yaşayabilirsin.
+Dialogue: 0,0:18:57.44,0:18:59.45,main,Kousuke,0,0,0,,Hizmetçi olarak devam etmek istersen,
+Dialogue: 0,0:18:59.45,0:19:01.66,main,Kousuke,0,0,0,,gidip bir başkasının yanında da çalışabilirsin.
+Dialogue: 0,0:19:02.20,0:19:03.74,main,Kousuke,0,0,0,,Ayaklanana kadar sana destek olurum!
+Dialogue: 0,0:19:05.12,0:19:07.16,main,Kousuke,0,0,0,,Gerçi kendi adıma konuşacak olursam,
+Dialogue: 0,0:19:07.16,0:19:10.00,main,Kousuke,0,0,0,,sana pek yüksek bir maaş\Nverebileceğimi sanmıyorum,
+Dialogue: 0,0:19:10.33,0:19:12.96,main,Kousuke,0,0,0,,Ama bana soracak olursan,\Nyanımda kalmanı isterim.
+Dialogue: 0,0:19:13.46,0:19:14.84,main,Kousuke,0,0,0,,Yine de şunu bilmeni istiyorum!
+Dialogue: 0,0:19:14.84,0:19:17.42,main,Kousuke,0,0,0,,Seninle geçirdiğim vakit\Nbenim için çok değerli!
+Dialogue: 0,0:19:17.84,0:19:21.59,main,Kousuke,0,0,0,,En güçlü olma yolunda da\Nbana yardım etmeni çok isterim,
+Dialogue: 0,0:19:21.59,0:19:24.97,main,Kousuke,0,0,0,,Ama şey, seni buna zorlamak istemiyorum.
+Dialogue: 0,0:19:28.85,0:19:32.73,main,Nanami,0,0,0,,Az önce sizin çok büyük bir\Nkusurunuzu keşfettim.
+Dialogue: 0,0:19:32.73,0:19:33.69,main,Kousuke,0,0,0,,Kusur mu?
+Dialogue: 0,0:19:34.11,0:19:39.07,main,Nanami,0,0,0,,Evet. Hem gücünüzün kaynağı olan\Nhem de çok ama çok büyük bir kusur.
+Dialogue: 0,0:19:39.32,0:19:43.78,main,Nanami,0,0,0,,Kapatılamayacak kadar devasa bir boşluk bu.\NKocaman açılmış hem de.
+Dialogue: 0,0:19:43.78,0:19:46.78,main,Nanami,0,0,0,,Böyle kocaman bir boşluğu nasıl\Naçtığınızı bile bilmiyorum.
+Dialogue: 0,0:19:47.04,0:19:48.95,main,Kousuke,0,0,0,,Bende öyle bir boşluk mu var?
+Dialogue: 0,0:19:48.95,0:19:50.08,main,Nanami,0,0,0,,Evet, var.
+Dialogue: 0,0:19:50.08,0:19:55.04,main,Nanami,0,0,0,,Hayallerinizden vazgeçmek zorunda\Nbırakacak kadar büyük bir boşluk.
+Dialogue: 0,0:19:55.59,0:19:57.13,main,Nanami,0,0,0,,Ama orasını bana bırakın.
+Dialogue: 0,0:19:59.46,0:20:02.09,main,Nanami,0,0,0,,O boşluğu sizin için ben dolduracağım.
+Dialogue: 0,0:20:02.09,0:20:04.05,main,Nanami,0,0,0,,Size ben destek olacağım.
+Dialogue: 0,0:20:04.80,0:20:09.52,main,Nanami,0,0,0,,Ha, az önce sözleşmeyi feshetmekten\Nbahsetmiştiniz ya.
+Dialogue: 0,0:20:10.10,0:20:11.48,main,Nanami,0,0,0,,{\an8}Ç.N: Respect.
+Dialogue: 0,0:20:10.10,0:20:11.48,main,Nanami,0,0,0,,Bunu asla yapmayacağım.
+Dialogue: 0,0:20:12.69,0:20:17.90,main,Nanami,0,0,0,,Hayır, kim ne derse desin,\Nasla feshetmeyeceğim.
+Dialogue: 0,0:20:17.90,0:20:19.15,main,Nanami,0,0,0,,Biliyor muydunuz?
+Dialogue: 0,0:20:19.15,0:20:21.86,main,Nanami,0,0,0,,Nanami'yi bir kez kuşandınız mı,\Nbir daha çıkaramazsınız.
+Dialogue: 0,0:20:22.32,0:20:24.78,main,Nanami,0,0,0,,İsteseniz bile benden kurtulamazsınız.
+Dialogue: 0,0:20:26.16,0:20:28.95,main,Kousuke,0,0,0,,Çıkaramaz mıyım? Nesin sen,\Nlanetli eşya falan mı?
+Dialogue: 0,0:20:28.95,0:20:30.50,main,Nanami,0,0,0,,Neler söylüyorsunuz öyle?
+Dialogue: 0,0:20:30.50,0:20:32.29,main,Nanami,0,0,0,,Ben bir meleğim.
+Dialogue: 0,0:20:32.29,0:20:35.42,main,Nanami,0,0,0,,Yani kutsanmış sayılırsınız.
+Dialogue: 0,0:20:35.42,0:20:36.29,main,Kousuke,0,0,0,,Doğru dedin!
+Dialogue: 0,0:20:41.01,0:20:42.22,sign_33231_357_Tsukuyomi_Magic_,sign,0,0,0,,{\frz60.19\pos(77,172)}Tsukuyomi Büyü Akademisi.
+Dialogue: 0,0:20:41.01,0:20:42.22,sign_33231_358_Registration_of_,sign,0,0,0,,{\frz62.43\pos(190,129)}Kayıt Belgesi.
+Dialogue: 0,0:20:41.01,0:20:42.22,main,Marino,0,0,0,,Buyurun bakalım.
+Dialogue: 0,0:20:41.92,0:20:42.22,sign_33231_357_Tsukuyomi_Magic_,sign,0,0,0,,{\3c&HDBDBDB&\c&HFFFDFD&\frz59.25\pos(392,101)}Öğrenci Kimliği.
+Dialogue: 0,0:20:43.22,0:20:45.26,main,Marino,0,0,0,,Kusura bakmayın, biraz uzun sürdü.
+Dialogue: 0,0:20:45.26,0:20:46.47,main,Kousuke,0,0,0,,Kayıt Belgesi mi?
+Dialogue: 0,0:20:46.47,0:20:50.47,sign_33231_357_Tsukuyomi_Magic_,sign,0,0,0,,{\fs12\c&H350002&\pos(124,93)\frz20.05}Tsukuyomi Büyü Akademisi.
+Dialogue: 0,0:20:46.47,0:20:50.47,sign_33231_358_Registration_of_,sign,0,0,0,,{\frz22.77\pos(380,149)}Kayıt Belgesi.
+Dialogue: 0,0:20:46.47,0:20:50.47,sign_33231_358_Registration_of_,sign,0,0,0,,{\b0\c&H323235&\pos(487,204)\frz22.2}Veli {\b1}Hanamura Marino.
+Dialogue: 0,0:20:46.47,0:20:50.47,sign_33231_358_Registration_of_,sign,0,0,0,,{\frz23.96\pos(567,295)}Nanami.
+Dialogue: 0,0:20:47.10,0:20:50.47,main,Nanami,0,0,0,,Artık akademiye sizinle birlikte\Nresmi olarak gidebileceğim, efendim.
+Dialogue: 0,0:20:51.10,0:20:53.98,main,Nanami,0,0,0,,İlahi, bu kadar da sevinçten\Nhavalara uçmayın canım.
+Dialogue: 0,0:20:53.98,0:20:55.98,main,Kousuke,0,0,0,,Yani sevinmekle üzülmek arasında kalsam,
+Dialogue: 0,0:20:55.98,0:20:57.44,main,Kousuke,0,0,0,,Tabii ki sevindim.
+Dialogue: 0,0:20:57.44,0:20:58.69,main,Kousuke,0,0,0,,Ama biraz da endişeleniyorum.
+Dialogue: 0,0:20:58.69,0:21:01.32,main,Kousuke,0,0,0,,Şu sıralar okuldakiler bana karşı\Nbiraz düşmanca tavır alıyor gibi.
+Dialogue: 0,0:21:01.32,0:21:03.82,main,Marino,0,0,0,,Derslere girmediğin içindir o.
+Dialogue: 0,0:21:03.82,0:21:08.74,main,Kousuke,0,0,0,,Gerçi ileride olacakları düşününce,\Nişlerin şimdilik böyle gitmesi daha iyi.
+Dialogue: 0,0:21:08.74,0:21:11.79,main,Marino,0,0,0,,İleride olacaklar mı? Üç Kurul'dan mı\Nbahsediyorsun yoksa?
+Dialogue: 0,0:21:12.70,0:21:18.17,main,Nanami,0,0,0,,Her ne olursa olsun,\Nyanınızdan asla ayrılmayacağım.
+Dialogue: 0,0:21:18.17,0:21:21.80,main,Nanami,0,0,0,,O cılız böceklerin bana ne diyeceği\Nzerre kadar umurumda değil,
+Dialogue: 0,0:21:21.80,0:21:23.13,main,Nanami,0,0,0,,Hepsinin kökünü kazırım olur biter.
+Dialogue: 0,0:21:23.13,0:21:26.30,main,Kousuke,0,0,0,,Köklerini kazıyacak raddeye geliyorsan\Nbayağı umursuyorsun bence.
+Dialogue: 0,0:21:26.30,0:21:30.39,main,Nanami,0,0,0,,Sadece şaka yapmıştım, emin olabilirsiniz ki\Nhiç ama hiç umursamıyorum.
+Dialogue: 0,0:21:30.39,0:21:35.14,main,Marino,0,0,0,,Ee Kou-chan, ne yapmaya çalıştığını\Nbana da anlatır mısın bakalım?
+Dialogue: 0,0:21:39.98,0:21:44.99,sign_33231_358_Registration_of_,sign,0,0,0,,{\fs22\pos(201,51)}Ve Bundan {\c&H7F00D5&}Sonrası.
+Dialogue: 0,0:21:45.53,0:21:50.03,main - italics,Nanami(M),0,0,0,,Efendimle ilk karşılaştığımda\Nafallayıp kalmıştım.
+Dialogue: 0,0:21:50.87,0:21:56.04,main - italics,Nanami(M),0,0,0,,Çünkü normal şartlarda insanlar\NHizmetçi Şövalyelerle sözleşme yapamaz.
+Dialogue: 0,0:21:56.46,0:22:00.00,main,Kousuke,0,0,0,,Sanırım önemli yerlerin hepsini\Nsana gezdirdim.
+Dialogue: 0,0:22:00.59,0:22:02.96,main,Nanami,0,0,0,,Çok teşekkür ederim, efendim.
+Dialogue: 0,0:22:03.42,0:22:06.30,main,Nanami,0,0,0,,Ama yanınızdan bir an bile\Nayrılmak istemiyorum,
+Dialogue: 0,0:22:06.30,0:22:09.93,main,Nanami,0,0,0,,O yüzden bir yere gitmem gerekirse\Nbirlikte gideceğiz.
+Dialogue: 0,0:22:10.51,0:22:12.72,main,Kousuke,0,0,0,,Sana bahsetmek istediğim\Ndiğer konu ise,
+Dialogue: 0,0:22:13.43,0:22:18.06,main,Kousuke,0,0,0,,Nanami, ileride bayağı ilginç\Nbirileri var.
+Dialogue: 0,0:22:14.93,0:22:17.23,main - top,Shion,0,0,0,,Aynen öyle.
+Dialogue: 0,0:22:18.90,0:22:20.10,main,Shion,0,0,0,,Aa, kimleri görüyorum.
+Dialogue: 0,0:22:20.10,0:22:22.48,main,Shion,0,0,0,,Yukine'nin gözdesi değil mi bu?
+Dialogue: 0,0:22:22.90,0:22:26.03,main,Shion,0,0,0,,İşler bayağı ilginç bir hal aldı,\Nöyle değil mi?
+Dialogue: 0,0:22:26.03,0:22:27.49,main,Fran,0,0,0,,Demek bahsettikleri kişi bu?
+Dialogue: 0,0:22:27.49,0:22:30.53,main,Fran,0,0,0,,Takioto Kousuke ve... Şey, sen,
+Dialogue: 0,0:22:31.03,0:22:32.28,main,Fran,0,0,0,,neden hizmetçi kıyafeti giyiyorsun?
+Dialogue: 0,0:22:32.28,0:22:33.41,main,Fran,0,0,0,,Okul üniforman nerede?
+Dialogue: 0,0:22:33.41,0:22:34.74,main,Nanami,0,0,0,,Bu bir hizmetçi üniforması.
+Dialogue: 0,0:22:34.74,0:22:37.12,main,Fran,0,0,0,,Ama burası akademi.
+Dialogue: 0,0:22:38.00,0:22:39.62,main,Shion,0,0,0,,Aman canım, bu seferlik göz yumabiliriz.
+Dialogue: 0,0:22:39.62,0:22:42.46,main,Kousuke,0,0,0,,Merak etmeyin, bunun için izin aldık.
+Dialogue: 0,0:22:42.46,0:22:46.17,main,Nanami,0,0,0,,Efendim, yoksa bunlar da yeni\N eş adaylarınız mı?
+Dialogue: 0,0:22:46.17,0:22:49.68,main,Kousuke,0,0,0,,Hayır tabii ki! Beni ne sanıyorsun sen?!
+Dialogue: 0,0:22:49.68,0:22:51.01,main,Nanami,0,0,0,,Lütfen bağışlayın.
+Dialogue: 0,0:22:51.01,0:22:53.47,main,Nanami,0,0,0,,Şaka yapmayı bırakıyorum.
+Dialogue: 0,0:22:54.89,0:22:58.60,main - italics,Nanami(M),0,0,0,,Zindanlarda çalışır,\Nzindanlarda ölürüm.
+Dialogue: 0,0:22:58.60,0:23:00.73,main - italics,Nanami(M),0,0,0,,Hizmetçi Şövalye olarak hayatım bundan ibaretti.
+Dialogue: 0,0:23:01.40,0:23:05.69,main - italics,Nanami(M),0,0,0,,Ancak efendim bana özgürlüğümü\Nvermeye çalıştı.
+Dialogue: 0,0:23:06.48,0:23:08.74,main - italics,Nanami(M),0,0,0,,İşte bu yüzden özgürce yaşayacağım.
+Dialogue: 0,0:23:09.15,0:23:10.61,main - italics,Nanami(M),0,0,0,,Tüm varlığımı ona adayacağım,
+Dialogue: 0,0:23:10.61,0:23:13.83,main - italics,Nanami(M),0,0,0,,Başkalarını gereğinden fazla düşünen,
+Dialogue: 0,0:23:13.83,0:23:26.67,main - italics,Nanami(M),0,0,0,,{\an8}Ç.N: Benim gibi karizmatik insanlarla arkadaş\Nolmak isterseniz discord sunucumuza bekleriz :)
+Dialogue: 0,0:23:13.83,0:23:15.74,main - italics,Nanami(M),0,0,0,,Ve bu uğurda kendini feda eden efendime.
+Dialogue: 0,0:23:17.16,0:23:19.46,main - italics,Nanami(M),0,0,0,,Eş adaylarının sayısı artsa bile,
+Dialogue: 0,0:23:19.46,0:23:22.38,main - italics,Nanami(M),0,0,0,,İnanılmaz derecede güçlü savaşçılar\Nolsalar bile,
+Dialogue: 0,0:23:22.38,0:23:24.17,main - italics,Nanami(M),0,0,0,,yerimi kimseye kaptırmayacağım.
+Dialogue: 0,0:23:24.67,0:23:26.67,main - italics,Nanami(M),0,0,0,,Çünkü benim ait olduğum yer burası.
+Dialogue: 0,0:23:27.42,0:23:38.27,main,Nanami,0,0,0,,{\an8}Ç.N: discord.gg/somesub
+Dialogue: 0,0:23:27.42,0:23:31.88,main,Nanami,0,0,0,,Dünyanın en güçlüsü olmayı hedefleyen\Nefendime hizmet ediyorum.
+Dialogue: 0,0:23:32.30,0:23:35.10,main,Nanami,0,0,0,,Ben güzeller güzeli hizmetçi Nanami.
+Dialogue: 0,0:23:36.35,0:23:38.27,main,Nanami,0,0,0,,Tanıştığımıza memnun oldum.
