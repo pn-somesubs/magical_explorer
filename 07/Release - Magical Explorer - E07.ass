@@ -11,17 +11,20 @@ LayoutResY: 360
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: main,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,2,20,20,23,0
+Style: main,Mercurius CT Std Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,2,20,20,23,0
 Style: main - top,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,8,20,20,23,0
 Style: main - italics,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,1.3,0,2,20,20,23,0
 Style: main - italics top,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,1.3,0,8,20,20,23,0
 Style: sign_8204_57_Night_Sky_Cave,Trebuchet MS,23,&H00FFFFFF,&H000000FF,&H00131319,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,234,234,52,0
 Style: sign_33231_357_Tsukuyomi_Magic_,Trebuchet MS,10,&H4E7D4B4D,&H000000FF,&H00131319,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,182,322,279,0
 Style: sign_33231_358_Registration_of_,Times New Roman,16,&H00000000,&H000000FF,&H00131319,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,218,218,52,0
+Style: pn-c8x203d0gg,Trebuchet MS,23,&H00FFFFFF,&H000000FF,&H00131319,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,234,234,52,0
+Style: pn-te4mmst30r,Trebuchet MS,10,&H4E7D4B4D,&H000000FF,&H00131319,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,182,322,279,0
+Style: pn-ehf2zk6co6,Times New Roman,16,&H00000000,&H000000FF,&H00131319,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,218,218,52,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:10.00,main,,0,0,0,,{\fnSweetest Cat Ever\fs17\an7\fad(400,400)\bord2\blur5\4a&HFF&\pos(6,-5.67)}\N{\c&HFFFF00&\4c&H8485E4&}SomeSub ekip arkadaşı arıyor!\N{\c&HFFFFFF&}Çevirmen:{\c&HFFFF00&} Velnoxy\N{\c&HFFFFFF&}Encode:{\c&HFFFF00&} Velnoxy\N{\c&HFFFFFF&}Redaktör:{\c&HFFFF00&} Velnoxy\N{\c&HFFFFFF&}Discord:{\c&HFFFF00&} discord.gg/somesub \N
+Dialogue: 0,0:00:00.00,0:00:10.00,main,,0,0,0,,{\fs19\an7\fe162\b1\fad(400,400)\bord2\blur5\4a&HFF&\fnSweetest Cat Ever}\N{\pos(20,-2)\c&HFFFF00&\4c&H8485E4&}\NSomeSub ekip arkadaşı arıyor!\N{\c&HFFFFFF&}Çevirmen:{\c&HFFFF00&} KaranlıkPaşa\N{\c&HFFFFFF&}Encode:{\c&HFFFF00&} Velnoxy\N{\c&HFFFFFF&}Redaktör:{\c&HFFFF00&} Shimazu\N{\c&HFFFFFF&}Discord:{\c&HFFFF00&} discord.gg/somesub \N
 Dialogue: 9,0:00:00.84,0:00:03.58,main,Kousuke,0,0,0,,Büyü taşlarını aldım,
 Dialogue: 9,0:00:03.58,0:00:05.35,main,Kousuke,0,0,0,,iksirlerim de tamam.
 Dialogue: 9,0:00:05.35,0:00:07.39,main,Kousuke,0,0,0,,Unuttuğum bir şey kaldı mı acaba?
@@ -76,6 +79,7 @@ Dialogue: 9,0:02:33.30,0:02:36.81,main,Kousuke,0,0,0,,Yani Tören Kurulu Bakanı
 Dialogue: 9,0:02:37.76,0:02:40.52,main,Kousuke,0,0,0,,Ama en güçlü olacağım kesin olduğuna göre,
 Dialogue: 9,0:02:40.83,0:02:43.24,main,Kousuke,0,0,0,,Birlikte güçlenelim, Nanami!
 Dialogue: 9,0:02:44.17,0:02:46.55,main,Nanami,0,0,0,,Birlikte... güçlenelim!
+Dialogue: 0,0:04:17.17,0:04:19.99,sign_8204_57_Night_Sky_Cave,sign,0,0,0,,{\fad(881,1)\pos(321,311)}Gece Göğü Mağarası.
 Dialogue: 9,0:04:19.99,0:04:25.24,main - italics,Kousuke(M),0,0,0,,Nanami'yle birlikte Gece Göğü Mağarası'nı\Nkeşfediyoruz,
 Dialogue: 9,0:04:25.24,0:04:27.25,main - italics,Kousuke(M),0,0,0,,belirli mağazadan sipariş verenlere özel bonus zindan burası.
 Dialogue: 9,0:04:31.49,0:04:34.83,main - italics,Kousuke(M),0,0,0,,Burası akademi dışında yer alan\Nseviyesiz bir zindan sayılıyor,
@@ -375,9 +379,16 @@ Dialogue: 9,0:20:28.95,0:20:30.50,main,Nanami,0,0,0,,Neler söylüyorsunuz öyle
 Dialogue: 9,0:20:30.50,0:20:32.29,main,Nanami,0,0,0,,Ben bir meleğim.
 Dialogue: 9,0:20:32.29,0:20:35.42,main,Nanami,0,0,0,,Yani kutsanmış sayılırsınız.
 Dialogue: 9,0:20:35.42,0:20:36.29,main,Kousuke,0,0,0,,Doğru dedin!
+Dialogue: 0,0:20:41.01,0:20:42.22,sign_33231_357_Tsukuyomi_Magic_,sign,0,0,0,,{\frz60.19\pos(77,172)}Tsukuyomi Büyü Akademisi.
+Dialogue: 0,0:20:41.01,0:20:42.22,sign_33231_358_Registration_of_,sign,0,0,0,,{\frz62.43\pos(190,129)}Kayıt Belgesi.
 Dialogue: 9,0:20:41.01,0:20:42.22,main,Marino,0,0,0,,Buyurun bakalım.
+Dialogue: 0,0:20:41.92,0:20:42.22,sign_33231_357_Tsukuyomi_Magic_,sign,0,0,0,,{\3c&HDBDBDB&\c&HFFFDFD&\frz59.25\pos(392,101)}Öğrenci Kimliği.
 Dialogue: 9,0:20:43.22,0:20:45.26,main,Marino,0,0,0,,Kusura bakmayın, biraz uzun sürdü.
 Dialogue: 9,0:20:45.26,0:20:46.47,main,Kousuke,0,0,0,,Kayıt Belgesi mi?
+Dialogue: 0,0:20:46.47,0:20:50.47,sign_33231_357_Tsukuyomi_Magic_,sign,0,0,0,,{\fs12\c&H350002&\pos(124,93)\frz20.05}Tsukuyomi Büyü Akademisi.
+Dialogue: 0,0:20:46.47,0:20:50.47,sign_33231_358_Registration_of_,sign,0,0,0,,{\frz22.77\pos(380,149)}Kayıt Belgesi.
+Dialogue: 0,0:20:46.47,0:20:50.47,sign_33231_358_Registration_of_,sign,0,0,0,,{\b0\c&H323235&\pos(487,204)\frz22.2}Veli {\b1}Hanamura Marino.
+Dialogue: 0,0:20:46.47,0:20:50.47,sign_33231_358_Registration_of_,sign,0,0,0,,{\frz23.96\pos(567,295)}Nanami.
 Dialogue: 9,0:20:47.10,0:20:50.47,main,Nanami,0,0,0,,Artık akademiye sizinle birlikte\Nresmi olarak gidebileceğim, efendim.
 Dialogue: 9,0:20:51.10,0:20:53.98,main,Nanami,0,0,0,,İlahi, bu kadar da sevinçten\Nhavalara uçmayın canım.
 Dialogue: 9,0:20:53.98,0:20:55.98,main,Kousuke,0,0,0,,Yani sevinmekle üzülmek arasında kalsam,
@@ -393,6 +404,7 @@ Dialogue: 9,0:21:21.80,0:21:23.13,main,Nanami,0,0,0,,Hepsinin kökünü kazırı
 Dialogue: 9,0:21:23.13,0:21:26.30,main,Kousuke,0,0,0,,Köklerini kazıyacak raddeye geliyorsan\Nbayağı umursuyorsun bence.
 Dialogue: 9,0:21:26.30,0:21:30.39,main,Nanami,0,0,0,,Sadece şaka yapmıştım, emin olabilirsiniz ki\Nhiç ama hiç umursamıyorum.
 Dialogue: 9,0:21:30.39,0:21:35.14,main,Marino,0,0,0,,Ee Kou-chan, ne yapmaya çalıştığını\Nbana da anlatır mısın bakalım?
+Dialogue: 0,0:21:39.98,0:21:44.99,sign_33231_358_Registration_of_,sign,0,0,0,,{\fs22\pos(201,51)}Ve Bundan {\c&H7F00D5&}Sonrası.
 Dialogue: 9,0:21:45.53,0:21:50.03,main - italics,Nanami(M),0,0,0,,Efendimle ilk karşılaştığımda\Nafallayıp kalmıştım.
 Dialogue: 9,0:21:50.87,0:21:56.04,main - italics,Nanami(M),0,0,0,,Çünkü normal şartlarda insanlar\NHizmetçi Şövalyelerle sözleşme yapamaz.
 Dialogue: 9,0:21:56.46,0:22:00.00,main,Kousuke,0,0,0,,Sanırım önemli yerlerin hepsini\Nsana gezdirdim.
@@ -433,12 +445,12 @@ Dialogue: 0,0:23:27.42,0:23:38.27,main,Nanami,0,0,0,,{\an8}Ç.N: discord.gg/some
 Dialogue: 9,0:23:27.42,0:23:31.88,main,Nanami,0,0,0,,Dünyanın en güçlüsü olmayı hedefleyen\Nefendime hizmet ediyorum.
 Dialogue: 9,0:23:32.30,0:23:35.10,main,Nanami,0,0,0,,Ben güzeller güzeli hizmetçi Nanami.
 Dialogue: 9,0:23:36.35,0:23:38.27,main,Nanami,0,0,0,,Tanıştığımıza memnun oldum.
-Dialogue: 0,0:04:17.17,0:04:19.99,sign_8204_57_Night_Sky_Cave,sign,0,0,0,,{\fad(881,1)\pos(321,311)}Gece Göğü Mağarası.
-Dialogue: 0,0:20:41.01,0:20:42.22,sign_33231_357_Tsukuyomi_Magic_,sign,0,0,0,,{\frz60.19\pos(77,172)}Tsukuyomi Büyü Akademisi.
-Dialogue: 0,0:20:41.01,0:20:42.22,sign_33231_358_Registration_of_,sign,0,0,0,,{\frz62.43\pos(190,129)}Kayıt Belgesi.
-Dialogue: 0,0:20:41.92,0:20:42.22,sign_33231_357_Tsukuyomi_Magic_,sign,0,0,0,,{\3c&HDBDBDB&\c&HFFFDFD&\frz59.25\pos(392,101)}Öğrenci Kimliği.
-Dialogue: 0,0:20:46.47,0:20:50.47,sign_33231_357_Tsukuyomi_Magic_,sign,0,0,0,,{\fs12\c&H350002&\pos(124,93)\frz20.05}Tsukuyomi Büyü Akademisi.
-Dialogue: 0,0:20:46.47,0:20:50.47,sign_33231_358_Registration_of_,sign,0,0,0,,{\frz22.77\pos(380,149)}Kayıt Belgesi.
-Dialogue: 0,0:20:46.47,0:20:50.47,sign_33231_358_Registration_of_,sign,0,0,0,,{\b0\c&H323235&\pos(487,204)\frz22.2}Veli {\b1}Hanamura Marino.
-Dialogue: 0,0:20:46.47,0:20:50.47,sign_33231_358_Registration_of_,sign,0,0,0,,{\frz23.96\pos(567,295)}Nanami.
-Dialogue: 0,0:21:39.98,0:21:44.99,sign_33231_358_Registration_of_,sign,0,0,0,,{\fs22\pos(201,51)}Ve Bundan {\c&H7F00D5&}Sonrası.
+Dialogue: 0,0:04:17.17,0:04:19.99,pn-c8x203d0gg,sign,0,0,0,,{\fad(881,1)\pos(321,311)}Gece Göğü Mağarası.
+Dialogue: 0,0:20:41.01,0:20:42.22,pn-te4mmst30r,sign,0,0,0,,{\frz60.19\pos(77,172)}Tsukuyomi Büyü Akademisi.
+Dialogue: 0,0:20:41.01,0:20:42.22,pn-ehf2zk6co6,sign,0,0,0,,{\frz62.43\pos(190,129)}Kayıt Belgesi.
+Dialogue: 0,0:20:41.92,0:20:42.22,pn-te4mmst30r,sign,0,0,0,,{\3c&HDBDBDB&\c&HFFFDFD&\frz59.25\pos(392,101)}Öğrenci Kimliği.
+Dialogue: 0,0:20:46.47,0:20:50.47,pn-te4mmst30r,sign,0,0,0,,{\fs12\c&H350002&\pos(124,93)\frz20.05}Tsukuyomi Büyü Akademisi.
+Dialogue: 0,0:20:46.47,0:20:50.47,pn-ehf2zk6co6,sign,0,0,0,,{\frz22.77\pos(380,149)}Kayıt Belgesi.
+Dialogue: 0,0:20:46.47,0:20:50.47,pn-ehf2zk6co6,sign,0,0,0,,{\b0\c&H323235&\pos(487,204)\frz22.2}Veli {\b1}Hanamura Marino.
+Dialogue: 0,0:20:46.47,0:20:50.47,pn-ehf2zk6co6,sign,0,0,0,,{\frz23.96\pos(567,295)}Nanami.
+Dialogue: 0,0:21:39.98,0:21:44.99,pn-ehf2zk6co6,sign,0,0,0,,{\fs22\pos(201,51)}Ve Bundan {\c&H7F00D5&}Sonrası.
