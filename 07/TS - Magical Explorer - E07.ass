@@ -1,0 +1,28 @@
+[Script Info]
+Title: pn-SomeSubs - Magical Explorer
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 640
+PlayResY: 360
+YCbCr Matrix: TV.709
+LayoutResX: 640
+LayoutResY: 360
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: sign_8204_57_Night_Sky_Cave,Trebuchet MS,23,&H00FFFFFF,&H000000FF,&H00131319,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,234,234,52,0
+Style: sign_33231_357_Tsukuyomi_Magic_,Trebuchet MS,10,&H4E7D4B4D,&H000000FF,&H00131319,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,182,322,279,0
+Style: sign_33231_358_Registration_of_,Times New Roman,16,&H00000000,&H000000FF,&H00131319,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,218,218,52,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:04:17.17,0:04:19.99,sign_8204_57_Night_Sky_Cave,sign,0,0,0,,{\fad(881,1)\pos(321,311)}Gece Göğü Mağarası.
+Dialogue: 0,0:20:41.01,0:20:42.22,sign_33231_357_Tsukuyomi_Magic_,sign,0,0,0,,{\frz60.19\pos(77,172)}Tsukuyomi Büyü Akademisi.
+Dialogue: 0,0:20:41.01,0:20:42.22,sign_33231_358_Registration_of_,sign,0,0,0,,{\frz62.43\pos(190,129)}Kayıt Belgesi.
+Dialogue: 0,0:20:41.92,0:20:42.22,sign_33231_357_Tsukuyomi_Magic_,sign,0,0,0,,{\3c&HDBDBDB&\c&HFFFDFD&\frz59.25\pos(392,101)}Öğrenci Kimliği.
+Dialogue: 0,0:20:46.47,0:20:50.47,sign_33231_357_Tsukuyomi_Magic_,sign,0,0,0,,{\fs12\c&H350002&\pos(124,93)\frz20.05}Tsukuyomi Büyü Akademisi.
+Dialogue: 0,0:20:46.47,0:20:50.47,sign_33231_358_Registration_of_,sign,0,0,0,,{\frz22.77\pos(380,149)}Kayıt Belgesi.
+Dialogue: 0,0:20:46.47,0:20:50.47,sign_33231_358_Registration_of_,sign,0,0,0,,{\b0\c&H323235&\pos(487,204)\frz22.2}Veli {\b1}Hanamura Marino.
+Dialogue: 0,0:20:46.47,0:20:50.47,sign_33231_358_Registration_of_,sign,0,0,0,,{\frz23.96\pos(567,295)}Nanami.
+Dialogue: 0,0:21:39.98,0:21:44.99,sign_33231_358_Registration_of_,sign,0,0,0,,{\fs22\pos(201,51)}Ve Bundan {\c&H7F00D5&}Sonrası.
