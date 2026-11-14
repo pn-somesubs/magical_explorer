@@ -11,30 +11,14 @@ LayoutResY: 360
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,2,20,20,23,1
 Style: main,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,90,90,0,0,1,1.3,0,2,20,20,20,0
-Style: sign_35245_386_Reborn_as_a_Side,Times New Roman,25,&H008400DA,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,0,14,290,0
 Style: main - top,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,90,90,0,0,1,1.3,0,8,20,20,20,0
 Style: main - italics,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,90,90,0,0,1,1.3,0,2,20,20,20,0
 Style: main - italics top,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,90,90,0,0,1,1.3,0,8,20,20,20,0
-Style: main - flashback,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,2,20,20,23,0
-Style: main - flashback - top,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,1.3,0,8,20,20,23,0
-Style: sign_10776_104_Encounter_Cafe,Trebuchet MS,13,&H00E0CEF9,&H000000FF,&H00FDFCFD,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,13,529,298,0
-Style: sign_10776_105_Boo_m,Trebuchet MS,13,&H00FFFFFF,&H000000FF,&H00FF52FF,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,2,287,311,274,0
-Style: sign_16985_199_Dunning_Letter,Times New Roman,13,&H00313131,&H000000FF,&H00FDFCFD,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,514,34,330,0
-Style: sign_19263_238_Labor_Contract__,Times New Roman,13,&H00313131,&H000000FF,&H00FDFCFD,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,328,0,18,0
-Style: sign_21788_254__Beginner_Dungeo,Trebuchet MS,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,182,142,52,0
-Style: sign_21881_255_Stop,Trebuchet MS,13,&H00FFFFFF,&H000000FF,&H000000B9,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,291,321,252,0
-Style: sign_23163_282_1st_Layer_,Trebuchet MS,13,&H00FFFFFF,&H000000FF,&H000000B9,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,393,185,38,0
-Style: sign_23259_291_Within_1_40_00,Trebuchet MS,13,&H00FFFFFF,&H000000FF,&H000000B9,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,72,476,214,0
-Style: sign_23351_292_Within_1_40_00,Trebuchet MS,20,&H007FFFFE,&H000000FF,&H000000B9,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,259,229,42,0
-Style: sign_26855_337_Treadmill,Trebuchet MS,13,&H00FDCC6B,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,279,299,87,0
-Style: sign_28214_357_Select_User,Trebuchet MS,13,&H0077324E,&H000000FF,&H000000B9,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,212,356,310,0
-Style: sign_28214_358_Takioto_Kousuke,Trebuchet MS,13,&H0077324E,&H000000FF,&H000000B9,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,302,234,311,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:10.00,main - italics,,0,0,0,,{\fs17\an7\fe162\b\fad(400,400)\bord2\blur5\shad\4c&H000000&\4a&HFF&\fnSweetest Cat Ever}\N{\pos(20,-2)}{\c&HFFFF00&}{\4c&H8485E4&}SomeSub ekip arkadaşı arıyor!\N{\pos(60,63)}{\c&HFFFFFF&}Çevirmen:{\c&HFFFF00&} KaranlıkPaşa\N{\pos(60,111)}{\c&HFFFFFF&}Encode:{\c&HFFFF00&} Velnoxy\N{\pos(60,111)}{\c&HFFFFFF&}Redaktör:{\c&HFFFF00&} Myoupie\N{\c&HFFFFFF&}Discord:{\c&HFFFF00&} discord.gg/somesub
+Dialogue: 0,0:00:00.00,0:00:10.00,main - italics,,0,0,0,,{\fs17\an7\fe162\fad(400,400)\bord2\blur5\4a&HFF&\fnSweetest Cat Ever}\N{\pos(20,-2)\c&HFFFF00&\4c&H8485E4&}SomeSub ekip arkadaşı arıyor!\N{\c&HFFFFFF&}Çevirmen:{\c&HFFFF00&} KaranlıkPaşa\N{\c&HFFFFFF&}Encode:{\c&HFFFF00&} Velnoxy\N{\c&HFFFFFF&}Redaktör:{\c&HFFFF00&} Myoupie\N{\c&HFFFFFF&}Discord:{\c&HFFFF00&} discord.gg/somesub
 Dialogue: 0,0:00:00.97,0:00:03.18,main - italics,Kousuke(M),0,0,0,,Bir eroge oyununun başrolüyseniz,
 Dialogue: 0,0:00:03.18,0:00:06.18,main - italics,Kousuke(M),0,0,0,,Genelde gösterişli bir özel hayatınız olur.
 Dialogue: 0,0:00:13.49,0:00:15.49,main - italics,Kousuke(M),0,0,0,,Sırtınızı yaslayabileceğiniz bir senpai,
@@ -55,7 +39,6 @@ Dialogue: 0,0:00:53.39,0:00:55.93,main,Hatsumi,0,0,0,,Bana ablacığım demen ge
 Dialogue: 0,0:00:58.00,0:01:00.20,main - italics,Kousuke(M),0,0,0,,Ama bu yan karakter bayağı keyif sürüyor.
 Dialogue: 0,0:01:00.20,0:01:03.06,main - italics,Kousuke(M),0,0,0,,Hatta herhangi bir eroge başrolü\Nkadar iyi durumdayım diyebilirim.
 Dialogue: 0,0:01:03.06,0:01:04.98,main - italics,Kousuke(M),0,0,0,,En azından ben öyle sanıyorum,
-Dialogue: 0,0:01:04.98,0:01:09.98,sign_35245_386_Reborn_as_a_Side,SIGN,0,0,0,,{\fs23\move(262,73,265,83,16,4979)}{\blur2}{\c&H000000&}Bu bir{\c&H6E00E7&} Pembe {\c&H000000&}Bomba
 Dialogue: 0,0:01:06.40,0:01:07.51,main - italics,Kousuke(M),0,0,0,,Değil mi?
 Dialogue: 0,0:02:44.40,0:02:46.59,main,Kousuke,0,0,0,,Bizim de yavaştan gitmemiz lazım.
 Dialogue: 0,0:02:49.43,0:02:51.55,main,Ludie,0,0,0,,Peki ya sıradaki ders?
@@ -134,14 +117,9 @@ Dialogue: 0,0:05:56.13,0:05:57.55,main,Ruija,0,0,0,,Yani kurallara uygunluk aç�
 Dialogue: 0,0:05:57.55,0:05:58.30,main - italics,Kousuke(M),0,0,0,,Oyunda,
 Dialogue: 0,0:05:58.30,0:06:01.88,main - italics,Kousuke(M),0,0,0,,Ruija Hoca ile yakınlaşma\NAkademi'de gerçekleşmez.
 Dialogue: 0,0:06:02.93,0:06:04.43,main - italics,Kousuke(M),0,0,0,,Onunla karşılaşılan yer,
-Dialogue: 0,0:06:04.43,0:06:07.31,sign_10776_104_Encounter_Cafe,SIGN,0,0,0,,{\c&HC59BFF&\frz358.5\move(66,64,117,66,19,2855)}Buluşma Kafe
-Dialogue: 0,0:06:04.43,0:06:07.31,sign_10776_105_Boo_m,SIGN,0,0,0,,{\blur1\move(261,114,308,115,19,2855)}Bumm
-Dialogue: 0,0:06:04.43,0:06:07.31,sign_10776_104_Encounter_Cafe,SIGN,0,0,0,,{\fs10\c&HE3B4E0&\frz8.504\move(377,49,425,47,19,2855)}{\blur1}Kediler ve\NDostlar
-Dialogue: 0,0:06:04.43,0:06:07.31,sign_10776_104_Encounter_Cafe,SIGN,0,0,0,,{\3c&HFDBDFD&\c&HFFFFFF&\frz353.2\move(489,116,532,119,19,2855)}{\blur1\i1}Seksi Bar
 Dialogue: 0,0:06:04.96,0:06:07.31,main - italics,Kousuke(M),0,0,0,,İnsanların kırmızı fener\Nmahallesi dediği yerdir.
 Dialogue: 0,0:06:08.07,0:06:11.73,main - italics,Kousuke(M),0,0,0,,Takioto merakına yenik düşer ve\NIori'yi de peşinden sürükler.
 Dialogue: 0,0:06:11.73,0:06:15.09,main - italics,Kousuke(M),0,0,0,,İşte Iori orada tesadüfen karşılaşır,
-Dialogue: 0,0:06:11.73,0:06:14.52,sign_10776_104_Encounter_Cafe,SIGN,0,0,0,,{\c&HAE5DFB&\pos(228,168)\frz2.313}Gizli <3
 Dialogue: 0,0:06:25.28,0:06:27.87,main - italics,Kousuke(M),0,0,0,,Oyun bu konuyu detaylı\Nşekilde açıklamıyordu,
 Dialogue: 0,0:06:27.87,0:06:31.91,main - italics,Kousuke(M),0,0,0,,Ama görünüşe göre paraya sıkıştığı\Niçin ek iş yapmaya başlamış.
 Dialogue: 0,0:06:32.37,0:06:35.78,main - italics,Kousuke(M),0,0,0,,Eğer karakteri beyler arasında\Nçok popüler olsaydı,
@@ -229,7 +207,6 @@ Dialogue: 0,0:10:10.11,0:10:11.97,main,Nanami,0,0,0,,Efendim, ne yapacaksınız?
 Dialogue: 0,0:10:12.81,0:10:14.72,main,Kousuke,0,0,0,,Yani,
 Dialogue: 0,0:10:18.22,0:10:19.62,main,Kousuke,0,0,0,,Şey, Marino-san?
 Dialogue: 0,0:10:19.62,0:10:21.69,main,Ruija,0,0,0,,Müdür mü?! O hariç her şey olur!
-Dialogue: 0,0:10:23.40,0:10:25.23,sign_16985_199_Dunning_Letter,SIGN,0,0,0,,{\pos(511,40)\frz338.1\frx18\fry2}İhtarname
 Dialogue: 0,0:10:26.75,0:10:29.82,main,Marino,0,0,0,,Şimdiye kadar organlarını\Nsatmamayı başarmış olmana şaşırdım.
 Dialogue: 0,0:10:30.09,0:10:35.31,main - italics,Kousuke(M),0,0,0,,Sonuçta, Ruija Hoca'nın borcunu\Nhatırı sayılır ölçüde azaltmayı başardık.
 Dialogue: 0,0:10:35.71,0:10:39.64,main - italics,Kousuke(M),0,0,0,,Bunun için Hanamura ailesinin tuttuğu\Nbir avukat ve vergi danışmanı gerekti,
@@ -267,7 +244,6 @@ Dialogue: 0,0:11:54.11,0:11:55.70,main,Marino,0,0,0,,Sorun yok canım.
 Dialogue: 0,0:11:55.70,0:11:56.07,main,Marino,0,0,0,,Değil mi?
 Dialogue: 0,0:11:57.58,0:12:01.24,main,Nanami,0,0,0,,O halde tüm kontrolünüzü Efendim'e\Ndevretmek için lütfen burayı imzalayın.
 Dialogue: 0,0:11:58.41,0:12:01.24,main,SIGN,0,0,0,,{\an7\bord0\p1\c&HF8F7FA&\3c&HF8F7FA&\4c&HF8F7FA&\1a&H21&\pos(398,11)}m 0 0 l 225 0 225 280 0 280
-Dialogue: 0,0:11:58.41,0:12:01.24,sign_19263_238_Labor_Contract__,SIGN,0,0,0,,{\pos(513,280)\c&H020202&}İş Sözleşmesi\N\Nİş sözleşmesi aşağıdaki şartlarla\Nakdedilmiştir.\NSüre: Sınırsız, yani ömür boyu\NGörev tanımı: İşverenin her\Nsözüne itaat etmek\NÇalışma yeri: İşverenin belirlediği\Ntüm yerler\NÇalışma saatleri: 7/24 hazır bulunmak\NMola süreleri: Yok\Nİzin günleri: Sabit izin günü yok\NÜcret: İşverenin keyfi isterse\Nbelki verilir\Nİstifa: İstifa kabul edilmeyecektir\NDiğer: Mutlak itaat en büyük\Nönceliktir. Asla itiraz etme.\NÇalışan bu şartlara uymaya ve\Nsadık bir işçi olmaya yemin eder.\N\Nİşveren Adı: Takioto Kousuke
 Dialogue: 0,0:12:01.24,0:12:02.60,main,Ruija,0,0,0,,Ah, elbette!
 Dialogue: 0,0:12:02.60,0:12:06.16,main,Kousuke,0,0,0,,Önünüze gelen rastgele sözleşmeyi\Nimzalamamanız gerektiğini daha demin söyledim!
 Dialogue: 0,0:12:07.02,0:12:08.11,main,Ruija,0,0,0,,İçim rahatladı.
@@ -282,49 +258,27 @@ Dialogue: 0,0:12:34.93,0:12:36.31,main,Kousuke,0,0,0,,Çünkü,
 Dialogue: 0,0:12:36.31,0:12:38.53,main,Kousuke,0,0,0,,RTA yapmayı düşünüyordum da.
 Dialogue: 0,0:12:38.53,0:12:41.68,main,Nanami,0,0,0,,Anladım. Özel ödülün peşindesiniz, değil mi?
 Dialogue: 0,0:12:41.68,0:12:43.76,main,Kousuke,0,0,0,,Bir Zindan Hizmetçisinin\Nhemen anlayacağını biliyordum.
-Dialogue: 0,0:12:43.74,0:12:46.62,sign_21788_254__Beginner_Dungeo,SIGN,0,0,0,,{\pos(324,308)}[Başlangıç Zindanı - 1. Kat]
-Dialogue: 0,0:12:47.63,0:12:48.08,sign_21881_255_Stop,SIGN,0,0,0,,{\pos(353,116)}Dur
-Dialogue: 0,0:12:47.63,0:12:48.08,sign_21881_255_Stop,SIGN,0,0,0,,{\pos(364,164)}Tur
 Dialogue: 0,0:12:48.08,0:12:48.91,main,Kousuke,0,0,0,,Hadi gidelim!
 Dialogue: 0,0:12:48.91,0:12:49.64,main,Nanami,0,0,0,,Emredersiniz!
 Dialogue: 0,0:12:51.34,0:12:55.02,main - italics,Kousuke(M),0,0,0,,Zamana karşı yarışta, çöp yaratıklarla\Nsavaşmak vakit kaybıdır.
-Dialogue: 0,0:12:55.02,0:12:56.50,sign_21788_254__Beginner_Dungeo,SIGN,0,0,0,,{\pos(321,310)\c&HD9D9DB&}[5. Kat]
 Dialogue: 0,0:12:56.10,0:13:00.17,main - italics top,Kousuke(M),0,0,0,,Yolda hiç XP toplamamıza\Ngerek olmadığı için,
 Dialogue: 0,0:13:00.17,0:13:03.26,main - italics top,Kousuke(M),0,0,0,,Düşmanları görmezden gelip\Ndoğrudan bir sonraki kata geçiyoruz.
-Dialogue: 0,0:13:03.26,0:13:04.36,sign_21788_254__Beginner_Dungeo,SIGN,0,0,0,,{\pos(320,309)}[6. Kat]
 Dialogue: 0,0:13:09.00,0:13:10.41,main,Nanami,0,0,0,,Özür dilerim.
 Dialogue: 0,0:13:10.41,0:13:11.69,main,Kousuke,0,0,0,,Takma kafana.
-Dialogue: 0,0:13:11.69,0:13:13.14,sign_21788_254__Beginner_Dungeo,SIGN,0,0,0,,{\pos(320,309)}[7. Kat]
 Dialogue: 0,0:13:12.61,0:13:17.15,main - italics top,Kousuke(M),0,0,0,,Oyunda hiç dinlenmeden\Nzindanı koşarak geçebilirsiniz,
 Dialogue: 0,0:13:17.15,0:13:18.74,main - italics top,Kousuke(M),0,0,0,,Ama gerçek hayatta bu mümkün değil.
 Dialogue: 0,0:13:18.74,0:13:20.04,main - italics top,Kousuke(M),0,0,0,,Nefes nefese kalıyorsunuz,
-Dialogue: 0,0:13:18.92,0:13:25.95,sign_21788_254__Beginner_Dungeo,SIGN,0,0,0,,{\pos(318,305)}[8. Kat]
 Dialogue: 0,0:13:20.04,0:13:21.51,main - italics top,Kousuke(M),0,0,0,,Bacaklarınız kurşun gibi ağırlaşıyor,
 Dialogue: 0,0:13:21.51,0:13:23.75,main - italics top,Kousuke(M),0,0,0,,Ve dikkatiniz dağıldığı için,
 Dialogue: 0,0:13:23.75,0:13:25.95,main - italics top,Kousuke(M),0,0,0,,Pusuya bile düşebilirsiniz.
 Dialogue: 0,0:13:26.79,0:13:29.12,main - italics top,Kousuke(M),0,0,0,,Görünüşe göre bir mola vermemiz şart.
-Dialogue: 0,0:13:29.88,0:13:31.08,sign_21788_254__Beginner_Dungeo,SIGN,0,0,0,,{\pos(320,310)}[9. Kat]
 Dialogue: 0,0:13:31.36,0:13:33.15,main,Kousuke,0,0,0,,Nanami, iyi misin?
 Dialogue: 0,0:13:33.15,0:13:35.54,main,Nanami,0,0,0,,Evet. Yetişebilecek miyiz?
-Dialogue: 0,0:13:35.77,0:13:37.96,sign_21881_255_Stop,SIGN,0,0,0,,{\pos(354,199)}Dur
-Dialogue: 0,0:13:35.77,0:13:37.96,sign_21881_255_Stop,SIGN,0,0,0,,{\pos(377,239)}Tur
 Dialogue: 0,0:13:36.35,0:13:37.96,main,Kousuke,0,0,0,,1 saat 25 dakika.
 Dialogue: 0,0:13:38.49,0:13:40.91,main,Kousuke,0,0,0,,Evet, vaktinde yetişeceğiz gibi duruyor.
-Dialogue: 0,0:13:41.10,0:13:48.95,sign_23163_282_1st_Layer_,SIGN,0,0,0,,{\pos(421,306)}1. Kat {en alttan başlayarak}
-Dialogue: 0,0:13:41.40,0:13:48.95,sign_23163_282_1st_Layer_,SIGN,0,0,0,,{\pos(227,277)}2. Kat
 Dialogue: 0,0:13:41.53,0:13:47.20,main - top,Kousuke,0,0,0,,1 saat 40 dakika içinde\N10. kata ulaşabilirsen,
-Dialogue: 0,0:13:41.69,0:13:48.95,sign_23163_282_1st_Layer_,SIGN,0,0,0,,{\pos(421,254)}3. Kat
-Dialogue: 0,0:13:41.98,0:13:48.95,sign_23163_282_1st_Layer_,SIGN,0,0,0,,{\pos(224,228)}4. Kat
-Dialogue: 0,0:13:42.27,0:13:48.95,sign_23163_282_1st_Layer_,SIGN,0,0,0,,{\pos(423,204)}5. Kat
-Dialogue: 0,0:13:42.56,0:13:48.95,sign_23163_282_1st_Layer_,SIGN,0,0,0,,{\pos(224,176)}6. Kat
-Dialogue: 0,0:13:42.86,0:13:48.95,sign_23163_282_1st_Layer_,SIGN,0,0,0,,{\pos(422,150)}7. Kat
-Dialogue: 0,0:13:43.15,0:13:48.95,sign_23163_282_1st_Layer_,SIGN,0,0,0,,{\pos(225,126)}8. Kat
-Dialogue: 0,0:13:43.44,0:13:48.95,sign_23163_282_1st_Layer_,SIGN,0,0,0,,{\pos(423,99)}9. Kat
-Dialogue: 0,0:13:45.11,0:13:48.95,sign_23259_291_Within_1_40_00,SIGN,0,0,0,,{\c&H7FFFFE&\pos(115,128)}1:40:00 İçinde
 Dialogue: 0,0:13:47.20,0:13:48.51,main - top,Kousuke,0,0,0,,Özel bir kata geçebiliyorsun.
-Dialogue: 0,0:13:48.95,0:13:52.14,sign_23351_292_Within_1_40_00,SIGN,0,0,0,,{\pos(328,322)}1:40:00 İçinde
 Dialogue: 0,0:13:49.09,0:13:52.14,main - top,Kousuke,0,0,0,,Ve oraya yetişeceğiz gibi görünüyor.
-Dialogue: 0,0:13:53.16,0:13:54.60,sign_21788_254__Beginner_Dungeo,SIGN,0,0,0,,{\pos(326,309)}[10. Kat - Özel Kat]
 Dialogue: 0,0:13:55.45,0:13:57.41,main,Nanami,0,0,0,,Burası, bir labirent katı mı?
 Dialogue: 0,0:13:57.86,0:13:59.46,main,Kousuke,0,0,0,,Koşarken anlatırım.
 Dialogue: 0,0:13:59.46,0:14:00.39,main,Kousuke,0,0,0,,Hadi!
@@ -345,7 +299,6 @@ Dialogue: 0,0:14:41.81,0:14:43.81,main,Nanami,0,0,0,,1 saat 56 dakika.
 Dialogue: 0,0:14:44.15,0:14:45.57,main - italics,Kousuke(M),0,0,0,,Ödülü almanın şartı,
 Dialogue: 0,0:14:45.57,0:14:50.66,main - italics,Kousuke(M),0,0,0,,1. kattan son boss'a kadar her şeyi\N2 saat içinde temizlemek.
 Dialogue: 0,0:14:53.12,0:14:55.08,main,Kousuke,0,0,0,,4 dakika kaldı,
-Dialogue: 0,0:14:55.62,0:14:57.58,sign_21788_254__Beginner_Dungeo,SIGN,0,0,0,,{\c&HFFFFFF&\pos(322,306)}[11. Kat - Boss Odası]
 Dialogue: 0,0:14:57.58,0:14:59.16,main,Nanami,0,0,0,,Bırakın ben hallederim.
 Dialogue: 0,0:14:59.16,0:15:03.01,main,Kousuke,0,0,0,,Hayır, bu herifi yenmenin\Nhızlı bir yolu var.
 Dialogue: 0,0:15:11.13,0:15:12.12,main,Nanami,0,0,0,,Efendim!
@@ -365,7 +318,6 @@ Dialogue: 0,0:16:02.04,0:16:06.56,main,Kousuke,0,0,0,,Şimdi ne kadar daha uzağ
 Dialogue: 0,0:16:06.56,0:16:08.64,main,Kousuke,0,0,0,,Tekrar bir zindana girmekte\Nsorun yok ama,
 Dialogue: 0,0:16:08.64,0:16:10.45,main,Kousuke,0,0,0,,Okul çoktan bitti,
 Dialogue: 0,0:16:10.45,0:16:12.39,main,Nanami,0,0,0,,Güzel bir fikrim var.
-Dialogue: 0,0:16:15.08,0:16:18.04,sign_26855_337_Treadmill,SIGN,0,0,0,,{\c&HFDCC6B&\fs24\b1\pos(312,287)}Koşu Bandı
 Dialogue: 0,0:16:15.64,0:16:18.04,main - top,Nanami,0,0,0,,Koşu bandı!
 Dialogue: 0,0:16:18.97,0:16:22.10,main,Nanami,0,0,0,,Sağanak yağmur, tayfun,\Nyoğun kar, yoğun Nanami,
 Dialogue: 0,0:16:22.10,0:16:23.37,main,Nanami,0,0,0,,Koşullar ne olursa olsun,
@@ -385,17 +337,8 @@ Dialogue: 0,0:16:58.84,0:17:00.96,main,Nanami,0,0,0,,Kullanması çok kolay.
 Dialogue: 0,0:17:01.44,0:17:06.16,main,Kousuke,0,0,0,,İçimdeki kötü his tavan yaptı ama\Nneyse, neden olmasın.
 Dialogue: 0,0:17:06.16,0:17:08.34,main,Ludie,0,0,0,,Tavan yaptığı halde\Nyine de üstüne çıkıyorsun.
 Dialogue: 0,0:17:10.30,0:17:11.76,main,Kousuke,0,0,0,,Bu mu?
-Dialogue: 0,0:17:11.76,0:17:12.43,sign_28214_357_Select_User,SIGN,0,0,0,,{\frz8.191\pos(255,34)}Kullanıcı Seç
-Dialogue: 0,0:17:11.76,0:17:12.43,sign_28214_358_Takioto_Kousuke,SIGN,0,0,0,,{\frz7.354\pos(349,40)}Takioto Kousuke
-Dialogue: 0,0:17:11.76,0:17:12.43,sign_28214_358_Takioto_Kousuke,SIGN,0,0,0,,{\frz7.627\pos(405,76)}Cinsiyet: Erkek
-Dialogue: 0,0:17:11.76,0:17:12.43,sign_28214_358_Takioto_Kousuke,SIGN,0,0,0,,{\pos(324,117)}Boy
-Dialogue: 0,0:17:11.76,0:17:12.43,sign_28214_358_Takioto_Kousuke,SIGN,0,0,0,,{\pos(333,142)}Kilo
-Dialogue: 0,0:17:11.76,0:17:12.43,sign_28214_358_Takioto_Kousuke,SIGN,0,0,0,,{\pos(206,252)}İptal
-Dialogue: 0,0:17:11.76,0:17:12.43,sign_28214_358_Takioto_Kousuke,SIGN,0,0,0,,{\pos(452,204)}İlerle
 Dialogue: 0,0:17:12.43,0:17:16.05,main - top,Nanami,0,0,0,,Kullanıcı kaydınızı\Nçoktan tamamladım.
 Dialogue: 0,0:17:16.05,0:17:19.36,main,Nanami,0,0,0,,Ad, cinsiyet, fiziksel veriler ve benzeri.
-Dialogue: 0,0:17:16.05,0:17:19.32,sign_28214_358_Takioto_Kousuke,SIGN,0,0,0,,{\frz9.395\fs14\move(504,92,501,58,24,3236)}Takioto Kousuke
-Dialogue: 0,0:17:16.05,0:17:19.32,sign_28214_358_Takioto_Kousuke,SIGN,0,0,0,,{\frz9.395\fs14\move(568,175,564,142,24,3236)}Cinsiyet:\NErkek
 Dialogue: 0,0:17:19.36,0:17:20.07,main,Kousuke,0,0,0,,Hı?
 Dialogue: 0,0:17:20.45,0:17:24.81,main,Kousuke,0,0,0,,Ölçülerimi virgülüne kadar\Nnasıl biliyorsun sen?
 Dialogue: 0,0:17:25.04,0:17:29.94,main,Nanami,0,0,0,,Vücut yağ oranınız ve yakılan kalori\Nverilerini de görebilirsiniz.
@@ -409,7 +352,6 @@ Dialogue: 0,0:17:47.73,0:17:52.06,main,Nanami,0,0,0,,Önce bir baş hizmetçi ya
 Dialogue: 0,0:17:52.06,0:17:55.03,main,Kousuke,0,0,0,,Baş hizmetçi de ne demek oluyor?
 Dialogue: 0,0:17:55.03,0:17:56.59,main,Nanami,0,0,0,,Koşarken size yardımcı olan kişi.
 Dialogue: 0,0:17:57.08,0:17:58.23,main,Nanami,0,0,0,,Şöyle yapmanız yeterli,
-Dialogue: 0,0:17:58.36,0:18:02.35,sign_28214_358_Takioto_Kousuke,SIGN,0,0,0,,{\frz6.232\pos(255,32)}Mod Seç
 Dialogue: 0,0:17:58.81,0:18:00.41,main - italics,NanamiVoice,0,0,0,,Lütfen dokunmatik ekranı kullanın.
 Dialogue: 0,0:18:00.41,0:18:02.35,main - italics,NanamiVoice,0,0,0,,Ya da sesli komut verin.
 Dialogue: 0,0:18:02.35,0:18:04.52,main,Kousuke,0,0,0,,A, bu senin sesin mi?!
@@ -418,7 +360,6 @@ Dialogue: 0,0:18:07.63,0:18:11.85,main,Nanami,0,0,0,,Baş uşak içinse, izniniz
 Dialogue: 0,0:18:11.85,0:18:14.34,main,Ludie,0,0,0,,Çok eğlenceli duruyor!
 Dialogue: 0,0:18:14.34,0:18:17.28,main,Yukine,0,0,0,,Evet, bayağı pratik bir\Nözelliğe benziyor.
 Dialogue: 0,0:18:17.69,0:18:19.78,main,Nanami,0,0,0,,O hâlde bir hedef belirleyelim.
-Dialogue: 0,0:18:19.78,0:18:25.29,sign_28214_358_Takioto_Kousuke,SIGN,0,0,0,,{\c&H4A001C&\frz16.16\fs14\move(431,142,346,185,25,5489)}Hedef
 Dialogue: 0,0:18:20.09,0:18:24.16,main,Nanami,0,0,0,,Varsayılan değer 42,195 km'ye ayarlı.
 Dialogue: 0,0:18:24.16,0:18:25.29,main,Ludie,0,0,0,,Bu çok fazla!
 Dialogue: 0,0:18:25.29,0:18:27.48,main,Yukine,0,0,0,,Gayet normal bir mesafe bence.
@@ -443,8 +384,6 @@ Dialogue: 0,0:19:18.93,0:19:20.26,main,Kousuke,0,0,0,,Bir dakika! Yapamıyorum!
 Dialogue: 0,0:19:20.26,0:19:21.00,main,Kousuke,0,0,0,,Daha fazla olmaz!
 Dialogue: 0,0:19:21.00,0:19:23.18,main,Kousuke,0,0,0,,İnemiyorum, durdurun şunu!
 Dialogue: 0,0:19:23.41,0:19:25.93,main,Claris,0,0,0,,Hatsumi-sama! Durdurma düğmesine basın!
-Dialogue: 0,0:19:26.53,0:19:26.93,sign_10776_104_Encounter_Cafe,SIGN,0,0,0,,{\3c&H7649F5&\c&HFFFFFF&\b1\frz10.45\pos(200,187)}Duraklat
-Dialogue: 0,0:19:26.53,0:19:26.93,sign_10776_104_Encounter_Cafe,SIGN,0,0,0,,{\c&HFFFFFF&\3c&HED6437&\b1\frz11.07\pos(362,157)}Devam Et
 Dialogue: 0,0:19:32.19,0:19:34.15,main,Nanami,0,0,0,,Herkesin nesi var böyle?
 Dialogue: 0,0:19:34.15,0:19:37.05,main,Ludie,0,0,0,,B-Bu makine çok saçma!
 Dialogue: 0,0:19:37.05,0:19:38.81,main,Yukine,0,0,0,,Ne kadar da edepsiz!
@@ -459,8 +398,6 @@ Dialogue: 0,0:19:56.80,0:19:58.83,main,Kousuke,0,0,0,,Nanami özütü de ne deme
 Dialogue: 0,0:19:58.83,0:20:00.21,main,Kousuke,0,0,0,,Yoksa midyelerle akraba mısın?!
 Dialogue: 0,0:20:00.21,0:20:02.66,main,Nanami,0,0,0,,İnanamıyorum, bunu bana\Nsöyletiyorsunuz resmen.
 Dialogue: 0,0:20:02.66,0:20:04.39,main,Kousuke,0,0,0,,Sen niye utanıyorsun ki şimdi?
-Dialogue: 0,0:20:04.39,0:20:12.02,sign_28214_358_Takioto_Kousuke,SIGN,0,0,0,,{\pos(44,72)}Soğuk\NHava
-Dialogue: 0,0:20:04.39,0:20:12.02,sign_28214_358_Takioto_Kousuke,SIGN,0,0,0,,{\pos(189,45)}Sıcak\NHava
 Dialogue: 0,0:20:04.79,0:20:08.44,main,Nanami,0,0,0,,Üstelik soğuk ya da sıcak\Nhava üflemesini sağlayabilirsiniz.
 Dialogue: 0,0:20:08.44,0:20:09.36,main,Hatsumi,0,0,0,,Bastım.
 Dialogue: 0,0:20:10.82,0:20:13.06,main,Kousuke,0,0,0,,Oo, biraz ısındı.
