@@ -1,0 +1,35 @@
+[Script Info]
+Title: pn-SomeSubs - Magical Explorer
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 640
+PlayResY: 360
+YCbCr Matrix: TV.709
+LayoutResX: 640
+LayoutResY: 360
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: sign_8204_57_Night_Sky_Cave,Trebuchet MS,23,&H00FFFFFF,&H000000FF,&H00131319,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,234,234,52,0
+Style: sign_7422_35_Ability_Assessme,Trebuchet MS,23,&H00FFFFFF,&H000000FF,&H00131319,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,360,64,280,0
+Style: sign_10576_96__Beginner_Dungeo,Trebuchet MS,20,&H00FFFFFF,&H000000FF,&H00131319,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,162,168,50,0
+Style: sign_12550_121_Resume,Trebuchet MS,11,&H00FFFFFF,&H000000FF,&H00131319,&H00000000,-1,0,0,0,100,100,0,281,1,0,0,2,352,244,313,0
+Style: sign_35245_386_Reborn_as_a_Side,Times New Roman,25,&H008400DA,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,0,14,290,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:40.17,0:01:43.63,sign_8204_57_Night_Sky_Cave,SIGN,0,0,0,,{\fs20\pos(320,312)}Altı Ay Sonra
+Dialogue: 0,0:03:44.49,0:03:47.45,sign_7422_35_Ability_Assessme,SIGN,0,0,0,,{\c&H574F29&\fs18\move(494,35,490,38,29,2948)}Yetenek Değerlendirmesi
+Dialogue: 0,0:03:44.49,0:03:47.45,sign_7422_35_Ability_Assessme,SIGN,0,0,0,,{\c&H574F29&\fs16\pos(389,191)}12 Mayıs-\N16 Mayıs
+Dialogue: 0,0:03:44.49,0:03:47.45,sign_7422_35_Ability_Assessme,SIGN,0,0,0,,{\fs16\c&H574F29&\move(223,220,226,218,29,2948)}Yazılı
+Dialogue: 0,0:03:44.49,0:03:47.45,sign_7422_35_Ability_Assessme,SIGN,0,0,0,,{\c&H574F29&\fs16\move(135,220,141,217,29,2948)}Uygulamalı
+Dialogue: 0,0:03:44.49,0:03:47.45,sign_7422_35_Ability_Assessme,SIGN,0,0,0,,{\fs16\c&H574F29&\move(46,217,52,217,29,2948)}Zindan
+Dialogue: 0,0:05:56.04,0:05:58.79,sign_10576_96__Beginner_Dungeo,SIGN,0,0,0,,[Başlangıç Zindanı, 1. Kat]
+Dialogue: 0,0:06:17.98,0:06:20.35,sign_10576_96__Beginner_Dungeo,SIGN,0,0,0,,{\pos(322,308)}[5. Kat]
+Dialogue: 0,0:06:49.09,0:06:51.59,sign_10576_96__Beginner_Dungeo,SIGN,0,0,0,,{\fad(1,458)\pos(322,309)}[9. Kat]
+Dialogue: 0,0:07:18.37,0:07:18.95,sign_12550_121_Resume,SIGN,0,0,0,,Devam
+Dialogue: 0,0:07:18.37,0:07:18.95,sign_12550_121_Resume,SIGN,0,0,0,,{\pos(304,115)}Sıfırla
+Dialogue: 0,0:12:13.75,0:12:22.42,sign_10576_96__Beginner_Dungeo,SIGN,0,0,0,,{\fad(546,1)}[Şafak Labirenti]
+Dialogue: 0,0:22:04.96,0:22:09.97,sign_35245_386_Reborn_as_a_Side,SIGN,0,0,0,,{\move(313,70,313,80,30,4993)}"Büyük Üçlü"
+Dialogue: 0,0:22:04.96,0:22:09.97,sign_35245_386_Reborn_as_a_Side,SIGN,0,0,0,,{\c&H000000&\move(313,194,314,196,30,4993)}Mizumori Yukine
