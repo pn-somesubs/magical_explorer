@@ -11,22 +11,14 @@ LayoutResY: 360
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,2,20,20,23,1
 Style: main,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,2,20,20,17,0
 Style: main - top,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,8,20,20,23,0
 Style: main - italics,trebuchet ms,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,1.3,0,2,20,20,18,0
-Style: main - italics top,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,1.3,0,8,20,20,23,0
 Style: main - flashback,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,2,20,20,23,0
-Style: main - flashback - top,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,1.3,0,8,20,20,23,0
-Style: sign_8204_57_Night_Sky_Cave,Trebuchet MS,23,&H00FFFFFF,&H000000FF,&H00131319,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,234,234,52,0
-Style: sign_7422_35_Ability_Assessme,Trebuchet MS,23,&H00FFFFFF,&H000000FF,&H00131319,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,360,64,280,0
-Style: sign_10576_96__Beginner_Dungeo,Trebuchet MS,20,&H00FFFFFF,&H000000FF,&H00131319,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,162,168,50,0
-Style: sign_12550_121_Resume,Trebuchet MS,11,&H00FFFFFF,&H000000FF,&H00131319,&H00000000,-1,0,0,0,100,100,0,281,1,0,0,2,352,244,313,0
-Style: sign_35245_386_Reborn_as_a_Side,Times New Roman,25,&H008400DA,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,0,14,290,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:10.00,main - italics,,0,0,0,,{\fs20\an7\fe162\b\fad(400,400)\bord2\blur5\shad\4c&H000000&\4a&HFF&\fnSweetest Cat Ever}\N{\pos(20,-2)}{\c&HFFFF00&}{\4c&H8485E4&}SomeSub ekip arkadaşı arıyor!\N{\pos(60,63)}{\c&HFFFFFF&}Çevirmen:{\c&HFFFF00&} KaranlıkPaşa\N{\pos(60,111)}{\c&HFFFFFF&}Encode:{\c&HFFFF00&} Velnoxy\N{\pos(60,111)}{\c&HFFFFFF&}Redaktör:{\c&HFFFF00&} Mitos\N{\c&HFFFFFF&}Discord:{\c&HFFFF00&} discord.gg/somesub
+Dialogue: 0,0:00:00.00,0:00:10.00,main - italics,,0,0,0,,{\fs20\an7\fe162\b1\fad(400,400)\bord2\blur5\4a&HFF&\fnSweetest Cat Ever}\N{\pos(20,-2)\c&HFFFF00&\4c&H8485E4&}SomeSub ekip arkadaşı arıyor!\N{\c&HFFFFFF&}Çevirmen:{\c&HFFFF00&} KaranlıkPaşa\N{\c&HFFFFFF&}Encode:{\c&HFFFF00&} Velnoxy\N{\c&HFFFFFF&}Redaktör:{\c&HFFFF00&} Mitos\N{\c&HFFFFFF&}Discord:{\c&HFFFF00&} discord.gg/somesub
 Dialogue: 0,0:00:07.12,0:00:11.24,main - italics,Yukine(M),0,0,0,,Böyle bir insanın var olabileceğine\Ninanmakta zorlandığım ilk kişi,
 Dialogue: 0,0:00:11.24,0:00:12.71,main - italics,Yukine(M),0,0,0,,Kendi ablamdı.
 Dialogue: 0,0:00:13.56,0:00:15.96,main - italics,Yukine(M),0,0,0,,Sadece birinci sınıf bir büyücü değildi,
@@ -51,7 +43,6 @@ Dialogue: 0,0:01:24.19,0:01:27.84,main - italics,Yukine(M),0,0,0,,Tam aksine, bu
 Dialogue: 0,0:01:28.49,0:01:31.89,main - italics,Yukine(M),0,0,0,,Katanada az çok yeteneğim\Nolduğu için,
 Dialogue: 0,0:01:31.89,0:01:35.10,main - italics,Yukine(M),0,0,0,,Onun bu konuda ne kadar olağanüstü\Nolduğunu daha da iyi anlıyordum.
 Dialogue: 0,0:01:36.46,0:01:39.72,main - italics,Yukine(M),0,0,0,,İlk kaçışım o zamandı.
-Dialogue: 0,0:01:40.17,0:01:43.63,sign_8204_57_Night_Sky_Cave,SIGN,0,0,0,,{\fs20\pos(320,312)}Altı Ay Sonra
 Dialogue: 0,0:01:54.85,0:01:57.01,main,Suzune,0,0,0,,Ben dahi falan değilim.
 Dialogue: 0,0:01:57.55,0:01:59.75,main,Suzune,0,0,0,,Eğer beni ille de dahi olarak\Ngörmek istiyorsan,
 Dialogue: 0,0:01:59.75,0:02:01.33,main,Suzune,0,0,0,,Şunu kabul etmelisin, Yukine.
@@ -59,11 +50,6 @@ Dialogue: 0,0:02:02.26,0:02:05.53,main,Suzune,0,0,0,,Sen de bir dahisin, o yüzd
 Dialogue: 0,0:02:07.46,0:02:10.16,main,Yukine,0,0,0,,Benim yerime, demek.
 Dialogue: 0,0:03:42.49,0:03:45.62,main,Ruija,0,0,0,,İşte Tsukuyomi Büyü Akademisi'ndeki\Nyetenek değerlendirmeleri,
 Dialogue: 0,0:03:45.62,0:03:47.45,main,Ruija,0,0,0,,Birkaç güne yayılarak bu şekilde yapılır.
-Dialogue: 0,0:03:44.49,0:03:47.45,sign_7422_35_Ability_Assessme,SIGN,0,0,0,,{\c&H574F29&\fs18\move(494,35,490,38,29,2948)}Yetenek Değerlendirmesi
-Dialogue: 0,0:03:44.49,0:03:47.45,sign_7422_35_Ability_Assessme,SIGN,0,0,0,,{\c&H574F29&\fs16\pos(389,191)}12 Mayıs-\N16 Mayıs
-Dialogue: 0,0:03:44.49,0:03:47.45,sign_7422_35_Ability_Assessme,SIGN,0,0,0,,{\fs16\c&H574F29&\move(223,220,226,218,29,2948)}Yazılı
-Dialogue: 0,0:03:44.49,0:03:47.45,sign_7422_35_Ability_Assessme,SIGN,0,0,0,,{\c&H574F29&\fs16\move(135,220,141,217,29,2948)}Uygulamalı
-Dialogue: 0,0:03:44.49,0:03:47.45,sign_7422_35_Ability_Assessme,SIGN,0,0,0,,{\fs16\c&H574F29&\move(46,217,52,217,29,2948)}Zindan
 Dialogue: 0,0:03:47.45,0:03:50.87,main,Ruija,0,0,0,,Genel puanınız yazılı ve\Nuygulamalı sınavların yanı sıra,
 Dialogue: 0,0:03:50.87,0:03:52.46,main,Ruija,0,0,0,,Zindan temizleme performansınızla\Nhesaplanır.
 Dialogue: 0,0:03:52.46,0:03:56.34,main,Ruija,0,0,0,,İlk kez katılacağınız için\Nbiraz gergin olabilirsiniz.
@@ -120,7 +106,6 @@ Dialogue: 0,0:05:48.95,0:05:51.33,main - italics,Kousuke(M),0,0,0,,Yaklaşan oyu
 Dialogue: 0,0:05:51.74,0:05:56.04,main - italics,Kousuke(M),0,0,0,,Buna hazırlanmak için herkesin\Nbir an önce güçlenmesi şart.
 Dialogue: 0,0:05:52.24,0:05:53.83,main - top,Iori,0,0,0,,Tanıştığımıza memnun oldum.
 Dialogue: 0,0:05:53.83,0:05:56.04,main - top,Yukine,0,0,0,,Ben de memnun oldum.
-Dialogue: 0,0:05:56.04,0:05:58.79,sign_10576_96__Beginner_Dungeo,SIGN,0,0,0,,[Başlangıç Zindanı, 1. Kat]
 Dialogue: 0,0:05:59.92,0:06:00.79,main,Katorina,0,0,0,,Kolay lokma!
 Dialogue: 0,0:06:00.79,0:06:01.59,main,Iori,0,0,0,,Bir tane de benden!
 Dialogue: 0,0:06:05.05,0:06:06.80,main,Yukine,0,0,0,,Bu ikisi oldukça iyi.
@@ -128,7 +113,6 @@ Dialogue: 0,0:06:06.80,0:06:09.51,main,Kousuke,0,0,0,,Evet, üstelik muhtemelen\
 Dialogue: 0,0:06:09.84,0:06:13.01,main,Kousuke,0,0,0,,Iori, Katorina, buradaki tüm\Ndüşmanları boş verin.
 Dialogue: 0,0:06:13.26,0:06:15.02,main,Katorina,0,0,0,,Ha? Nedenmiş?
 Dialogue: 0,0:06:15.02,0:06:16.52,main,Kousuke,0,0,0,,Öyle gerekiyor, hadi acele edelim.
-Dialogue: 0,0:06:17.98,0:06:20.35,sign_10576_96__Beginner_Dungeo,SIGN,0,0,0,,{\pos(322,308)}[5. Kat]
 Dialogue: 0,0:06:31.03,0:06:34.16,main,Katorina,0,0,0,,Tek yaptığımız koşmak!
 Dialogue: 0,0:06:34.16,0:06:36.41,main,Katorina,0,0,0,,Bunun ne anlamı var?!
 Dialogue: 0,0:06:36.41,0:06:38.37,main,Yukine,0,0,0,,Ludie, hâlâ gayet iyi görünüyorsun.
@@ -136,7 +120,6 @@ Dialogue: 0,0:06:38.37,0:06:42.13,main,Ludie,0,0,0,,Dayanıklılık kazanmanın 
 Dialogue: 0,0:06:43.34,0:06:44.88,main,Iori,0,0,0,,Hepiniz ne kadar da dayanıklısınız.
 Dialogue: 0,0:06:44.88,0:06:47.30,main,Kousuke,0,0,0,,Sen de gayet iyi ayak uyduruyorsun ama.
 Dialogue: 0,0:06:47.30,0:06:49.09,main,Iori,0,0,0,,Doğru! Teşekkürler!
-Dialogue: 0,0:06:49.09,0:06:51.59,sign_10576_96__Beginner_Dungeo,SIGN,0,0,0,,{\fad(1,458)\pos(322,309)}[9. Kat]
 Dialogue: 0,0:06:51.43,0:06:52.55,main - top,Nanami,0,0,0,,Tam vaktinde yetiştik.
 Dialogue: 0,0:06:55.10,0:06:55.93,main,Yukine,0,0,0,,Ne?
 Dialogue: 0,0:06:55.93,0:06:57.52,main,Katorina,0,0,0,,Daha bitmedi mi?!
@@ -144,8 +127,6 @@ Dialogue: 0,0:06:57.85,0:07:01.69,main,Nanami,0,0,0,,Dört yol ağzına denk gel
 Dialogue: 0,0:07:01.69,0:07:05.77,main,Nanami,0,0,0,,T kavşağı çıkarsa, güney, güney,\Ndoğu, güney, doğu, kuzey.
 Dialogue: 0,0:07:05.77,0:07:06.73,main,Kousuke,0,0,0,,Anlaşıldı!
 Dialogue: 0,0:07:07.44,0:07:09.24,main,Ludie,0,0,0,,Şey, Kousuke?
-Dialogue: 0,0:07:18.37,0:07:18.95,sign_12550_121_Resume,SIGN,0,0,0,,Devam
-Dialogue: 0,0:07:18.37,0:07:18.95,sign_12550_121_Resume,SIGN,0,0,0,,{\pos(304,115)}Sıfırla
 Dialogue: 0,0:07:19.20,0:07:22.17,main,Nanami,0,0,0,,Efendim, süre 1 saat 58 dakika.
 Dialogue: 0,0:07:22.17,0:07:24.46,main,Kousuke,0,0,0,,İki dakika kalmış. Kıl payı kurtardık.
 Dialogue: 0,0:07:24.75,0:07:26.21,main,Katorina,0,0,0,,Ciddi misin?
@@ -231,7 +212,6 @@ Dialogue: 0,0:11:56.82,0:11:59.11,main,Kousuke,0,0,0,,O yüzden bunu senden bir 
 Dialogue: 0,0:11:59.57,0:12:01.49,main,Kousuke,0,0,0,,Güçlenmek istiyor musun?
 Dialogue: 0,0:12:03.86,0:12:04.99,main,Yukine,0,0,0,,Güçlenebilir miyim?
 Dialogue: 0,0:12:07.33,0:12:09.58,main,Kousuke,0,0,0,,Birlikte bir zindana gidelim.
-Dialogue: 0,0:12:13.75,0:12:22.42,sign_10576_96__Beginner_Dungeo,SIGN,0,0,0,,{\fad(546,1)}[Şafak Labirenti]
 Dialogue: 0,0:12:14.42,0:12:19.42,main - top,Yukine,0,0,0,,Adı Şafak Labirenti ama pek de\Nlabirente benzemiyor.
 Dialogue: 0,0:12:19.42,0:12:22.42,main - top,Kousuke,0,0,0,,Aslında burası kesinlikle bir tür labirent.
 Dialogue: 0,0:12:22.80,0:12:25.93,main,Kousuke,0,0,0,,Burada kendi labirentini aşman gerekiyor.
@@ -392,7 +372,7 @@ Dialogue: 0,0:21:33.43,0:21:36.48,main,Kousuke,0,0,0,,Özür dilemeni gerektirec
 Dialogue: 0,0:21:37.60,0:21:40.82,main,Kousuke,0,0,0,,Yaptıklarımın şüphe uyandırdığının\Nfarkındayım.
 Dialogue: 0,0:21:40.82,0:21:42.15,main,Kousuke,0,0,0,,Bu sefer de öyle oldu.
 Dialogue: 0,0:21:42.15,0:21:44.07,main,Kousuke,0,0,0,,O yüzden sana gerçekten\Nanlatmak istiyorum.
-Dialogue: 0,0:21:44.07,0:22:00.79,main,,0,0,0,,{\fnArial\fs22}{\an8}Ç.N: Fantastik çevirmeninizle tanışmak isterseniz\Ndiscord suncumuza bekleriz.
+Dialogue: 0,0:21:44.07,0:22:00.79,main,,0,0,0,,{\fnArial\fs22\an8}Ç.N: Fantastik çevirmeninizle tanışmak isterseniz\Ndiscord suncumuza bekleriz.
 Dialogue: 0,0:21:44.65,0:21:46.57,main,Kousuke,0,0,0,,Ama senden bir şey rica etsem,
 Dialogue: 0,0:21:46.57,0:21:48.91,main,Kousuke,0,0,0,,Birazcık daha beklemeni\Nisteyebilir miyim?
 Dialogue: 0,0:21:48.91,0:21:50.28,main,Yukine,0,0,0,,Elbette.
@@ -404,5 +384,3 @@ Dialogue: 0,0:22:00.79,0:22:01.84,main,Kousuke,0,0,0,,Senpai.
 Dialogue: 0,0:22:01.84,0:22:09.97,main,,0,0,0,,{\an8}Ç.N: discord.gg/somesub
 Dialogue: 0,0:22:02.92,0:22:04.96,main,Yukine,0,0,0,,Hadi artık dönüp antrenman yapalım!
 Dialogue: 0,0:22:05.21,0:22:06.05,main,Kousuke,0,0,0,,Evet!
-Dialogue: 0,0:22:04.96,0:22:09.97,sign_35245_386_Reborn_as_a_Side,SIGN,0,0,0,,{\move(313,70,313,80,30,4993)}"Büyük Üçlü"
-Dialogue: 0,0:22:04.96,0:22:09.97,sign_35245_386_Reborn_as_a_Side,SIGN,0,0,0,,{\c&H000000&\move(313,194,314,196,30,4993)}Mizumori Yukine
