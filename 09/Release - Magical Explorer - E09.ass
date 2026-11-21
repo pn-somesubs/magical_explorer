@@ -1,0 +1,405 @@
+[Script Info]
+Title: pn-SomeSubs - Magical Explorer
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 640
+PlayResY: 360
+YCbCr Matrix: TV.709
+LayoutResX: 640
+LayoutResY: 360
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: main,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,2,20,20,17,0
+Style: main - top,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,8,20,20,23,0
+Style: main - italics,trebuchet ms,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,1.3,0,2,20,20,18,0
+Style: main - flashback,Roboto Medium,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.3,0,2,20,20,23,0
+Style: sign_8204_57_Night_Sky_Cave,Trebuchet MS,23,&H00FFFFFF,&H000000FF,&H00131319,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,234,234,52,0
+Style: sign_7422_35_Ability_Assessme,Trebuchet MS,23,&H00FFFFFF,&H000000FF,&H00131319,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,360,64,280,0
+Style: sign_10576_96__Beginner_Dungeo,Trebuchet MS,20,&H00FFFFFF,&H000000FF,&H00131319,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,162,168,50,0
+Style: sign_12550_121_Resume,Trebuchet MS,11,&H00FFFFFF,&H000000FF,&H00131319,&H00000000,-1,0,0,0,100,100,0,281,1,0,0,2,352,244,313,0
+Style: sign_35245_386_Reborn_as_a_Side,Times New Roman,25,&H008400DA,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,0,14,290,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,main - italics,,0,0,0,,{\fs20\an7\fe162\b1\fad(400,400)\bord2\blur5\4a&HFF&\fnSweetest Cat Ever}\N{\pos(20,-2)\c&HFFFF00&\4c&H8485E4&}SomeSub ekip arkadaşı arıyor!\N{\c&HFFFFFF&}Çevirmen:{\c&HFFFF00&} KaranlıkPaşa\N{\c&HFFFFFF&}Encode:{\c&HFFFF00&} Velnoxy\N{\c&HFFFFFF&}Redaktör:{\c&HFFFF00&} Mitos\N{\c&HFFFFFF&}Discord:{\c&HFFFF00&} discord.gg/somesub
+Dialogue: 9,0:00:07.12,0:00:11.24,main - italics,Yukine(M),0,0,0,,Böyle bir insanın var olabileceğine\Ninanmakta zorlandığım ilk kişi,
+Dialogue: 9,0:00:11.24,0:00:12.71,main - italics,Yukine(M),0,0,0,,Kendi ablamdı.
+Dialogue: 9,0:00:13.56,0:00:15.96,main - italics,Yukine(M),0,0,0,,Sadece birinci sınıf bir büyücü değildi,
+Dialogue: 9,0:00:15.96,0:00:18.16,main - italics,Yukine(M),0,0,0,,Dövüş sanatlarında da tam bir makineydi.
+Dialogue: 9,0:00:18.75,0:00:21.96,main - italics,Yukine(M),0,0,0,,Bu yüzden ona karşı hep yenildim.
+Dialogue: 9,0:00:22.44,0:00:24.61,main - italics,Yukine(M),0,0,0,,Aramızda iki yaş vardı,
+Dialogue: 9,0:00:24.61,0:00:27.80,main - italics,Yukine(M),0,0,0,,Ama iki yıl sonra onun seviyesine\Ngelebilir miyim diye sorulduğunda,
+Dialogue: 9,0:00:27.80,0:00:28.78,main - italics,Yukine(M),0,0,0,,Hep şüpheyle bakardım.
+Dialogue: 9,0:00:33.64,0:00:38.00,main - italics,Yukine(M),0,0,0,,Hatta ona asla yetişemeyeceğime\Ninanmaya bile başlamıştım.
+Dialogue: 9,0:00:39.57,0:00:41.34,main - flashback,Suzune,0,0,0,,Sen bir dahisin, Yukine.
+Dialogue: 9,0:00:41.78,0:00:43.57,main - flashback,Suzune,0,0,0,,Bunun garantisini veriyorum.
+Dialogue: 9,0:00:45.53,0:00:48.90,main - italics,Yukine(M),0,0,0,,Ama daha küçük yaşta anlamıştım,
+Dialogue: 9,0:00:49.66,0:00:54.22,main - italics,Yukine(M),0,0,0,,Annemle babamın tüm kalplerini ve\Nemeklerini ona adadığını.
+Dialogue: 9,0:00:54.88,0:00:58.96,main - italics,Yukine(M),0,0,0,,Sanırım ikisi de onun kılıç ustalığına\Nvurulmuştu.
+Dialogue: 9,0:00:59.65,0:01:02.70,main - italics,Yukine(M),0,0,0,,Bana olan ilgilerini neden kestikleri\Ncan yakıcı derecede açıktı.
+Dialogue: 9,0:01:03.41,0:01:08.38,main - italics,Yukine(M),0,0,0,,Ne de olsa onun kılıç ustalığından\Nen çok büyülenen kişi bendim.
+Dialogue: 9,0:01:09.22,0:01:10.64,main - italics,Yukine(M),0,0,0,,Ablam bir dahi.
+Dialogue: 9,0:01:12.10,0:01:13.90,main - italics,Yukine(M),0,0,0,,Büyüde belki bir şansım vardı,
+Dialogue: 9,0:01:14.21,0:01:18.07,main - italics,Yukine(M),0,0,0,,Ama katanada onu asla geçemezdim.
+Dialogue: 9,0:01:20.57,0:01:23.65,main - italics,Yukine(M),0,0,0,,Kendimi tamamen yeteneksiz\Nsandığımdan değil,
+Dialogue: 9,0:01:24.19,0:01:27.84,main - italics,Yukine(M),0,0,0,,Tam aksine, bu yüzden\Nnaginatayı elime aldım.
+Dialogue: 9,0:01:28.49,0:01:31.89,main - italics,Yukine(M),0,0,0,,Katanada az çok yeteneğim\Nolduğu için,
+Dialogue: 9,0:01:31.89,0:01:35.10,main - italics,Yukine(M),0,0,0,,Onun bu konuda ne kadar olağanüstü\Nolduğunu daha da iyi anlıyordum.
+Dialogue: 9,0:01:36.46,0:01:39.72,main - italics,Yukine(M),0,0,0,,İlk kaçışım o zamandı.
+Dialogue: 9,0:01:54.85,0:01:57.01,main,Suzune,0,0,0,,Ben dahi falan değilim.
+Dialogue: 9,0:01:57.55,0:01:59.75,main,Suzune,0,0,0,,Eğer beni ille de dahi olarak\Ngörmek istiyorsan,
+Dialogue: 9,0:01:59.75,0:02:01.33,main,Suzune,0,0,0,,Şunu kabul etmelisin, Yukine.
+Dialogue: 9,0:02:02.26,0:02:05.53,main,Suzune,0,0,0,,Sen de bir dahisin, o yüzden bunu hedefle.
+Dialogue: 9,0:02:07.46,0:02:10.16,main,Yukine,0,0,0,,Benim yerime, demek.
+Dialogue: 9,0:03:42.49,0:03:45.62,main,Ruija,0,0,0,,İşte Tsukuyomi Büyü Akademisi'ndeki\Nyetenek değerlendirmeleri,
+Dialogue: 9,0:03:45.62,0:03:47.45,main,Ruija,0,0,0,,Birkaç güne yayılarak bu şekilde yapılır.
+Dialogue: 9,0:03:47.45,0:03:50.87,main,Ruija,0,0,0,,Genel puanınız yazılı ve\Nuygulamalı sınavların yanı sıra,
+Dialogue: 9,0:03:50.87,0:03:52.46,main,Ruija,0,0,0,,Zindan temizleme performansınızla\Nhesaplanır.
+Dialogue: 9,0:03:52.46,0:03:56.34,main,Ruija,0,0,0,,İlk kez katılacağınız için\Nbiraz gergin olabilirsiniz.
+Dialogue: 9,0:03:56.34,0:03:58.46,main,Ruija,0,0,0,,Okul sıralamaları herkese açık\Nolarak yayınlanacağından,
+Dialogue: 9,0:03:58.46,0:04:00.88,main,Ruija,0,0,0,,Hazırlıklarınızı aksatmayın.
+Dialogue: 9,0:04:04.39,0:04:05.68,main,Katorina,0,0,0,,Hey, Takioto.
+Dialogue: 9,0:04:05.68,0:04:07.68,main,Katorina,0,0,0,,Sana bir sorum var.
+Dialogue: 9,0:04:08.26,0:04:11.43,main,Katorina,0,0,0,,Dersleri ektiğinde tam olarak\Nne haltlar karıştırıyorsun?
+Dialogue: 9,0:04:11.43,0:04:12.89,main,Kousuke,0,0,0,,Ne demek istiyorsun?
+Dialogue: 9,0:04:12.89,0:04:14.85,main,Kousuke,0,0,0,,Zindanlara giriyorum işte.
+Dialogue: 9,0:04:14.85,0:04:17.23,main,Katorina,0,0,0,,Yok ya, sadece bu olamaz.
+Dialogue: 9,0:04:17.23,0:04:18.69,main,Katorina,0,0,0,,Etrafta bir sürü dedikodu dönüyor.
+Dialogue: 9,0:04:18.69,0:04:20.69,main,Nanami,0,0,0,,Boş vakti gereğinden fazla olan\Nkişiler var anlaşılan.
+Dialogue: 9,0:04:20.69,0:04:22.95,main,Nanami,0,0,0,,Efendim, bence bunlar sadece\Nbaşkalarının arkasından atıp tutabilen,
+Dialogue: 9,0:04:22.95,0:04:24.95,main,Nanami,0,0,0,,Alt düzey yaşam formlarıdır.
+Dialogue: 9,0:04:24.95,0:04:27.70,main,Kousuke,0,0,0,,Sakın diğer öğrencilerin yüzüne\Nböyle şeyler söyleme.
+Dialogue: 9,0:04:27.70,0:04:29.08,main,Ludie,0,0,0,,Ne dedikodusuymuş?
+Dialogue: 9,0:04:29.08,0:04:33.12,main,Katorina,0,0,0,,Mesela tuhaf bir cihazla şeytana\Ntapma ayini yaptığın,
+Dialogue: 9,0:04:33.12,0:04:35.92,main,Katorina,0,0,0,,Şaibeli bir ofisle iş tuttuğun,
+Dialogue: 9,0:04:35.92,0:04:39.67,main,Katorina,0,0,0,,Ya da gizlice balık markalı\Nkayganlaştırıcı sattığın konuşuluyor.
+Dialogue: 9,0:04:39.67,0:04:41.42,main,Kousuke,0,0,0,,Tamamen uydurma da\Nsayılmazlar gerçi.
+Dialogue: 9,0:04:41.42,0:04:42.88,main,Katorina,0,0,0,,Ne?! Doğru mu yani?!
+Dialogue: 9,0:04:42.88,0:04:44.59,main,Nanami,0,0,0,,Az önce bir satış gerçekleşmiş\Ngörünüyor.
+Dialogue: 9,0:04:44.59,0:04:46.89,main,Nanami,0,0,0,,Pembe saçlı bir kadın kredi çekip\Nalmış anlaşılan.
+Dialogue: 9,0:04:46.89,0:04:48.76,main - italics,Kousuke(M),0,0,0,,Bu Ruija Hoca!
+Dialogue: 9,0:04:48.76,0:04:51.18,main - italics,Kousuke(M),0,0,0,,Ona harçlık bağlamam gerektiğini\Nbiliyordum!
+Dialogue: 9,0:04:51.18,0:04:52.02,main,Kousuke,0,0,0,,Ha, doğru ya!
+Dialogue: 9,0:04:52.02,0:04:53.60,main,Kousuke,0,0,0,,Okul çıkışı zindana gidelim!
+Dialogue: 9,0:04:53.98,0:04:55.64,main,Katorina,0,0,0,,Seninle ne işim olur benim?
+Dialogue: 9,0:04:56.40,0:04:57.40,main,Kousuke,0,0,0,,Iori, sen de gel.
+Dialogue: 9,0:04:58.77,0:04:59.77,main,Iori,0,0,0,,Ben de gelebilir miyim?
+Dialogue: 9,0:05:00.02,0:05:02.40,main,Kousuke,0,0,0,,Seninle gitmeyi çok istiyordum zaten.
+Dialogue: 9,0:05:03.03,0:05:07.45,main,Katorina,0,0,0,,Bilesin, birinci sınıfların tek başına\Nzindana girmesi yasak.
+Dialogue: 9,0:05:07.45,0:05:08.91,main,Katorina,0,0,0,,Hiçbir öğretmen izin vermez.
+Dialogue: 9,0:05:08.91,0:05:10.87,main,Kousuke,0,0,0,,Ama biri verdi bile.
+Dialogue: 9,0:05:10.87,0:05:12.66,main,Iori,0,0,0,,Bu Ruija Hoca'nın izin belgesi!
+Dialogue: 9,0:05:12.66,0:05:14.58,main,Katorina,0,0,0,,Of, bir de bizim sınıf hocamız.
+Dialogue: 9,0:05:14.58,0:05:16.42,main,Kousuke,0,0,0,,Güvenli olacağına söz veriyorum.
+Dialogue: 9,0:05:16.42,0:05:18.92,main,Kousuke,0,0,0,,Ahlak Kurulu'ndan birini de\Nçağırmayı planlıyorum.
+Dialogue: 9,0:05:18.92,0:05:20.17,main,Katorina,0,0,0,,Ahlak Kurulu'ndan mı?
+Dialogue: 9,0:05:20.17,0:05:21.63,main,Kousuke,0,0,0,,Ludie, sen de bize katılıyorsun, değil mi?
+Dialogue: 9,0:05:21.96,0:05:24.17,main,Kousuke,0,0,0,,Duyduğuma göre artık her gün\Nkoşu yapıyormuşsun?
+Dialogue: 9,0:05:24.97,0:05:26.38,main,Iori,0,0,0,,Harika bir şey bu.
+Dialogue: 9,0:05:26.38,0:05:28.64,main,Katorina,0,0,0,,Prensesler de sıkı çalışıyormuş demek.
+Dialogue: 9,0:05:28.64,0:05:30.51,main,Katorina,0,0,0,,İyi de Takioto bunu nereden biliyor?
+Dialogue: 9,0:05:30.51,0:05:31.31,main,Kousuke,0,0,0,,Şey, o konu,
+Dialogue: 9,0:05:32.56,0:05:34.89,main,Katorina,0,0,0,,Neyse, iznimiz varsa bana uyar.
+Dialogue: 9,0:05:34.89,0:05:37.02,main,Iori,0,0,0,,Bana da uyar. Teşekkürler, Kousuke-kun!
+Dialogue: 9,0:05:37.23,0:05:39.15,main,Kousuke,0,0,0,,O halde anlaştık!
+Dialogue: 9,0:05:42.48,0:05:45.49,main,Ludie,0,0,0,,Hey, umarım bu sefer\Nnormal bir zindandır.
+Dialogue: 9,0:05:45.49,0:05:46.86,main,Kousuke,0,0,0,,O konuda hiç merak etme.
+Dialogue: 9,0:05:46.86,0:05:48.95,main - italics,Kousuke(M),0,0,0,,Daha çok dövüş odaklı bir güce\Nihtiyacımız olacak,
+Dialogue: 9,0:05:48.95,0:05:51.33,main - italics,Kousuke(M),0,0,0,,Yaklaşan oyun içi etkinlik için.
+Dialogue: 9,0:05:51.74,0:05:56.04,main - italics,Kousuke(M),0,0,0,,Buna hazırlanmak için herkesin\Nbir an önce güçlenmesi şart.
+Dialogue: 9,0:05:52.24,0:05:53.83,main - top,Iori,0,0,0,,Tanıştığımıza memnun oldum.
+Dialogue: 9,0:05:53.83,0:05:56.04,main - top,Yukine,0,0,0,,Ben de memnun oldum.
+Dialogue: 9,0:05:59.92,0:06:00.79,main,Katorina,0,0,0,,Kolay lokma!
+Dialogue: 9,0:06:00.79,0:06:01.59,main,Iori,0,0,0,,Bir tane de benden!
+Dialogue: 9,0:06:05.05,0:06:06.80,main,Yukine,0,0,0,,Bu ikisi oldukça iyi.
+Dialogue: 9,0:06:06.80,0:06:09.51,main,Kousuke,0,0,0,,Evet, üstelik muhtemelen\Nçok daha fazla güçlenecekler.
+Dialogue: 9,0:06:09.84,0:06:13.01,main,Kousuke,0,0,0,,Iori, Katorina, buradaki tüm\Ndüşmanları boş verin.
+Dialogue: 9,0:06:13.26,0:06:15.02,main,Katorina,0,0,0,,Ha? Nedenmiş?
+Dialogue: 9,0:06:15.02,0:06:16.52,main,Kousuke,0,0,0,,Öyle gerekiyor, hadi acele edelim.
+Dialogue: 9,0:06:31.03,0:06:34.16,main,Katorina,0,0,0,,Tek yaptığımız koşmak!
+Dialogue: 9,0:06:34.16,0:06:36.41,main,Katorina,0,0,0,,Bunun ne anlamı var?!
+Dialogue: 9,0:06:36.41,0:06:38.37,main,Yukine,0,0,0,,Ludie, hâlâ gayet iyi görünüyorsun.
+Dialogue: 9,0:06:38.37,0:06:42.13,main,Ludie,0,0,0,,Dayanıklılık kazanmanın her şeyin\Ntemeli olduğu yeni öğretildi bana.
+Dialogue: 9,0:06:43.34,0:06:44.88,main,Iori,0,0,0,,Hepiniz ne kadar da dayanıklısınız.
+Dialogue: 9,0:06:44.88,0:06:47.30,main,Kousuke,0,0,0,,Sen de gayet iyi ayak uyduruyorsun ama.
+Dialogue: 9,0:06:47.30,0:06:49.09,main,Iori,0,0,0,,Doğru! Teşekkürler!
+Dialogue: 9,0:06:51.43,0:06:52.55,main - top,Nanami,0,0,0,,Tam vaktinde yetiştik.
+Dialogue: 9,0:06:55.10,0:06:55.93,main,Yukine,0,0,0,,Ne?
+Dialogue: 9,0:06:55.93,0:06:57.52,main,Katorina,0,0,0,,Daha bitmedi mi?!
+Dialogue: 9,0:06:57.85,0:07:01.69,main,Nanami,0,0,0,,Dört yol ağzına denk gelirsek,\Nkuzey, batı, batı, güney.
+Dialogue: 9,0:07:01.69,0:07:05.77,main,Nanami,0,0,0,,T kavşağı çıkarsa, güney, güney,\Ndoğu, güney, doğu, kuzey.
+Dialogue: 9,0:07:05.77,0:07:06.73,main,Kousuke,0,0,0,,Anlaşıldı!
+Dialogue: 9,0:07:07.44,0:07:09.24,main,Ludie,0,0,0,,Şey, Kousuke?
+Dialogue: 9,0:07:19.20,0:07:22.17,main,Nanami,0,0,0,,Efendim, süre 1 saat 58 dakika.
+Dialogue: 9,0:07:22.17,0:07:24.46,main,Kousuke,0,0,0,,İki dakika kalmış. Kıl payı kurtardık.
+Dialogue: 9,0:07:24.75,0:07:26.21,main,Katorina,0,0,0,,Ciddi misin?
+Dialogue: 9,0:07:26.21,0:07:27.34,main,Iori,0,0,0,,Tek darbede mi?
+Dialogue: 9,0:07:30.55,0:07:35.64,main,GoddessStatue,0,0,0,,Kötülüğü alt edip huzuruma çıkmakla\Nbüyük bir iş başardınız.
+Dialogue: 9,0:07:36.14,0:07:39.52,main,GoddessStatue,0,0,0,,Bu başarınızın ödülü olarak\Nsize bir beceri bahşedeceğim.
+Dialogue: 9,0:07:41.60,0:07:43.69,main,Katorina,0,0,0,,Hey, o da neydi öyle?!
+Dialogue: 9,0:07:43.69,0:07:44.86,main,Katorina,0,0,0,,Düzgün bir açıklama yap bize!
+Dialogue: 9,0:07:45.19,0:07:48.07,main,Iori,0,0,0,,Bu kadar kolay beceri kazanmamız\Nnormal mi?!
+Dialogue: 9,0:07:48.07,0:07:48.98,main,Iori,0,0,0,,Kousuke-kun?!
+Dialogue: 9,0:07:49.23,0:07:53.95,main,Nanami,0,0,0,,İşte sekiz labirent düzeniyle,
+Dialogue: 9,0:07:54.28,0:07:57.91,main,Nanami,0,0,0,,Tanrıça heykelinden alabileceğiniz\Nbeş beceriyi özetleyen tablo.
+Dialogue: 9,0:07:58.29,0:07:59.62,main,Nanami,0,0,0,,Lütfen iyi değerlendirin.
+Dialogue: 9,0:08:00.33,0:08:02.41,main,Iori,0,0,0,,Bu kadarı fazla. Kabul edemem.
+Dialogue: 9,0:08:02.71,0:08:05.63,main,Katorina,0,0,0,,Aynen, bu öyle önüne gelene\Ndağıtılacak bir şey değil!
+Dialogue: 9,0:08:05.63,0:08:08.09,main,Kousuke,0,0,0,,Eh, hep birlikte güçleniriz diye\Ndüşünmüştüm.
+Dialogue: 9,0:08:08.09,0:08:09.00,main,Katorina,0,0,0,,Ne?!
+Dialogue: 9,0:08:09.51,0:08:10.26,main,Nanami,0,0,0,,Buyurun.
+Dialogue: 9,0:08:13.13,0:08:15.64,main,Ludie,0,0,0,,Hep birlikte güçlenmek istiyor olsa bile,
+Dialogue: 9,0:08:15.64,0:08:17.72,main,Ludie,0,0,0,,Kousuke cidden tuhaf biri, değil mi?
+Dialogue: 9,0:08:18.39,0:08:19.81,main,Ludie,0,0,0,,Yukine-san?
+Dialogue: 9,0:08:24.69,0:08:27.56,main - italics,Yukine(M),0,0,0,,Böyle bir insanın var olabileceğine\Ninanmakta zorlandığım ilk kişi,
+Dialogue: 9,0:08:27.56,0:08:28.32,main - italics,Yukine(M),0,0,0,,Ablamdı.
+Dialogue: 9,0:08:28.94,0:08:31.40,main - italics,Yukine(M),0,0,0,,Aynı şey akademiye girdiğimde\Ntekrar yaşandı.
+Dialogue: 9,0:08:31.40,0:08:34.15,main - italics,Yukine(M),0,0,0,,Orada Savaş Tanrıçası lakaplı\NBaşkan Monica'yla,
+Dialogue: 9,0:08:34.15,0:08:36.57,main - italics,Yukine(M),0,0,0,,Ve uçsuz bucaksız güçlere sahipmiş gibi\Ngörünen Müdür Hanım'la tanıştım.
+Dialogue: 9,0:08:37.41,0:08:41.70,main - italics,Yukine(M),0,0,0,,Artık beni başka kimsenin\Nşaşırtamayacağını sanıyordum.
+Dialogue: 9,0:08:42.16,0:08:44.79,main - italics,Yukine(M),0,0,0,,Bir gün onlara yetişebilecektim.
+Dialogue: 9,0:08:44.79,0:08:46.67,main - italics,Yukine(M),0,0,0,,Bu inançla çok çalıştım.
+Dialogue: 9,0:08:47.79,0:08:48.29,main - italics,Yukine(M),0,0,0,,Ama,
+Dialogue: 9,0:08:49.34,0:08:53.09,main - italics,Yukine(M),0,0,0,,Sonra karşıma benden küçük olan\NTakioto Kousuke çıktı.
+Dialogue: 9,0:08:55.13,0:08:56.68,main - italics,Yukine(M),0,0,0,,Normal biri değil,
+Dialogue: 9,0:08:57.51,0:08:59.35,main - italics,Yukine(M),0,0,0,,Ne fiziksel ne de zihinsel olarak.
+Dialogue: 9,0:08:59.35,0:09:01.64,main - italics,Yukine(M),0,0,0,,Sürekli artan mana kapasitesini,
+Dialogue: 9,0:09:02.06,0:09:06.19,main - italics,Yukine(M),0,0,0,,Mananın kaynağı "Ejder Damarı"na\Nbenzetsek abartmış olmayız.
+Dialogue: 9,0:09:06.65,0:09:11.78,main - italics,Yukine(M),0,0,0,,Salım büyüsü kullanamadığını\Nöğrendiğimde içim rahatlamıştı.
+Dialogue: 9,0:09:13.24,0:09:15.61,main - italics,Yukine(M),0,0,0,,O günü hâlâ dün gibi hatırlıyorum.
+Dialogue: 9,0:09:16.53,0:09:18.28,main - italics,Yukine(M),0,0,0,,Silahlar hakkında konuşmaya geldiğinde,
+Dialogue: 9,0:09:18.28,0:09:20.70,main - italics,Yukine(M),0,0,0,,Eline bir katana verip savuruşunu izledim.
+Dialogue: 9,0:09:21.37,0:09:25.66,main - italics,Yukine(M),0,0,0,,Ablamı görmüş olduğumdan standartlarım\Nyüksekti belki,
+Dialogue: 9,0:09:26.00,0:09:29.00,main - italics,Yukine(M),0,0,0,,Ama içimden hiç yeteneği olmadığını\Ndüşünmüştüm.
+Dialogue: 9,0:09:30.38,0:09:33.96,main - italics,Yukine(M),0,0,0,,Fakat birkaç gün sonra beni\Nşoke etmeyi başardı.
+Dialogue: 9,0:09:34.72,0:09:39.34,main - italics,Yukine(M),0,0,0,,Kılıç savuruşları sanki yıllardır\Nçalışıyormuş gibiydi.
+Dialogue: 9,0:09:42.51,0:09:46.89,main - italics,Yukine(M),0,0,0,,Kyohachi-ryu'nun gizli tekniklerinden\Nbirini öğrenebilir belki de.
+Dialogue: 9,0:09:47.44,0:09:50.77,main - italics,Yukine(M),0,0,0,,Öylesine tuhaf olduğu için,
+Dialogue: 9,0:09:50.77,0:09:53.11,main - italics,Yukine(M),0,0,0,,Ablamın bile öğrenemediği söylenen\No tekniği.
+Dialogue: 9,0:10:05.37,0:10:06.66,main,Kousuke,0,0,0,,Senpai?
+Dialogue: 9,0:10:08.54,0:10:11.21,main,Kousuke,0,0,0,,Şey, bir şey mi oldu?
+Dialogue: 9,0:10:12.42,0:10:14.00,main,Yukine,0,0,0,,Nereden çıkardın bunu?
+Dialogue: 9,0:10:14.00,0:10:19.38,main,Kousuke,0,0,0,,Şey, naginata kullanışın her zamanki\Nkadar güzel gelmedi gözüme.
+Dialogue: 9,0:10:20.55,0:10:22.60,main,Yukine,0,0,0,,Güzel değil, demek?
+Dialogue: 9,0:10:22.60,0:10:24.35,main,Kousuke,0,0,0,,Aklına takılan bir şey mi var?
+Dialogue: 9,0:10:24.35,0:10:26.81,main,Yukine,0,0,0,,Bir şey düşünüyordum sadece.
+Dialogue: 9,0:10:27.18,0:10:28.60,main,Yukine,0,0,0,,Tuhaf doğrusu.
+Dialogue: 9,0:10:28.60,0:10:32.06,main,Yukine,0,0,0,,Normalde sana anlatmamam\Ngereken bir şey ama,
+Dialogue: 9,0:10:32.06,0:10:34.27,main,Yukine,0,0,0,,İçimden bir ses anlatmamı söylüyor.
+Dialogue: 9,0:10:34.65,0:10:38.65,main,Yukine,0,0,0,,Ve sanki aradığım cevaba\Nulaşabilecekmişim gibi hissediyorum.
+Dialogue: 9,0:10:39.03,0:10:41.74,main,Yukine,0,0,0,,Ne kadar güçlenebileceğime dair\No cevaba.
+Dialogue: 9,0:10:42.37,0:10:46.29,main,Yukine,0,0,0,,Hedefim bildiğim, asla yenemeyeceğimi\Ndüşündüğüm biri var.
+Dialogue: 9,0:10:46.95,0:10:49.71,main,Yukine,0,0,0,,Yani, ablam.
+Dialogue: 9,0:10:50.17,0:10:51.38,main,Yukine,0,0,0,,Ama o bana şöyle dedi,
+Dialogue: 9,0:10:51.38,0:10:53.71,main,Yukine,0,0,0,,"Yukine, bu dünyada\Nbir numara olabilirsin.
+Dialogue: 9,0:10:54.09,0:10:56.55,main,Yukine,0,0,0,,Bu yüzden benim yerime bunu hedefle."
+Dialogue: 9,0:10:56.92,0:10:58.67,main,Yukine,0,0,0,,Ben de buna söz vermiş bulundum.
+Dialogue: 9,0:10:59.13,0:11:02.51,main,Kousuke,0,0,0,,Bence dünyada bir numara olabilirsin.
+Dialogue: 9,0:11:02.51,0:11:04.43,main,Kousuke,0,0,0,,Gerçi yoluna ben çıkacağım ama.
+Dialogue: 9,0:11:05.56,0:11:07.68,main,Yukine,0,0,0,,Sözümü bitirmemi bekle.
+Dialogue: 9,0:11:07.68,0:11:11.44,main,Yukine,0,0,0,,Neyse, yıllar geçip ben ne kadar\Nbüyürsem büyüyeyim,
+Dialogue: 9,0:11:11.44,0:11:13.61,main,Yukine,0,0,0,,Ablam her zaman benden bir adım önde.
+Dialogue: 9,0:11:14.44,0:11:17.15,main,Yukine,0,0,0,,Artık bu dünyada olmasa bile.
+Dialogue: 9,0:11:19.07,0:11:20.74,main - italics,Kousuke(M),0,0,0,,Oyunda bu konuya değinemedikleri için,
+Dialogue: 9,0:11:20.74,0:11:22.11,main - italics,Kousuke(M),0,0,0,,Ayrıntıları bilmiyorum ama,
+Dialogue: 9,0:11:22.11,0:11:24.49,main - italics,Kousuke(M),0,0,0,,Ablası bir şekilde hayatını kaybetmiş.
+Dialogue: 9,0:11:24.74,0:11:27.99,main,Yukine,0,0,0,,Yine de antrenmanlarıma devam edip\Nbu akademiye geldim.
+Dialogue: 9,0:11:27.99,0:11:30.87,main,Yukine,0,0,0,,Başkan Monica'yı ve Müdür Hanım'ı\Ngörünce bir şeyi fark ettim.
+Dialogue: 9,0:11:32.12,0:11:35.88,main,Yukine,0,0,0,,İnsanların bana güvendiğinin\Naz çok farkındayım.
+Dialogue: 9,0:11:35.88,0:11:38.76,main,Yukine,0,0,0,,Senin gibi bunu doğrudan yüzüme\Nsöyleyenler bile oldu.
+Dialogue: 9,0:11:39.59,0:11:45.05,main,Yukine,0,0,0,,Ama bu beklentileri karşılayabilir miyim\Ndiye hep kendime soruyorum.
+Dialogue: 9,0:11:45.76,0:11:50.89,main,Yukine,0,0,0,,Ablamın sözlerini hatırlayıp\Ngüçlenmeye çalışıyorum ama,
+Dialogue: 9,0:11:51.35,0:11:53.40,main,Kousuke,0,0,0,,Senpai, müsaadenle,
+Dialogue: 9,0:11:54.15,0:11:56.36,main,Kousuke,0,0,0,,Belki de sadece kendimi beğenmişlik\Nediyorumdur,
+Dialogue: 9,0:11:56.82,0:11:59.11,main,Kousuke,0,0,0,,O yüzden bunu senden bir kez daha\Nduymak istiyorum.
+Dialogue: 9,0:11:59.57,0:12:01.49,main,Kousuke,0,0,0,,Güçlenmek istiyor musun?
+Dialogue: 9,0:12:03.86,0:12:04.99,main,Yukine,0,0,0,,Güçlenebilir miyim?
+Dialogue: 9,0:12:07.33,0:12:09.58,main,Kousuke,0,0,0,,Birlikte bir zindana gidelim.
+Dialogue: 9,0:12:14.42,0:12:19.42,main - top,Yukine,0,0,0,,Adı Şafak Labirenti ama pek de\Nlabirente benzemiyor.
+Dialogue: 9,0:12:19.42,0:12:22.42,main - top,Kousuke,0,0,0,,Aslında burası kesinlikle bir tür labirent.
+Dialogue: 9,0:12:22.80,0:12:25.93,main,Kousuke,0,0,0,,Burada kendi labirentini aşman gerekiyor.
+Dialogue: 9,0:12:26.43,0:12:28.31,main,Yukine,0,0,0,,Kendi labirentimi mi?
+Dialogue: 9,0:12:28.60,0:12:32.35,main,Kousuke,0,0,0,,Üstelik kişisine göre zor da\Nolabiliyor, kolay da.
+Dialogue: 9,0:12:33.23,0:12:35.73,main,Kousuke,0,0,0,,Bir bakıma en güçlü kişiyle\Nyüzleşebiliyorsun.
+Dialogue: 9,0:12:37.23,0:12:38.86,main,Kousuke,0,0,0,,Tuhaf, değil mi?
+Dialogue: 9,0:12:38.86,0:12:43.15,main,Kousuke,0,0,0,,Grup halinde girebiliyorsun ama\Nherkes tek başına savaşmak zorunda.
+Dialogue: 9,0:12:43.53,0:12:45.78,main,Yukine,0,0,0,,Yani grup olarak başlıyorsun,
+Dialogue: 9,0:12:45.78,0:12:49.28,main,Yukine,0,0,0,,Ama herkes ayrı bir canavarla\Ntek başına mı dövüşüyor?
+Dialogue: 9,0:12:50.58,0:12:52.95,main,Kousuke,0,0,0,,Evet. Eğer bossu alt edersen,
+Dialogue: 9,0:12:52.95,0:12:58.21,main,Kousuke,0,0,0,,Arkadaşlarının savaşına katılıp\Nyardım edebiliyorsun.
+Dialogue: 9,0:12:58.21,0:13:01.67,main,Kousuke,0,0,0,,Görünüşe göre burada ayrılmamız\Ngerekiyor.
+Dialogue: 9,0:13:02.05,0:13:03.26,main,Yukine,0,0,0,,Peki.
+Dialogue: 9,0:13:03.26,0:13:05.93,main,Kousuke,0,0,0,,Senpai, tek bir şeyi aklında\Ntutmanı istiyorum.
+Dialogue: 9,0:13:05.93,0:13:06.68,main,Yukine,0,0,0,,Nedir?
+Dialogue: 9,0:13:07.01,0:13:09.14,main,Kousuke,0,0,0,,İçeride karşılaşacağın düşman,
+Dialogue: 9,0:13:09.14,0:13:11.06,main,Kousuke,0,0,0,,Aşılamayacak bir rakip değil.
+Dialogue: 9,0:13:11.31,0:13:13.27,main,Kousuke,0,0,0,,Kazanabileceğini kesin olarak biliyorum.
+Dialogue: 9,0:13:13.27,0:13:14.18,main,Yukine,0,0,0,,Kazanabilir miyim?
+Dialogue: 9,0:13:14.64,0:13:18.23,main,Kousuke,0,0,0,,Evet, kendinden pek emin\Nolmasan bile.
+Dialogue: 9,0:13:18.23,0:13:19.61,main,Kousuke,0,0,0,,Yine de kazanabilirsin.
+Dialogue: 9,0:13:20.32,0:13:21.94,main,Kousuke,0,0,0,,Lütfen bana güven!
+Dialogue: 9,0:13:22.15,0:13:23.99,main,Kousuke,0,0,0,,Eğer kazanamazsan ve başına\Nbir şey gelirse,
+Dialogue: 9,0:13:23.99,0:13:26.45,main,Kousuke,0,0,0,,Ömrümün sonuna kadar sana\Nben bakarım.
+Dialogue: 9,0:13:26.74,0:13:29.83,main,Kousuke,0,0,0,,Yani bilerek yenilsen bile\Nbenim için hiç sorun değil.
+Dialogue: 9,0:13:30.91,0:13:33.20,main,Kousuke,0,0,0,,Ben önden giriyorum.
+Dialogue: 9,0:13:48.09,0:13:49.01,main,Yukine,0,0,0,,Kim var orada?
+Dialogue: 9,0:13:50.22,0:13:51.22,main,Yukine,0,0,0,,Ben mi?
+Dialogue: 9,0:13:51.85,0:13:52.85,main,Yukine,0,0,0,,Elinde katanayla mı?
+Dialogue: 9,0:13:57.06,0:13:58.60,main,Yukine,0,0,0,,Olamaz,
+Dialogue: 9,0:13:59.31,0:14:01.90,main,Yukine,0,0,0,,Suzune Abla?
+Dialogue: 9,0:14:03.53,0:14:06.90,main - italics,Kousuke(M),0,0,0,,Bu zindan diğerlerinden farklı,
+Dialogue: 9,0:14:06.90,0:14:09.91,main - italics,Kousuke(M),0,0,0,,Kişi başına sadece tek bir canavar çıkıyor.
+Dialogue: 9,0:14:09.91,0:14:12.95,main - italics,Kousuke(M),0,0,0,,En güçlü olduğunu düşündüğün kişiyle,
+Dialogue: 9,0:14:12.95,0:14:15.54,main - italics,Kousuke(M),0,0,0,,Ya da sende en büyük travmayı\Nbırakan kişiyle yüzleşiyorsun.
+Dialogue: 9,0:14:16.20,0:14:19.96,main - italics,Kousuke(M),0,0,0,,Senpai de büyük ihtimalle kendi\Nablasıyla yüzleşmek zorunda kalacak.
+Dialogue: 9,0:14:19.96,0:14:21.42,main - italics,Kousuke(M),0,0,0,,Başka türlüsü mantıklı olmaz zaten.
+Dialogue: 9,0:14:22.50,0:14:25.30,main - italics,Kousuke(M),0,0,0,,Benim karşıma çıkacak olan da\Nkesinlikle odur.
+Dialogue: 9,0:14:26.51,0:14:27.88,main - italics,Kousuke(M),0,0,0,,Değil mi?
+Dialogue: 9,0:14:28.51,0:14:29.55,main - italics,Kousuke(M),0,0,0,,Iori!
+Dialogue: 9,0:14:34.60,0:14:36.68,main,Kousuke,0,0,0,,Geliyorum, Iori!
+Dialogue: 9,0:14:40.44,0:14:42.73,main,Kousuke,0,0,0,,Ooo, büyü de mi kullanıyorsun?!
+Dialogue: 9,0:14:43.27,0:14:44.61,main - italics,Kousuke(M),0,0,0,,Başka türlüsü beklenemezdi zaten.
+Dialogue: 9,0:14:44.61,0:14:46.53,main - italics,Kousuke(M),0,0,0,,Potansiyelin vücut bulmuş hali,
+Dialogue: 9,0:14:46.53,0:14:48.99,main - italics,Kousuke(M),0,0,0,,MagiEx'in başrolü, Hijiri Iori!
+Dialogue: 9,0:14:49.53,0:14:50.66,main,Kousuke,0,0,0,,O zaman buna ne dersin!
+Dialogue: 9,0:14:54.45,0:14:55.33,main,Kousuke,0,0,0,,Güzel!
+Dialogue: 9,0:14:59.62,0:15:02.17,main - italics,Kousuke(M),0,0,0,,Hijiri Iori sonsuz bir potansiyele sahip.
+Dialogue: 9,0:15:02.71,0:15:07.42,main - italics,Kousuke(M),0,0,0,,Fiziksel istatistiklere yönelip\Nyakın dövüş uzmanı da olabilir,
+Dialogue: 9,0:15:07.42,0:15:11.09,main - italics,Kousuke(M),0,0,0,,Büyüye yönelip menzilli dövüş\Nuzmanı da olabilir.
+Dialogue: 9,0:15:11.72,0:15:13.93,main,Kousuke,0,0,0,,Güçlü olduğu doğru ama,
+Dialogue: 9,0:15:14.30,0:15:17.56,main,Kousuke,0,0,0,,Benim bildiğim "Hijiri Iori"\Nbu kadar zayıf değildi!
+Dialogue: 9,0:15:17.97,0:15:21.23,main - italics,Kousuke(M),0,0,0,,Doğru ya. Bu kadar zayıf\Nolması mümkün değil.
+Dialogue: 9,0:15:21.56,0:15:23.36,main - italics,Kousuke(M),0,0,0,,Sadece potansiyel açısından bakarsak,
+Dialogue: 9,0:15:23.36,0:15:28.49,main - italics,Kousuke(M),0,0,0,,Büyü öğrenme konusunda onunla\Nyarışabilecek tek kişi Nanami'dir.
+Dialogue: 9,0:15:28.74,0:15:29.78,main,Kousuke,0,0,0,,Ama,
+Dialogue: 9,0:15:29.78,0:15:32.07,main,Kousuke,0,0,0,,Bende onda olmayan bir güç var!
+Dialogue: 9,0:15:32.32,0:15:34.41,main - italics,Kousuke(M),0,0,0,,Gerçek Iori bundan çok daha güçlü.
+Dialogue: 9,0:15:34.91,0:15:37.49,main - italics,Kousuke(M),0,0,0,,Güçlenip bir gün karşıma çıkacak!
+Dialogue: 9,0:15:39.16,0:15:42.75,main - italics,Kousuke(M),0,0,0,,Öyleyse, böylesine yenilme\Nlüksüm var mı?
+Dialogue: 9,0:15:42.75,0:15:45.96,main - italics,Kousuke(M),0,0,0,,Bunu katbekat aşan birinin\Nkarşısına dikilmek istiyorsam,
+Dialogue: 9,0:15:45.96,0:15:48.05,main - italics,Kousuke(M),0,0,0,,Bu kadarı yeter mi?!
+Dialogue: 9,0:15:48.71,0:15:50.26,main,Kousuke,0,0,0,,Elbette yetmez!
+Dialogue: 9,0:15:54.47,0:15:57.51,main - italics,Kousuke(M),0,0,0,,Ezici! Ezici bir zafer\Nkazanmam şart!
+Dialogue: 9,0:15:57.81,0:15:59.89,main - italics,Kousuke(M),0,0,0,,Bu sadece Iori'nin gölgesi!
+Dialogue: 9,0:15:59.89,0:16:01.35,main - italics,Kousuke(M),0,0,0,,Iori falan değil.
+Dialogue: 9,0:16:01.35,0:16:04.94,main - italics,Kousuke(M),0,0,0,,Benim hedefimdeki Iori,\Nen güçlü Iori!
+Dialogue: 9,0:16:12.24,0:16:13.49,main - italics,Kousuke(M),0,0,0,,Şimdilik yavaş ilerliyor!
+Dialogue: 9,0:16:13.49,0:16:15.28,main - italics,Kousuke(M),0,0,0,,Ama emin adımlarla!
+Dialogue: 9,0:16:15.28,0:16:17.62,main - italics,Kousuke(M),0,0,0,,Iori böyle büyüyor işte!
+Dialogue: 9,0:16:19.58,0:16:22.29,main - italics,Kousuke(M),0,0,0,,Şu an ondan güçlü olduğum kesin.
+Dialogue: 9,0:16:22.29,0:16:24.54,main - italics,Kousuke(M),0,0,0,,Evet, bir süre daha güçlü olan\Nben olacağım.
+Dialogue: 9,0:16:24.54,0:16:27.71,main - italics,Kousuke(M),0,0,0,,Ama Iori yakında baş döndürücü\Nbir hızla arayı kapatacak.
+Dialogue: 9,0:16:27.71,0:16:30.26,main - italics,Kousuke(M),0,0,0,,Hatta bunu yapmazsa asıl o zaman\Nbaşım belada demektir.
+Dialogue: 9,0:16:30.26,0:16:33.80,main - italics,Kousuke(M),0,0,0,,Tüm kızları mutlu sona ulaştırmak\Niçin bu şart.
+Dialogue: 9,0:16:33.80,0:16:36.55,main - italics,Kousuke(M),0,0,0,,Benim de daha da güçlenmem gerek!
+Dialogue: 9,0:16:38.10,0:16:39.22,main,Kousuke,0,0,0,,Flaş!
+Dialogue: 9,0:16:49.27,0:16:50.98,main,Kousuke,0,0,0,,Sen Iori değilsin.
+Dialogue: 9,0:16:51.40,0:16:52.99,main,Kousuke,0,0,0,,Senpai'nin yanına gideyim.
+Dialogue: 9,0:16:58.53,0:17:04.00,main - italics,Yukine(M),0,0,0,,İlk anladığım şeylerden biri,\Nablam Suzune'yi yenemeyeceğimdi.
+Dialogue: 9,0:17:04.50,0:17:07.79,main - italics,Yukine(M),0,0,0,,Ne yaparsak yapalım, kaç kere\Ndenersek deneyelim kazanamıyordum.
+Dialogue: 9,0:17:08.21,0:17:11.50,main - italics,Yukine(M),0,0,0,,Çocukken bile ablama\Nhayranlık duyardım,
+Dialogue: 9,0:17:11.50,0:17:14.72,main - italics,Yukine(M),0,0,0,,Belki yaş farkımızın da bunda\Npayı vardı.
+Dialogue: 9,0:17:15.43,0:17:19.22,main - italics,Yukine(M),0,0,0,,Ama asıl meselenin onun yeteneği\Nolduğunu anlamam uzun sürmedi.
+Dialogue: 9,0:17:19.22,0:17:23.77,main - italics,Yukine(M),0,0,0,,İşte o zaman onu asla\Ngeçemeyeceğimi düşündüm.
+Dialogue: 9,0:17:24.56,0:17:27.94,main - italics,Yukine(M),0,0,0,,Ve beni haklı çıkarırcasına,
+Dialogue: 9,0:17:27.94,0:17:31.02,main - italics,Yukine(M),0,0,0,,Ona karşı bir kez bile\Nkazanamadım.
+Dialogue: 9,0:17:33.61,0:17:35.78,main - italics,Yukine(M),0,0,0,,Bu gerçekten de onun kılıç ustalığı!
+Dialogue: 9,0:17:36.53,0:17:37.49,main - italics,Yukine(M),0,0,0,,Öyleyse, bu demek oluyor ki,
+Dialogue: 9,0:17:41.49,0:17:43.62,main - italics,Yukine(M),0,0,0,,Sanki tüm hamlelerimi okuyor.
+Dialogue: 9,0:17:46.96,0:17:47.79,main,Yukine,0,0,0,,Ne?!
+Dialogue: 9,0:17:48.25,0:17:51.54,main - italics,Yukine(M),0,0,0,,Aniden hızlanarak tepki vermemi\Nzorlaştırdı.
+Dialogue: 9,0:17:54.42,0:17:55.76,main - italics,Yukine(M),0,0,0,,İsabet etmedi mi?!
+Dialogue: 9,0:17:56.09,0:17:58.68,main - italics,Yukine(M),0,0,0,,Sakin ol. Tekrar kes.
+Dialogue: 9,0:17:59.05,0:18:03.06,main - italics,Yukine(M),0,0,0,,Evet, saldırıları tanıdığım\Nablamınkilerle neredeyse birebir aynı!
+Dialogue: 9,0:18:03.60,0:18:05.73,main - italics,Yukine(M),0,0,0,,Saptır ve kes!
+Dialogue: 9,0:18:05.93,0:18:06.89,main - italics,Yukine(M),0,0,0,,Bir daha!
+Dialogue: 9,0:18:07.39,0:18:09.60,main - italics,Yukine(M),0,0,0,,Evet, sonu hep böyle bitiyor.
+Dialogue: 9,0:18:10.48,0:18:13.57,main - italics,Yukine(M),0,0,0,,Ne kadar çabalarsam çabalayayım,\Nablam hep önümde.
+Dialogue: 9,0:18:13.57,0:18:18.49,main - italics,Yukine(M),0,0,0,,Sonra Başkan Monica var,\Nonun da ilerisinde Müdür Hanım.
+Dialogue: 9,0:18:22.20,0:18:24.45,main - italics,Yukine(M),0,0,0,,Yanımda Shion ve Fran var,
+Dialogue: 9,0:18:24.91,0:18:27.87,main - italics,Yukine(M),0,0,0,,Arkamdan da Takioto ile Ludie\Nyetişmeye çalışıyor.
+Dialogue: 9,0:18:28.71,0:18:32.92,main - italics,Yukine(M),0,0,0,,Hepsinin kendine özgü yetenekleri var.
+Dialogue: 9,0:18:33.96,0:18:37.30,main - italics,Yukine(M),0,0,0,,Ablam neden bana bir numara\Nolabileceğimi söyledi ki?
+Dialogue: 9,0:18:37.72,0:18:39.26,main - italics,Yukine(M),0,0,0,,Anlayamıyorum.
+Dialogue: 9,0:18:39.59,0:18:43.22,main,Yukine,0,0,0,,Naginatanın bu kadar ağır olduğunu\Nfark etmemiştim.
+Dialogue: 9,0:18:43.89,0:18:46.64,main,Yukine,0,0,0,,Bir gölgenin de bu kadar\Nbüyük olabileceğini.
+Dialogue: 9,0:18:50.23,0:18:53.44,main,Yukine,0,0,0,,Artık beni savaşmaya değer bir\Ndüşman olarak bile görmüyor mu?
+Dialogue: 9,0:18:54.32,0:18:56.69,main,Yukine,0,0,0,,Doğru ya, şu an benim hiçbir değerim,
+Dialogue: 9,0:18:56.69,0:18:57.44,main,Kousuke,0,0,0,,Senpai!
+Dialogue: 9,0:18:59.78,0:19:00.91,main,Yukine,0,0,0,,Takioto!
+Dialogue: 9,0:19:02.91,0:19:04.66,main - flashback,Kousuke,0,0,0,,Lütfen bana güven!
+Dialogue: 9,0:19:04.66,0:19:06.29,main - flashback,Kousuke,0,0,0,,Eğer kazanamazsan ve başına\Nbir iş gelirse,
+Dialogue: 9,0:19:06.29,0:19:08.58,main - flashback,Kousuke,0,0,0,,Ömrümün sonuna kadar sana\Nben bakarım.
+Dialogue: 9,0:19:09.16,0:19:12.00,main - flashback,Kousuke,0,0,0,,Yani bilerek yenilsen bile\Nbenim için hiç sorun değil.
+Dialogue: 9,0:19:14.67,0:19:18.76,main,Yukine,0,0,0,,Ucuz bir aşk romanı repliği gibi.
+Dialogue: 9,0:19:19.42,0:19:20.97,main - italics,Yukine(M),0,0,0,,Ama nedense,
+Dialogue: 9,0:19:20.97,0:19:23.47,main - italics,Yukine(M),0,0,0,,İçime böyle bir güç doluyor?
+Dialogue: 9,0:19:24.68,0:19:29.89,main,Suzune,0,0,0,,Yukine, herkes bana dahi diyor ama\Nben de insanım.
+Dialogue: 9,0:19:30.56,0:19:31.73,main,Suzune,0,0,0,,Sen de öylesin.
+Dialogue: 9,0:19:32.44,0:19:33.31,main - italics,Yukine(M),0,0,0,,Gerçekten de.
+Dialogue: 9,0:19:33.77,0:19:34.90,main - italics,Yukine(M),0,0,0,,Çok doğru.
+Dialogue: 9,0:19:35.32,0:19:37.69,main - italics,Yukine(M),0,0,0,,Ablam hem bir dahi hem de bir insandı.
+Dialogue: 9,0:19:38.40,0:19:41.91,main - italics,Yukine(M),0,0,0,,Ama ben de bir insanım!
+Dialogue: 9,0:19:42.66,0:19:44.28,main - italics,Yukine(M),0,0,0,,İkimiz de insanız.
+Dialogue: 9,0:19:44.28,0:19:46.28,main - italics,Yukine(M),0,0,0,,Onu geçememem için hiçbir sebep yok.
+Dialogue: 9,0:19:46.28,0:19:47.95,main - italics,Yukine(M),0,0,0,,Sana tüm gücümü göstereceğim.
+Dialogue: 9,0:19:48.58,0:19:51.12,main - italics,Yukine(M),0,0,0,,Başaramazsam da Takioto\Nbana bakar artık.
+Dialogue: 9,0:19:51.87,0:19:53.83,main - italics,Yukine(M),0,0,0,,O da kendi çapında eğlenceli olurdu.
+Dialogue: 9,0:19:55.00,0:19:56.71,main,Yukine,0,0,0,,Hey, Suzune Abla!
+Dialogue: 9,0:19:56.71,0:20:00.51,main,Yukine,0,0,0,,Ölümünden sonra bile\Nçalışmayı hiç bırakmadım.
+Dialogue: 9,0:20:00.51,0:20:02.30,main,Yukine,0,0,0,,Yeteneklerimi biledim.
+Dialogue: 9,0:20:02.80,0:20:04.47,main - italics,Yukine(M),0,0,0,,Ona göstereyim.
+Dialogue: 9,0:20:04.47,0:20:06.43,main - italics,Yukine(M),0,0,0,,Takioto'ya göstereyim.
+Dialogue: 9,0:20:06.43,0:20:08.77,main - italics,Yukine(M),0,0,0,,İşte yürüdüğüm yol bu.
+Dialogue: 9,0:20:08.77,0:20:10.56,main - italics,Yukine(M),0,0,0,,İşte benim gücüm bu.
+Dialogue: 9,0:20:11.39,0:20:15.19,main,Yukine,0,0,0,,Lütfen şu anki halime,\Nşu anki Mizumori Yukine'ye tanık ol!
+Dialogue: 9,0:20:19.82,0:20:21.11,main,Kousuke,0,0,0,,Kendini mi yeniledi?!
+Dialogue: 9,0:20:21.61,0:20:23.91,main,Kousuke,0,0,0,,Bu gölge çok daha inatçı çıktı.
+Dialogue: 9,0:20:30.75,0:20:32.25,main,Kousuke,0,0,0,,Ne kadar da güzel.
+Dialogue: 9,0:20:34.54,0:20:37.25,main,Yukine,0,0,0,,Kılıçların, katanaların ve naginataların\Nortak bir noktası vardır.
+Dialogue: 9,0:20:37.71,0:20:40.21,main,Yukine,0,0,0,,Bıçağın parıltısı bir "ruh" taşır.
+Dialogue: 9,0:20:42.72,0:20:43.80,main,Kousuke,0,0,0,,Ejder!
+Dialogue: 9,0:20:43.80,0:20:46.14,main,Kousuke,0,0,0,,O savuruşlarda bir ejder vardı!
+Dialogue: 9,0:20:46.14,0:20:47.26,main,Yukine,0,0,0,,Takioto!
+Dialogue: 9,0:20:53.81,0:20:54.77,main,Kousuke,0,0,0,,İşte bu!
+Dialogue: 9,0:20:54.77,0:20:56.85,main,Kousuke,0,0,0,,Hayran olduğum şey buydu işte!
+Dialogue: 9,0:20:56.85,0:21:01.15,main - italics,Kousuke(M),0,0,0,,Büyük Üçlü'den biri, Su Ejderi Prensesi,\Nyetenekli Mizumori Yukine!
+Dialogue: 9,0:21:01.15,0:21:05.24,main - italics,Kousuke(M),0,0,0,,MagiEx'in Büyük Üçlü'sündeki yerini\Nsağlamlaştıran o gizli teknik,
+Dialogue: 9,0:21:08.78,0:21:10.24,main - italics,Kousuke(M),0,0,0,,Dokuz Başlı Ejder!
+Dialogue: 9,0:21:23.80,0:21:26.47,main,Yukine,0,0,0,,Takioto, şu soruyu bir kez daha\Nsorabilir miyim?
+Dialogue: 9,0:21:26.47,0:21:27.47,main,Kousuke,0,0,0,,Hangisini?
+Dialogue: 9,0:21:27.47,0:21:29.51,main,Yukine,0,0,0,,Sen neler biliyorsun?
+Dialogue: 9,0:21:29.93,0:21:30.89,main,Kousuke,0,0,0,,Şey,
+Dialogue: 9,0:21:31.51,0:21:33.43,main,Yukine,0,0,0,,Kusura bakma, boş ver.
+Dialogue: 9,0:21:33.43,0:21:36.48,main,Kousuke,0,0,0,,Özür dilemeni gerektirecek bir şey yok.
+Dialogue: 9,0:21:37.60,0:21:40.82,main,Kousuke,0,0,0,,Yaptıklarımın şüphe uyandırdığının\Nfarkındayım.
+Dialogue: 9,0:21:40.82,0:21:42.15,main,Kousuke,0,0,0,,Bu sefer de öyle oldu.
+Dialogue: 9,0:21:42.15,0:21:44.07,main,Kousuke,0,0,0,,O yüzden sana gerçekten\Nanlatmak istiyorum.
+Dialogue: 0,0:21:44.07,0:22:00.79,main,,0,0,0,,{\fnArial\fs22\an8}Ç.N: Fantastik çevirmeninizle tanışmak isterseniz\Ndiscord suncumuza bekleriz.
+Dialogue: 9,0:21:44.65,0:21:46.57,main,Kousuke,0,0,0,,Ama senden bir şey rica etsem,
+Dialogue: 9,0:21:46.57,0:21:48.91,main,Kousuke,0,0,0,,Birazcık daha beklemeni\Nisteyebilir miyim?
+Dialogue: 9,0:21:48.91,0:21:50.28,main,Yukine,0,0,0,,Elbette.
+Dialogue: 9,0:21:50.28,0:21:53.08,main,Yukine,0,0,0,,Anlatması kolay bir şey\Nolmadığını anlıyorum.
+Dialogue: 9,0:21:53.37,0:21:54.08,main,Yukine,0,0,0,,Ama,
+Dialogue: 9,0:21:54.08,0:21:57.87,main,Yukine,0,0,0,,Ne zaman olursa olsun, bir sorun\Nçıkarsa bana gelmeni istiyorum.
+Dialogue: 9,0:21:58.29,0:22:00.79,main,Yukine,0,0,0,,Sana destek olmak istiyorum.
+Dialogue: 9,0:22:00.79,0:22:01.84,main,Kousuke,0,0,0,,Senpai.
+Dialogue: 0,0:22:01.84,0:22:09.97,main,,0,0,0,,{\an8}Ç.N: discord.gg/somesub
+Dialogue: 9,0:22:02.92,0:22:04.96,main,Yukine,0,0,0,,Hadi artık dönüp antrenman yapalım!
+Dialogue: 9,0:22:05.21,0:22:06.05,main,Kousuke,0,0,0,,Evet!
+Dialogue: 0,0:01:40.17,0:01:43.63,sign_8204_57_Night_Sky_Cave,SIGN,0,0,0,,{\fs20\pos(320,312)}Altı Ay Sonra
+Dialogue: 0,0:03:44.49,0:03:47.45,sign_7422_35_Ability_Assessme,SIGN,0,0,0,,{\c&H574F29&\fs18\move(494,35,490,38,29,2948)}Yetenek Değerlendirmesi
+Dialogue: 0,0:03:44.49,0:03:47.45,sign_7422_35_Ability_Assessme,SIGN,0,0,0,,{\c&H574F29&\fs16\pos(389,191)}12 Mayıs-\N16 Mayıs
+Dialogue: 0,0:03:44.49,0:03:47.45,sign_7422_35_Ability_Assessme,SIGN,0,0,0,,{\fs16\c&H574F29&\move(223,220,226,218,29,2948)}Yazılı
+Dialogue: 0,0:03:44.49,0:03:47.45,sign_7422_35_Ability_Assessme,SIGN,0,0,0,,{\c&H574F29&\fs16\move(135,220,141,217,29,2948)}Uygulamalı
+Dialogue: 0,0:03:44.49,0:03:47.45,sign_7422_35_Ability_Assessme,SIGN,0,0,0,,{\fs16\c&H574F29&\move(46,217,52,217,29,2948)}Zindan
+Dialogue: 0,0:05:56.04,0:05:58.79,sign_10576_96__Beginner_Dungeo,SIGN,0,0,0,,[Başlangıç Zindanı, 1. Kat]
+Dialogue: 0,0:06:17.98,0:06:20.35,sign_10576_96__Beginner_Dungeo,SIGN,0,0,0,,{\pos(322,308)}[5. Kat]
+Dialogue: 0,0:06:49.09,0:06:51.59,sign_10576_96__Beginner_Dungeo,SIGN,0,0,0,,{\fad(1,458)\pos(322,309)}[9. Kat]
+Dialogue: 0,0:07:18.37,0:07:18.95,sign_12550_121_Resume,SIGN,0,0,0,,Devam
+Dialogue: 0,0:07:18.37,0:07:18.95,sign_12550_121_Resume,SIGN,0,0,0,,{\pos(304,115)}Sıfırla
+Dialogue: 0,0:12:13.75,0:12:22.42,sign_10576_96__Beginner_Dungeo,SIGN,0,0,0,,{\fad(546,1)}[Şafak Labirenti]
+Dialogue: 0,0:22:04.96,0:22:09.97,sign_35245_386_Reborn_as_a_Side,SIGN,0,0,0,,{\move(313,70,313,80,30,4993)}"Büyük Üçlü"
+Dialogue: 0,0:22:04.96,0:22:09.97,sign_35245_386_Reborn_as_a_Side,SIGN,0,0,0,,{\c&H000000&\move(313,194,314,196,30,4993)}Mizumori Yukine
